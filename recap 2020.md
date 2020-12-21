@@ -65,5 +65,3 @@ It took me a whole afternoon to make this list and yes I know, I should just upd
 
 Sounds like a plan - read in my #2021recap how this turned out.
 
-## Big thanks
-
