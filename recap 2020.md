@@ -50,7 +50,7 @@ After I've been a guest in [PnP Weekly ep. 71](https://developer.microsoft.com/e
 
 ## Mental health and clarity
 
-As most of us, I struggled with being at home a lot and I established some bad habits. After I finished my 'work work' (this is how I call my billable hours), I started to do 'work' ( this is how I call community work, such as writing blogs,. preparing sessions, recording podcasts etc). I worked crazy hours at night, didn't take breaks, and was just happy to be busy enough to not feel alone. This led to overcommitment, which ws grounded in a false belief of 'more is better. You can read more about it in my last blog post about [How to avoid overcommitting](https://m365princess.com/how-to-avoid-overcommitting/). I solved that not by 'learning to say no', but by taking a deeper look into the root of the cause. When I wrote my list of contributions in preparations of this blog post, I got slightly shocked. In total, I
+As most of us, I struggled with being at home a lot and I established some bad habits. After I finished my 'work work' (this is how I call my billable hours), I started to do 'work' ( this is how I call community work, such as writing blogs,. preparing sessions, recording podcasts etc). I worked crazy hours at night, didn't take breaks, and was just happy to be busy enough to not feel alone. This led to overcommitment, which was grounded in a false belief of 'more is better'. You can read more about it in my last blog post about [How to avoid overcommitting](https://m365princess.com/how-to-avoid-overcommitting/). I solved that not by 'learning to say no', but by taking a deeper look into the root of the cause. When I wrote my list of contributions in preparations of this blog post, I got slightly shocked. In total, I
 
 * attended 13 events
 * delivered 39 sessions at virtual events
@@ -59,7 +59,7 @@ As most of us, I struggled with being at home a lot and I established some bad h
 
 all while living 24/7 on twitter :-)
 
-I was shocked, because I did not imagine this amount of contributions, but when I reflected this thought with two close friends, tey were not surprised at all - which means that my perception and how others perceive me don't match.
+I was shocked, because I did not imagine this amount of contributions, but when I reflected this thought with two close friends, they were not surprised at all - which means that my perception and how others perceive me don't match.
 
 It took me a whole afternoon to make this list and yes I know, I should just update my list after each and every contribution. But as this simple thing so far didn't 'just happen', I asked myself, why I refused to just update a list. As I was already working on gaining clarity of what drives me, I took some time to investigate that. When I felt #comfortablynumb with being busy, I tried to avoid clarity about what I was already doing regarding community work - and a list would have led to clarification. Now that I regained control and overview about all initiatives that I am running, I have a intrinsic interest in knowing what I do - and where I succeeded. So I will not only update my list of contributions, but also take time to reflect on what I learned (about tech, community, and myself). 
 
