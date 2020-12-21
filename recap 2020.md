@@ -50,6 +50,7 @@ After I've been a guest in [PnP Weekly ep. 71](https://developer.microsoft.com/e
 
 ## Mental health and clarity
 
+
 Like most of us, I struggled with being at home a lot, and I established some bad habits. After I finished my 'work work' (this is how I call my billable hours), I started to do 'work' ( this is how I call community work, such as writing blogs, preparing sessions, recording podcasts, etc.). I worked crazy hours at night, didn't take breaks, and was just happy to be busy enough not to feel alone. This led to overcommitment, which was grounded in a false belief that 'more is better'. You can read more about it in my last blog post about [How to avoid overcommitting](https://m365princess.com/how-to-avoid-overcommitting/). I solved that not by 'learning to say no' but by taking a more in-depth look into the root of the cause. When I wrote my list of contributions in this blog post's preparations, I got slightly shocked. In total, I
 
 * attended 13 events
@@ -59,7 +60,7 @@ Like most of us, I struggled with being at home a lot, and I established some ba
 
 all while living 24/7 on Twitter :-)
 
-I was shocked because I did not imagine this amount of contributions, but when I reflected on this thought with two close friends, they were not surprised at all - which means that my perception and how others perceive me don't match.
+I was shocked, because I did not imagine this amount of contributions, but when I reflected this thought with two close friends, they were not surprised at all - which means that my perception and how others perceive me don't match.
 
 It took me a whole afternoon to make this list, and yes, I know, I should update my list after every contribution. But as this simple thing so far didn't 'just happen,' I asked myself why I refused to update a list. As I was already working on gaining clarity of what drives me, I took some time investigating that. When I felt #comfortablynumb with being busy, I tried to avoid clarity about what I was already doing regarding community work - and a list would have led to clarification. Now that I regained control and overview of all initiatives that I am running, I have an intrinsic interest in knowing what I do and succeed. So I will update my list of contributions and take time to reflect on what I learned (about tech, community, and myself). 
 
