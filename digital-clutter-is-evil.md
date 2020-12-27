@@ -14,7 +14,7 @@ Stuff is every item that you keep for the sake of having it. Perhaps it served a
 
 - the ugly mug that was a present from a college friend - you keep it because it reminds you of that friend. Last contact? 14 years ago. 
 - the nice mug that doesn't fit all your other mugs, and you stopped drinking coffee - last use of that mug? Well, you first needed to dust it off...
-- the books you bought that only serve as a credibility bookcase for your zoom calls 
+- the books you bought that only serve as a credibility bookcase for your Zoom calls 
 
 This list could be a lot longer, but I will leave it by that as I think you got the idea of what I am talking about. 
 
