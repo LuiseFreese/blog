@@ -75,7 +75,7 @@ This shouldn't be a full list of where you can find clutter on your phone or com
 - you have contacts in your contact list you don't even know who that is
 
 You will find many how-to blog posts once you start to google 'digital clutter', but the key is to understand what triggers you to collect more and why it is hard to let things go: I am on my phone a lot. Some would say that I have a deep relationship with it. If you are a little like me, you will merely not use it as a phone, but as a remote control for your whole life (and with a remote control for the remote control aka Apple Watch. We quickly have 100+ apps installed, and because we need to record 4k video, have thousands of songs on our phones, and hoard all kinds of other data, we need phones with an insane storage capacity. And now that we have that capacity, we hoard even more. And then we pay cloud services to outsource apps and files... Do you recognize a pattern? We repeat the behavior we show in our analog lives in our digital lives. So would it help if we asked ourselves why we keep the digital stuff? Why do we not delete chats of people we are not in contact with anymore? Why do we still maintain that domain we once registered but then never worked on it again? Same reasons as you keep physical stuff: JUST. IN. CASE. 
-Not that this case will EVER occur, in any case. 
+Not that this case will EVER occur, though.
 
 What happens once we dig a little bit deeper into what triggers us to keep and hoard? We will gain clarity about what drives us- and what holds us (back). Because, if we own everything, our hands aren't free, we can't *hand-le* anything anymore, literally. The perfidy of digital clutter is, though, that we can more easily hide it. But once we know if we want to impress ourselves, still live in the past, or want to produce a specific image of ourselves, it's easier to get rid of that, be honest, and truthful with ourselves. It's relieving to toss stuff that weighed a lot. And once you did, you feel alleviated and calmed. 
 
@@ -86,7 +86,8 @@ Well, I am a consultant, so the answer needs to be *It depends*. Here are some t
 - Don't just *organize* apps on your phone in groups. 
 - Ask yourself, which value an app, a contact, a chat, a connection still offers you. And if this is about lost hopes or reality. 
 - What's the worst-case scenario if you delete something?
+- this blog post is the first of a small series of posts around digital clutter. Read next week, how I tame my alerts and notifications
 
 ## Feedback & What's next
 
-If you liked this post, leave a comment and tell me what resonated the most to you. How do you deal with digital clutter? Does it bother you? Do you have the feeling that stuff consumes too much of your attention? I would love to hear your feedback.
+If you liked this post, leave a comment and tell me what resonated the most to you. How do you deal with digital clutter? Does it bother you? Do you have the feeling that stuff consumes too much of your attention? T I would love to hear your feedback.
