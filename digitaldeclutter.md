@@ -66,9 +66,27 @@ This brings me to some thoughts about stuff, that doesn't take a lot of physical
 - chats with your ex
 - abandoned side projects
 
-and so on. I am on my phone a lot. Some would say, that I have a deep relationship with it. If you are a little like me, you will merely, not use it as a phone, but as a remote control for your whole life (and with a remote control for the remote control aka Apple Watch. 
+## How do we declutter
 
-We easily have 100+ apps installed and because we need to record 4k video, have thousands of songs on our phones and hoard all kinds of other data, we need phones with an insane storage capacity. And now that we have that capacity, we hoard even more. And then we pay cloud services to outsource apps and files... Do you recognize a pattern? We repeat the behavior we show in our analog lives in our digital lives. So would it help if we asked ourselves why we keep the digital stuff? Why do we not delete chats of people we are not in contact with anymore? Why do we still keep that domain we once registered but then never worked on it again? Same reasons as you keep physical stuff: JUST. IN. CASE. 
+This shouldn't be a full list of where you can find clutter on your phone or your computer. But once you are aware of WHY you unhealthily keep stuff, you will more easily recognize, where you waste space and focus. Apart from the examples that I already gave you, it could be, that
+
+- you still have a lot of bluetooth devices in the list that you don't use anymore,
+- you follow too many accounts on social media to really *follow* what they post, 
+- you have contacts in your contact list you don't even know who that is
+
+You will find a lot of how-to blog posts once you start to google 'digital clutter', but key really is to understand what triggers you to collect more and more and why it is so hard to let things go: I am on my phone a lot. Some would say, that I have a deep relationship with it. If you are a little like me, you will merely, not use it as a phone, but as a remote control for your whole life (and with a remote control for the remote control aka Apple Watch. We easily have 100+ apps installed and because we need to record 4k video, have thousands of songs on our phones and hoard all kinds of other data, we need phones with an insane storage capacity. And now that we have that capacity, we hoard even more. And then we pay cloud services to outsource apps and files... Do you recognize a pattern? We repeat the behavior we show in our analog lives in our digital lives. So would it help if we asked ourselves why we keep the digital stuff? Why do we not delete chats of people we are not in contact with anymore? Why do we still keep that domain we once registered but then never worked on it again? Same reasons as you keep physical stuff: JUST. IN. CASE. 
 Not, that this case will EVER occur, though. 
 
 What happens actually, once we dig a little bit deeper into what triggers us to keep and hoard? We will gain clarity about what drives us- and what holds us (back). Because, if we hold everything, our hands aren't free, we can't *hand-le* anything anymore, literally. The perfidity of digital clutter is, though, that we can more easily hide it. But once we know, if we want to impress ourselves, still live in the past or want to produce a certain image of ourselves, it's easier to get rid of that in order to be honest and truthful with ourselves. It's relieving to toss stuff that weighed a lot. And once you did, you feel alleviated and calmed. 
+
+## Where do I start?
+
+Well, I am a consultant, so the answer needs to be *It depends*. Here are some tips: 
+
+- Don't just *organize* apps on your phone in groups. 
+- Ask yourself, which value an app, a contact, a chat, a connection still offers you. And if this is about lost hopes or about reality. 
+- What's the worst case scenario if you delete something?
+
+## Feedback & What's next
+
+If you liked this post, leave a comment and tell me what resonated the most to you. How do you deal with digital clutter? Does it bother you? Do you have the feeling, that stuff consumes too much of your attention? Would love to hear your feedback. 
