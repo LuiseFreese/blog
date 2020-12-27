@@ -51,13 +51,19 @@ Probably, you will say: But I don't care about the stuff in the basement, about 
 
 ## the perverted approach
 
-Our idea is not anymore 'having something in order to do something with it', but 'having something until it bothers me so much that I need to get rid of it'. And we do a lot to not get bothered. We buy new shelfs, new drawers. And then we buy decoration because the new shelf looks so empty. And then we buy another shelf, because all the decoration doesnt fit anymore. And then we move into a bigger house. And we need a bigger basement, because of the stuff we need to outsource, and then we rent a storage room outside of the city... Or we build a carport, so that more stuff fits into the garage after the car moved out if. Even if you didn't need to buy new stuff to give other stuff a place to be, you will see that stuff seeks your time and attention. Every item needs a place to belong to (or you will be busy putting it from left to right and from right to left again) and it needs to be cleaned and maintained. Having a thing is always a commitment. Before I buy a thing, I do not only think if I can afford this, but how much time it will take me to act according the purpose of it. Buying a book is easy, but how likely will I spend 10-20 hours in the next 3 months on reading it? Enrolling a new course to learn something? Wow, it's free. Yes, subscribe for the newsletter. How likely is it, that I will not only not read this newsletter, but also defer unsubscribing from it? 
+Our idea is not anymore 'having something in order to do something with it', but 'having something until it bothers me so much that I need to get rid of it'. And we do a lot to not get bothered. We buy new shelfs, new drawers. And then we buy decoration because the new shelf looks so empty. And then we buy another shelf, because all the decoration doesnt fit anymore. And then we move into a bigger house. And we need a bigger basement, because of the stuff we need to outsource, and then we rent a storage room outside of the city... Or we build a carport, so that more stuff fits into the garage after the car moved out of it. Even if you didn't need to buy new stuff to give other stuff a place to be, you will see that stuff seeks your time and attention. Every item needs a place to belong to (or you will be busy putting it from left to right and from right to left again) and it needs to be cleaned and maintained. Having a thing is always a commitment. Before I buy a thing, I do not only think if I can afford this, but how much time it will take me to act according the purpose of it. Buying a book is easy, but how likely will I spend 10-20 hours in the next 3 months on reading it? 
 
 ## digital stuff
+
+This brings me to some thoughts about stuff, that doesn't take a lot of physical space, but still increases our mental load. Enrolling a new course to learn something? *Wow, it's free. CLICK HERE. Yes, subscribe for the newsletter.* How likely is it, that I will not only not read this newsletter, but also defer unsubscribing from it? How often will this draw my attention while it's already hard for me to stay focused? How likely will I not just watch the intro of the new course? And how likely will this book, course, podcast just end up in that *pile of guilt*? There are more examples:
+
 
 - the app you never use
 - the acounts that announce their blog posts on twitter you never find time to read
 - your 42 open tabs (but!)
+- 16 variations of the same photo
 - your email trashbin
 - chats with your ex
 - abandoned side projects
+
+and so on. I am on my phone a lot. Some would say, that I had a deep relationship with it. Merely, I don't use it as a phone, but as a remote control for my whole life (and with a remote control for the remote control aka Apple Watch ¯\_(ツ)_/¯). I stay in touch with everyone professionally and personally through a variety of apps, 
