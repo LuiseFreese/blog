@@ -66,4 +66,9 @@ This brings me to some thoughts about stuff, that doesn't take a lot of physical
 - chats with your ex
 - abandoned side projects
 
-and so on. I am on my phone a lot. Some would say, that I had a deep relationship with it. Merely, I don't use it as a phone, but as a remote control for my whole life (and with a remote control for the remote control aka Apple Watch ¯\_(ツ)_/¯). I stay in touch with everyone professionally and personally through a variety of apps, 
+and so on. I am on my phone a lot. Some would say, that I have a deep relationship with it. If you are a little like me, you will merely, not use it as a phone, but as a remote control for your whole life (and with a remote control for the remote control aka Apple Watch. 
+
+We easily have 100+ apps installed and because we need to record 4k video, have thousands of songs on our phones and hoard all kinds of other data, we need phones with an insane storage capacity. And now that we have that capacity, we hoard even more. And then we pay cloud services to outsource apps and files... Do you recognize a pattern? We repeat the behavior we show in our analog lives in our digital lives. So would it help if we asked ourselves why we keep the digital stuff? Why do we not delete chats of people we are not in contact with anymore? Why do we still keep that domain we once registered but then never worked on it again? Same reasons as you keep physical stuff: JUST. IN. CASE. 
+Not, that this case will EVER occur, though. 
+
+What happens actually, once we dig a little bit deeper into what triggers us to keep and hoard? We will gain clarity about what drives us- and what holds us (back). Because, if we hold everything, our hands aren't free, we can't *hand-le* anything anymore, literally. The perfidity of digital clutter is, though, that we can more easily hide it. But once we know, if we want to impress ourselves, still live in the past or want to produce a certain image of ourselves, it's easier to get rid of that in order to be honest and truthful with ourselves. It's relieving to toss stuff that weighed a lot. And once you did, you feel alleviated and calmed. 
