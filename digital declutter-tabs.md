@@ -1,21 +1,25 @@
-## digital clutter and our 168 open tabs
+# digital clutter and our 168 open tabs
 
 Ok, we made it to Jumanji, Part 2, Level 1. By the time thet I write this, it's still early january 2021 (and this is the first time I wrote 2021 🙌) and I promised to write a series about how to digitally declutter your life and work. This is the second part, if you need to catch up on WHY we keep digital stuff and why it is so difficult (but also most rewarding) to let digital things go, you can read the first part here: https://m365princess.com/digital-clutter-is-evil/
 
-## Ok, so whats the deal?
+This part is about the tabs in your browser. A lot of our work these days takes place on websites, which means that we live in our browsers and open tabs over tabs to research, procrastinate, get work done, distract ourselves, get information, log into different platforms, search for stuff we searched already 96 times before and so on. This results in *SOME* open tabs. 
+
+## Ok, but what does it matter? 
+
+Why should we care if we have 4 or 40 tabs open? Because whatever is open, unresolved, undecided, pending or active, keeps our minds busy. It increases our mental load and sets us under stress, even if we are not aware of it. If we deal with overload for a longer period of time, we perceive overwhelmment as our normality, which basically means that we drive with handbrake on. 
+
+![My brain has too many tabs open](https://github.com/LuiseFreese/blog/blob/main/media/mybrainhastoomanytabsopen.png "Don't forget to close the tabs in your brain as well")
 
 Don't we all 
 1. rely on all these open tabs?
 2. buy decent machines with tremendous amount of RAM so that they don't overheat?
 3. love those posts about mental health and letting go and digital detox? 
 
-Oh right, the latter was just about me, or did I get that wrong? Let's have a look into this working habit of having A LOT of tabs open. I think, there are some categories and it would help us to first see, what they are in order to determine, if we really need them, if they harm us or if there is simply a better solution to achieve the same goal. In my day-to-day life as a consultant, I never focus on tools, but on usecases. Let's try this approach here as well
+Oh right, the latter was just about me :-) Let's have a look into this working habit of having A LOT of tabs open. I think, there are some categories and it would help us to first see, what they are in order to determine, if we really need them, if they harm us or if there is simply a better solution to achieve the same goal. In my day-to-day life as a consultant, I never focus on tools, but on usecases. Let's try this approach here as well:
 
 ### tabs we have open while blogging/research
 
 When I researched for and wrote this blogpost, I had these tabs open: 
-
-![My brain has too many tabs open](https://github.com/LuiseFreese/blog/blob/main/media/mybrainhastoomanytabsopen.png "Don't forget to close the tabs in your brain as well")
 
 1. my website m365princess.com, to be able to easily refer to older blogposts in this blog post
 2. GitHub, as I write my posts in GitHub these days
@@ -29,14 +33,17 @@ When I researched for and wrote this blogpost, I had these tabs open:
 Well, learning of course is a good thing. When I learn, I open 
 
 1. the content site (YouTube, MSLearn, Pluralsight, etc. )
-2. a website tob try out what I learn (Power Platform, Graph Explorer, Azure Portal)
+2. a website to try out what I learn (Power Platform, Graph Explorer, Azure Portal)
 3. twitter to quickly ask questions or express my 🤯🤯🤯 moments
 4. one other tab to research, like googling when I don't know a certain thing that seems to be mandatory to understand the turorial I am following
 
-
 ### tabs we have open because we stumbled upon them and *might* need them later 
 
-Well, we are now entering the *just in case* phase. While we were browsing, researching, looking for inspiration, we found a site, that MIGHT be helpful- later. We can't take advantage of it right now (because we really need to focus on that other thing we need to eventually get done, but perhaps, in the future, we will get back to that site. We keep it, just in case. Do you recognize, that this is the same thing than keeping other digital stuff? Do you realize, that even keeping this tab open will keep at least a part of your mind busy? I get it, you want to *keep* this URL, you do not necessarily have this tab open. 
+Well, we are now entering the *just in case* phase. While we were browsing, researching, looking for inspiration, we found a site, that MIGHT be helpful- later. We can't take advantage of it right now (because we really need to focus on that other thing we need to eventually get done, but perhaps, in the future, we will get back to that site). We keep it, just in case. Do we recognize, that this is the same thing than keeping other digital stuff? Do we realize, that even keeping this tab open will keep at least a part of your mind busy? These open tabs distract us similar to people interrupting our focus work. Does this sound familiar to you? 
+
+
+
+I get it, you want to *keep* this URL, you do not necessarily have this tab open. 
 
 ### Tabs we have open to deal with different workloads
 
