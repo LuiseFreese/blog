@@ -53,7 +53,6 @@ Before we can just throw tech solutions on people problems, let's investigate, w
 1. Event: On top of the pyramid, there is the event, that is visible to us and attentive others. 
 In our case: *We deal with a tremendous mental load and are easily distracted* 
 
-
 2. Pattern and trends: underneath the visble event, we could look into the patterns and trends, that lead to these event. Here that would be: *the more different workloads I need to manage, the more overwhelmed I am*
 
 3. System, that supports these patterns: Let's nnow have a look into the system: *We need to react quickly on whatever happens and this reactive working mode puts us in a kind of emergency/attention position which also causes stress and leads to a more ineffective work style* 
