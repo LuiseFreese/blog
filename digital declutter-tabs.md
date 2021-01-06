@@ -37,6 +37,13 @@ Well, learning of course is a good thing. When I learn, I open
 3. twitter to quickly ask questions or express my 🤯🤯🤯 moments
 4. one other tab to research, like googling when I don't know a certain thing that seems to be mandatory to understand the turorial I am following
 
+
+### tabs we have open for bugfixing
+
+I think this tweet explains everything I could write in a whole paragraph. 
+
+![closing tabs](https://github.com/LuiseFreese/blog/blob/main/media/bugfix.png "What do you do after fixing that bug?")
+
 ### tabs we have open because we stumbled upon them and *might* need them later 
 
 Well, we are now entering the *just in case* phase. While we were browsing, researching, looking for inspiration, we found a site, that MIGHT be helpful- later. We can't take advantage of it right now (because we really need to focus on that other thing we need to eventually get done, but perhaps, in the future, we will get back to that site). We keep it, just in case. Do we recognize, that this is the same thing than keeping other digital stuff? Do we realize, that even keeping this tab open will keep at least a part of your mind busy? These open tabs distract us similar to people interrupting our focus work. Does this sound familiar to you? 
@@ -59,21 +66,37 @@ In our case: *We deal with a tremendous mental load and are easily distracted*
 
 4. What is the common belief, that holds this system in place: If we now dive deeper into our believes we will come to the conclusion that although we are praying that "always on" is not a solution, that mental health is important, that it is crucial to set boundaries and that you should have your focus work time to actually get stuff done, we merely don"t act like that. We reply on mails and messages almost immediately, we have all websites constantly open to quickly jump to other tasks and put great pressure on us with that. But: Busy ain't productive!
 
+![busy ain't productive](https://github.com/LuiseFreese/blog/blob/main/media/busyaintproductive.png)
+
+If we now consciously think about how we want to work (and let's assume we want more "productive" and less "busy") we will have some principles: 
+
+* we will only have a few priorities
+* we will distinguish between our differentv hats/workloads/usecases
+* we will not try to multitask nor to quickly task-switch
+* we will be conscious about our committments so that we can still handle our workload
 
 
-I do have these tabs open, because I quickly jump from task to task and I wear a lot of different hats
-3. First of all: Be aware of the factm that open tabs in which you don"t currently work in, is rather information hoarding and digital clutter than anything else. As a consultant, business owner, active MVP and leader of different initiatives, I wear a lots of different hats
+💡 If we now only have a few priorities, we will be more easily able to let stuff go, or in this case: close a tab, even if it MIGHT be a good resource for later. We will learn to focus on the important things. 
+💡 We will use smart tech to group the tabs that we need for the different workloads, which will also prevent us from multitasking: 
 
+I work with Microsoft Edge browser, and I love collections. If you don't know what a collection is, here is the quick intro: A collection is a set of websites, which can be opened in different browser window. 
 
+Once you are done with this workload, you close the whole window. When I need to explain collection on a non technical level, I always say: These are desks with all the working material you need to accomplish a specific task or group of task (similar to a channel in Microsoft Teams).I have a lot of collections, but for the sake of tan example: one is a collection for managing [my sticker-store](pyod.shop): 
 
-Well, there is an easy to follow step by step approach: 
-ideas: 
-### tabs we have open while 
-- tabs we work in right now
-- tabs we plan to work on in the near future
-- tabs we want to work on in the mere distant future
-- tabs we could perhaps use in the future
-- tabe we could perhaps use to help others in the future
+* newsletter tool
+* SharePoint site
+* order management tool, 
+* shop itself
+* social media tool
+
+Why I organize my workloads in collections? So that I can consciously decide, which kind of task I want to spend time on instead of chaotically jump from task to task and from tab to tab. The consciousness is the crucial part of that. I work with Microsoft To Do for my personal taskmanagement and I commit each morning to just a few tasks. During the day, I will only open those tabs (organized in collections) that I need to accomplish the task. Whenever I randomly open other sites, I can be quite sure, that I am procrastinating what I should do right now and should take a break. 
+
+![tomorrow- a mystical land where 99% of all human productivity, motivation and achievement is stored](https://github.com/LuiseFreese/blog/blob/main/media/tomorrow.png "When have you been procrastinating, lately?")
+
+Two more cool things about collections in Edge: They are stored in the user profile and sync - when you are logged in - across your devices. If you now combine this with the multiple profiles feature you will turn your browser into a focus-machine! As a consultant, I work in different tenants of my customers and profiles make it easy for me to switch between them. When I now sync the collections in my profiles to my phone or second laptop, I can really work seamlessly. 
+
+When I stumble upon a site that MIGHT be interesting, I put it into a collection "review" and I have a weekly task on reviewing that collection. Nothing is allowed to stay there: either the site becomes a valueable content resource - then I will store it in another collection, or I can let it go. This ensures, that I don't hoard websites just because I can. 
+
 
 
 https://twitter.com/SamBroner/status/1345402108724428801
