@@ -57,14 +57,14 @@ Well, we are now entering the *just in case* phase. While we were browsing, rese
 
 Before we can just throw tech solutions on people problems, let's investigate, what happens: 
 
-1. Event: On top of the pyramid, there is the event, that is visible to us and attentive others. 
+1. Event: On top, there is the event, that is visible to us and attentive others. 
 In our case: *We deal with a tremendous mental load and are easily distracted* 
 
-2. Pattern and trends: underneath the visble event, we could look into the patterns and trends, that lead to these event. Here that would be: *the more different workloads I need to manage, the more overwhelmed I am*
+2. Pattern and trends: underneath the visble event, we could look into the patterns and trends, that lead to these events. Here that would be: *the more different workloads I need to manage, the more overwhelmed I am*
 
-3. System, that supports these patterns: Let's nnow have a look into the system: *We need to react quickly on whatever happens and this reactive working mode puts us in a kind of emergency/attention position which also causes stress and leads to a more ineffective work style* 
+3. System, that supports these patterns: Let's now have a look into the system: *We need to react quickly on whatever happens and this reactive working mode puts us in a kind of emergency/attention position which also causes stress and leads to a more ineffective work styles* 
 
-4. What is the common belief, that holds this system in place: If we now dive deeper into our believes we will come to the conclusion that although we are praying that "always on" is not a solution, that mental health is important, that it is crucial to set boundaries and that you should have your focus work time to actually get stuff done, we merely don"t act like that. We reply on mails and messages almost immediately, we have all websites constantly open to quickly jump to other tasks and put great pressure on us with that. But: Busy ain't productive!
+4. What is the common belief, that holds this system in place: If we now dive deeper into our believes we will come to the conclusion that although we are praying that "always on" is not a solution, that mental health is important, that it is crucial to set boundaries and that you should have your focus work time to actually get stuff done, we merely don"t act like that. We reply on mails and messages almost immediately, we have all websites constantly open to quickly jump to other tasks and put great pressure on us with that. But: *Busy ain't productive!*
 
 ![busy ain't productive](https://github.com/LuiseFreese/blog/blob/main/media/busyaintproductive.png)
 
@@ -81,7 +81,7 @@ If we now consciously think about how we want to work (and let's assume we want 
 
 I work with Microsoft Edge browser, and I love collections. If you don't know what a collection is, here is the quick intro: A collection is a set of websites, which can be opened in different browser window. 
 
-Once you are done with this workload, you close the whole window. When I need to explain collection on a non technical level, I always say: These are desks with all the working material you need to accomplish a specific task or group of task (similar to a channel in Microsoft Teams).I have a lot of collections, but for the sake of tan example: one is a collection for managing [my sticker-store](pyod.shop): 
+Once you are done with a workload that is represented by this collection, you close the whole window. When I need to explain collections on a non technical level, I always say: These are desks with all the working material you need to accomplish a specific task or group of task (similar to a channel in Microsoft Teams). I have a lot of collections, but for the sake of an example: one is a collection for managing [my sticker-store](pyod.shop): 
 
 * newsletter tool
 * SharePoint site
@@ -97,20 +97,7 @@ Two more cool things about collections in Edge: They are stored in the user prof
 
 When I stumble upon a site that MIGHT be interesting, I put it into a collection "review" and I have a weekly task on reviewing that collection. Nothing is allowed to stay there: either the site becomes a valueable content resource - then I will store it in another collection, or I can let it go. This ensures, that I don't hoard websites just because I can. 
 
+## Conclusion & What's next
 
-
-https://twitter.com/SamBroner/status/1345402108724428801
-
-*Nothing says "I fixed a bug" like closing 35 tabs.*
-
-https://twitter.com/LuiseFreese/status/1328248036334723074
-
-*me: App works! RocketRocketRocket*
-
-*also me: closes 63 browser tabs.*
-
-*#LessCodeMorePower #AppMaker #PowerAddict*
-
-
-
+There is no short tour to let stuff go, but we can use tech to stay focused, prioritize easier and be productive instead of just busy. I would love to hear how you manage your tabs and thought and digital clutter. As this is part 2 of a series about digital clutterm please stay tuned for the next part! 
 
