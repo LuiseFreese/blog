@@ -41,17 +41,33 @@ Well, learning of course is a good thing. When I learn, I open
 
 Well, we are now entering the *just in case* phase. While we were browsing, researching, looking for inspiration, we found a site, that MIGHT be helpful- later. We can't take advantage of it right now (because we really need to focus on that other thing we need to eventually get done, but perhaps, in the future, we will get back to that site). We keep it, just in case. Do we recognize, that this is the same thing than keeping other digital stuff? Do we realize, that even keeping this tab open will keep at least a part of your mind busy? These open tabs distract us similar to people interrupting our focus work. Does this sound familiar to you? 
 
+![WHAT was I doing?!](https://github.com/LuiseFreese/blog/blob/main/media/focus.png "Distractions, everywhere")
 
 
-I get it, you want to *keep* this URL, you do not necessarily have this tab open. 
+💡 I get it, we want to *keep* this URL, but we do not necessarily have this tab open. 
 
-### Tabs we have open to deal with different workloads
+## But what would be a better solution?
 
-As a consultant, business owner, active MVP and leader of different initiatives, I wear a lots of different hats
+Before we can just throw tech solutions on people problems, let's investigate, what happens: 
+
+1. Event: On top of the pyramid, there is the event, that is visible to us and attentive others. 
+In our case: *We deal with a tremendous mental load and are easily distracted* 
+
+
+2. Pattern and trends: underneath the visble event, we could look into the patterns and trends, that lead to these event. Here that would be: *the more different workloads I need to manage, the more overwhelmed I am*
+
+3. System, that supports these patterns: Let's nnow have a look into the system: *We need to react quickly on whatever happens and this reactive working mode puts us in a kind of emergency/attention position which also causes stress and leads to a more ineffective work style* 
+
+4. What is the common belief, that holds this system in place: If we now dive deeper into our believes we will come to the conclusion that although we are praying that "always on" is not a solution, that mental health is important, that it is crucial to set boundaries and that you should have your focus work time to actually get stuff done, we merely don"t act like that. We reply on mails and messages almost immediately, we have all websites constantly open to quickly jump to other tasks and put great pressure on us with that. But: Busy ain't productive!
 
 
 
+I do have these tabs open, because I quickly jump from task to task and I wear a lot of different hats
+3. First of all: Be aware of the factm that open tabs in which you don"t currently work in, is rather information hoarding and digital clutter than anything else. As a consultant, business owner, active MVP and leader of different initiatives, I wear a lots of different hats
 
+
+
+Well, there is an easy to follow step by step approach: 
 ideas: 
 ### tabs we have open while 
 - tabs we work in right now
