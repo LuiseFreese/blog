@@ -36,10 +36,23 @@ short intro old world
 
 ### iceberg of the old world
 
-level 1
-level 2
-level 3
-level 4
+* level 1
+
+abusement of tools
+information hiding
+cover my ass
+
+* level 2
+no specialized tools in place
+
+
+* level 3
+knowledge is power
+simple or complicated problems to solve 
+
+* level 4
+ego system>eco system
+career is about winning, and destroying others
 
 ### iceberg of the desired new world
 
