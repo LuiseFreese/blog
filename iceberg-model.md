@@ -12,6 +12,8 @@ Before we can change itm we first need to udnerstand it and get the bigger pictu
 
 ### whats is the iceberg model
 
+![iceberg model of visible events and unvisble patterns, systems and mental models](https://github.com/LuiseFreese/blog/blob/main/media/iceberg.jpg "The iceberg model - a tool to get the bigger picture")
+
 events
 patterns
 system
