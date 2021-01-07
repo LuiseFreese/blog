@@ -56,7 +56,7 @@ unknown art of collaboration
   * information silos
   * tools that support working next to each other instead of collaboration
   * lethargy to change / "we've always done it like this before"
-  * simple or complicated problems to solve 
+  * simple or complicated problems to solve
   * hierarchy
 
 * level 4
