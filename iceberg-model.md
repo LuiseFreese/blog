@@ -14,20 +14,24 @@ Before we can change it, we first need to understand it and get the bigger pictu
 
 ![iceberg model of visible events and unvisble patterns, systems and mental models](https://github.com/LuiseFreese/blog/blob/main/media/iceberg.jpg "The iceberg model - a tool to get the bigger picture")
 
-Events
+Events:
+
 Very visbibly, we will find events. An event is the answer to the question *What is happening right now?*
 On this level, people only *react* on what just happened and then stop to think about it. 
 
 Patterns:
+
 Already underneath the surface, we will find patterns: *What has been happening over time? What are the trends?* 
 On this level, people think about what led to the visible event and try to connect the dots.
  
 Structures:
+
 Digging one level deeper, we will see which system supports and influences these patterns: *What's influencing these patterns?
 Where are the connections between patterns?* 
 On this level, people think about what influences these patterns and try to understand the *Why*. 
 
 Mental models:
+
 Finally, we will investigate, *what values, beliefs or assumptions shape the system and keep it in place?* People now dig into which thinking generated the structures that are in place. 
 
 Let's have a look on how this works in the "old world" 
@@ -36,24 +40,29 @@ short intro old world
 
 ### iceberg of the old world
 
-* level 1
+* level 1: events - what just happened: 
 
-lack of focus
-lack of efficiency AND effectiveness
-wasting time
-busy but not productive
+People can't focus, experience both a lack of efficiency AND effectiveness, waste their times with tasks they shouldn't do at all and are rather busy than productive
 
-* level 2
-abusement of tools
+* level 2: patterns - what was happening over time? 
+People abuse tools, work around disfunctional and organizational structures. They are not familiar with the art of collaboration
 information hiding
+task switching
+unknown art of collaboration
 
-* level 3
-knowledge is power
+* level 3: structure- what is influencing these patterns? 
+
+information silos
+tools that support working next to each other instead of collaboration
+lethargy to change / "we've always done it like this before"
 simple or complicated problems to solve 
+hierarchy
 
 * level 4
+knowledge is power mentality
 ego system>eco system
-career is about winning, and destroying others
+command and control
+
 
 ### iceberg of the desired new world
 
