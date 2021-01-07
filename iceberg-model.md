@@ -9,10 +9,16 @@
 VUCA World comes with a need to transform: 
 
 Profit <-> Purpose
+
 Hierarchies <-> Networks
+
+
 Controlling <-> Empowering
+
 Planning <-> Experimentation
+
 Privacy  <-> Transparency
+
 
 digitalization need to be the accelerator on that, but is not the main driver. 
 
