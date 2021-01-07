@@ -8,7 +8,7 @@
 
 ## approach to solve the issue:
 
-Before we can change itm we first need to udnerstand it and get the bigger picture of the situation we are facing. A good tool to facilitate deeper thinking is the iceberg model. 
+Before we can change it, we first need to understand it and get the bigger picture of the situation we are facing. A good tool to facilitate deeper thinking is the iceberg model. 
 
 ### whats is the iceberg model
 
@@ -38,13 +38,14 @@ short intro old world
 
 * level 1
 
-abusement of tools
-information hiding
-cover my ass
+lack of focus
+lack of efficiency AND effectiveness
+wasting time
+busy but not productive
 
 * level 2
-no specialized tools in place
-
+abusement of tools
+information hiding
 
 * level 3
 knowledge is power
