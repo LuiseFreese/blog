@@ -6,6 +6,16 @@
 * to simply explain it would be to increase productivity, is not enough, it doesn't connect nor does it reflect their beliefs
 * without a shared vision/common understanding, we will only scratch the surface of what M 365 could do in an organization
 
+VUCA World comes with a need to transform: 
+
+Profit <-> Purpose
+Hierarchies <-> Networks
+Controlling <-> Empowering
+Planning <-> Experimentation
+Privacy  <-> Transparency
+
+digitalization need to be the accelerator on that, but is not the main driver. 
+
 ## approach to solve the issue:
 
 Before we can change it, we first need to understand it and get the bigger picture of the situation we are facing. A good tool to facilitate deeper thinking is the iceberg model. 
