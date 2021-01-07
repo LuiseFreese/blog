@@ -53,17 +53,17 @@ unknown art of collaboration
 
 * level 3: structure- what is influencing these patterns? 
 
- * information silos
- * tools that support working next to each other instead of collaboration
- * lethargy to change / "we've always done it like this before"
- * simple or complicated problems to solve 
- * hierarchy
+  * information silos
+  * tools that support working next to each other instead of collaboration
+  * lethargy to change / "we've always done it like this before"
+  * simple or complicated problems to solve 
+  * hierarchy
 
 * level 4
 
- * knowledge is power mentality
- * ego system>eco system
- * command and control
+   * knowledge is power mentality
+   * ego system>eco system
+   * command and control
 
 
 ### iceberg of the desired new world
