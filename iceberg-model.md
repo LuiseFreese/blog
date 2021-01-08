@@ -12,7 +12,6 @@ Profit <-> Purpose
 
 Hierarchies <-> Networks
 
-
 Controlling <-> Empowering
 
 Planning <-> Experimentation
