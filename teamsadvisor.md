@@ -37,6 +37,8 @@ But those workshops are not efficient as well, as they
 
 Also, I got tired of asking and answering the same questions over and over again. Especially in this pandemic-driven world, which worked as an accelerator on Teams rollouts, I just got bored.  And whenever I get bored to do a certain thing, I will automate it. 
 
+This blog post is about a work in progress. 
+
 ## solution & team up
 
 My idea was to templatize those workshops as an app. The app should: 
@@ -47,7 +49,7 @@ My idea was to templatize those workshops as an app. The app should:
 
 (You can also use a table in Dataverse for Teams or even an Excel Table (although I wouldn't recommend it)). 
 
-To keep the app simple and adjustable I want to keep the whole logic in a flow (either Power Automate or Azure Logic Apps). For that I teamed up with a rising star, Carmen Ysewijn. Carmen is a Functional Consultant working at Qubix, Belgium and I met her last year in Warsaw at a Power Platform conference. Carmen will help to transistion my Power Automate flow into an Azure Logic App - she wanted to learn something new and we thought that an open source project would be a good idea to contribute to. 
+To keep the app simple and adjustable I want to keep the whole logic in a flow (either Power Automate or Azure Logic Apps). For that, I teamed up with a rising star, [Carmen Ysewijn](https://twitter.com/CarmenYsewijn). Carmen is a PowerPlatform Architect working at [Qubix](https://www.qubix.be/), Belgium and I met her last year in Warsaw at a Power Platform conference. I was more than impressed by her conciseness and #learnitall mindset. Carmen will help to transistion my Power Automate flow into Azure Logic Apps - she wanted to learn something new and we thought that an open source project would be a good idea to contribute to. 
 
 Oh, did I say open-source? Yes. The plan is to export app and flows, document everything and share it on GitHub so that everyone can use it, share it, learn from it and adapt it to their needs. 
 
@@ -84,6 +86,10 @@ Now that I described the very straightforward app, it's time to have look at the
 Both systems have their pros and cons, but as much as it it easy to automate your personal work challenges in Power Automate, you shouldn't use it for organizational, business critical processes. Power Automate flows run in the context of a user, which means that we have the same challenges with files stored in OneDrive. People get different jobroles, leave the company or simply abandon this lovely pet project (which outgrew the sideproject level by far and should have been handed over to someone who can take better care of it). Also, we have better options to have the run history of a Logic App. 
 
 Carmen had the very neat idea to split the huge flow (with 20+ API calls) into one parent flow and several child flows to make it easier for everyone to exactly pick what they need. 
+
+This is only an exerpt of the flow to give you an idea that for most of the things I wanted to do, there are no predefined actions in Power Automate (nor in Logic Apps) but that we needed to define our http calls: 
+
+![exerpt of the flow showing some http actions](https://github.com/LuiseFreese/blog/blob/main/media/TA-flow.png "a lot of https actions in a flow can make it a little confusing")
 
 ### HTTP request to SharePoint or Graph?
 
