@@ -63,6 +63,37 @@ As this is a longer process we also want
 * them to be able to go back and forth between screens and edit what they already put in
 * show them a log which input they already gave
 
-This makes sure that users stay motivated to proceed in the app. 
+This makes sure that users stay motivated to proceed in the app. This gif illustrates what users will experience: 
 
 ![first steps of TeamsAdvisor App](https://github.com/LuiseFreese/blog/blob/main/media/TA-decision.gif "Guiding users through knowledge and decisions when it comes to create the teams of their dreams")
+
+For each thing, we need to have a decision, I will follow these steps: 
+
+1. provide knowledge
+2. ask users in a form what they want to do
+3. store input in variables
+
+At the end of the whole process, I will update my SharePoint with a new item. 
+
+## a complex system of flows
+
+Now that I described the very straightforward app, it's time to have look at the logic. For my minimal lovable ♥ product, I decided to use Power Automate, but as already said in the intro, the goal is to transition to Azure Logic Apps. 
+
+### Power Automate or Azure Logic Apps? 
+
+Both systems have their pros and cons, but as much as it it easy to automate your personal work challenges in Power Automate, you shouldn't use it for organizational, business critical processes. Power Automate flows run in the context of a user, which means that we have the same challenges with files stored in OneDrive. People get different jobroles, leave the company or simply abandon this lovely pet project (which outgrew the sideproject level by far and should have been handed over to someone who can take better care of it). Also, we have better options to have the run history of a Logic App. 
+
+Carmen had the very neat idea to split the huge flow (with 20+ API calls) into one parent flow and several child flows to make it easier for everyone to exactly pick what they need. 
+
+### HTTP request to SharePoint or Graph?
+
+In our minimal viable product, we use the SharePoint list item creation as a trigger and create channels, libraries, columns, views as requested by our user. I worked with both "send an HTTP request to SharePoint" actions and HTTP action towards Graph API (which I find better documented). The advantage of the HTTP reuqest to SharePoint is, that you do not need to register an app in Azure AD, but as we need that for all calls via Graph, this is not an argument anymore. 
+
+### in complex flows, follow these steps 
+
+1. Read the docs. Seriously. 
+2. Try out your call in Graph Explorer. In case you don't know what this is, check out here: 
+3. Try in a test flow
+4. if it doesn't work, write a test protocol
+
+
