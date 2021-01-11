@@ -11,7 +11,7 @@ In my day to day life as a consultant, my customers need a lot of guidance on HO
 * and buckets in Planner? 
 * who should be a Teams Owner? 
 
-![it depends](https://github.com/LuiseFreese/blog/blob/main/media/itdepends.png "yes this is also a sticker")
+![it depends](https://github.com/LuiseFreese/blog/blob/main/media/itdepends.png)
 
 My answer, as a consultant, will always be a "it depends". It depends on their objectives. To get them going, we would do a workshop to define their collaboration contract. In this workshop, I would provide them with knowledlege about tools and working behavior in Microsoft 365 and then give them some options what to do. We would write down everything and then someone would need to not only create the team and invite the members, but also:
 
