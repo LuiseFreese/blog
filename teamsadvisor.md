@@ -49,9 +49,7 @@ My idea was to templatize those workshops as an app. The app should:
 
 (You can also use a table in Dataverse for Teams or even an Excel Table (although I wouldn't recommend it)). 
 
-To keep the app simple and adjustable I want to keep the whole logic in a flow (either Power Automate or Azure Logic Apps). For that, I teamed up with a rising star, [Carmen Ysewijn](https://twitter.com/CarmenYsewijn). Carmen is a PowerPlatform Architect working at [Qubix](https://www.qubix.be/), Belgium and I met her last year in Warsaw at a Power Platform conference. I was more than impressed by her conciseness and #learnitall mindset. Carmen will help to transistion my Power Automate flow into Azure Logic Apps - she wanted to learn something new and we thought that an open source project would be a good idea to contribute to. 
-
-Oh, did I say open-source? Yes. The plan is to export app and flows, document everything and share it on GitHub so that everyone can use it, share it, learn from it and adapt it to their needs. 
+To keep the app simple and adjustable I want to keep the whole logic in a flow (either Power Automate or Azure Logic Apps). For that, I teamed up with a rising star in the community, [Carmen Ysewijn](https://twitter.com/CarmenYsewijn). Carmen is a PowerPlatform Architect working at [Qubix](https://www.qubix.be/), Belgium and I met her last year in Warsaw at a Power Platform conference. I was more than impressed by her conciseness and #learnitall mindset. Carmen will help to transistion my Power Automate flow into Azure Logic Apps - she wanted to learn something new and we thought that an open source project would be a good idea to contribute to. 
 
 ## a simple PowerApp 
 
@@ -101,5 +99,23 @@ In our minimal viable product, we use the SharePoint list item creation as a tri
 2. Try out your call in Graph Explorer. In case you don't know what this is, check out here: 
 3. Try in a test flow
 4. if it doesn't work, write a test protocol
+
+## Next steps & Open Souce approach
+
+Next steps to evolve from a minimal lovalble product to a good solution? 
+1. Put some more work into the UI of the app
+2. finish the Azure Logic Apps part
+
+As we want to open source this solution, we will 
+
+3. export app and flows
+4. document everything and share it on GitHub 
+
+This way, everyone can use it, share it, learn from it, and adapt it to their needs. We are open for all kind of feedback from you! 
+
+3. write documentation
+4. publish everything on GitHub
+
+Hope you stay tuned! 
 
 
