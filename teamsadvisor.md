@@ -6,7 +6,7 @@ In my day to day life as a consultant, my customers need a lot of guidance on HO
 
 * which channels do we need?
 * which apps and services should we pin in our channels?
-* how many libraries do we need in SharePoint? And with which additional colunmns?
+* how many libraries do we need in SharePoint? And with which additional columns?
 * how about lists? 
 * and buckets in Planner? 
 * who should be a Teams Owner? 
@@ -91,7 +91,7 @@ This is only an exerpt of the flow to give you an idea that for most of the thin
 
 ### HTTP request to SharePoint or Graph?
 
-In our minimal viable product, we use the SharePoint list item creation as a trigger and create channels, libraries, columns, views as requested by our user. I worked with both "send an HTTP request to SharePoint" actions and HTTP action towards Graph API (which I find better documented). The advantage of the HTTP reuqest to SharePoint is, that you do not need to register an app in Azure AD, but as we need that for all calls via Graph, this is not an argument anymore. 
+In our minimal lovable product, we use the SharePoint list item creation as a trigger and create channels, libraries, columns, views as requested by our user. I worked with both "send an HTTP request to SharePoint" actions and HTTP action towards Graph API (which I find better documented). The advantage of the HTTP reuqest to SharePoint is, that you do not need to register an app in Azure AD, but as we need that for all calls via Graph, this is not an argument anymore. 
 
 ### in complex flows, follow these steps 
 
@@ -116,6 +116,8 @@ This way, everyone can use it, share it, learn from it, and adapt it to their ne
 3. write documentation
 4. publish everything on GitHub
 
-Hope you stay tuned! 
+## Call to action
 
-
+1. follow [Carmen Ysewijn](https://twitter.com/CarmenYsewijn) and myself on twitter
+2. stay tuned, and give us feedback, we highly appreciate it!
+3. If you want to watch me explaining the solution,  you can do this in episode 111 of PnPWeekly 
