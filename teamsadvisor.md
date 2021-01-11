@@ -53,4 +53,16 @@ Oh, did I say open-source? Yes. The plan is to export app and flows, document ev
 
 ## a simple PowerApp 
 
+![Home screen of Teams Advisor App](https://github.com/LuiseFreese/blog/blob/main/media/TA-home.png "Purpose of this app is guide users through the art of teamwork and proviosion the team of their dreams for them")
+
 Our Canvas App should be a simple interface to provide knowledge and get user's input, which is why we will have info-screens, which will display knowledge around a certain topic, like "What are channels" and process-screens, which will ask users with a form, what they want, like private or standard channels and which apps and sites and files should already be pinned to these channels. 
+
+As this is a longer process we also want
+
+* to guide users so that they know at which point of the app they are right now
+* them to be able to go back and forth between screens and edit what they already put in
+* show them a log which input they already gave
+
+This makes sure that users stay motivated to proceed in the app. 
+
+![first steps of TeamsAdvisor App](https://github.com/LuiseFreese/blog/blob/main/media/TA-decision.gif "Guiding users through knowledge and decisions when it comes to create the teams of their dreams")
