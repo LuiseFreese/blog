@@ -45,9 +45,16 @@ Do you know where you know this principle from? That's right, from every agile a
 
 Digitalization needs to be the accelerator on that, but can never be the main driver. We need a new approach to think about work in general.
 
+
+* one step to achieve transformation, accelerated by digitalization could be M365
+* just rolling out M365 won't solve our Vuca problems
+* we need to see the bigger picture to figure out with which part M365 can help
+* if we face oldworld problems, we won't solve them with assigning licenses to users
+
+
 ## approach to solve the issue:
 
-Before we can change it, we first need to understand it and get the bigger picture of the situation we are facing. A good tool to facilitate deeper thinking is the iceberg model. 
+Before we can change how we do an M 365 project to solve our oldworld problems it, we first need to understand old and desired new ways of working and get the bigger picture of the situation we are facing. A good tool to facilitate deeper thinking is the iceberg model. 
 
 ### whats is the iceberg model
 
@@ -76,6 +83,7 @@ Finally, we will investigate, *what values, beliefs or assumptions shape the sys
 Let's have a look on how this works in the "old world" 
 
 short intro old world
+not productive, incompliant working behavior... 
 
 ### iceberg of the old world
 
@@ -107,12 +115,25 @@ unknown art of collaboration
 
 ### iceberg of the desired new world
 
-* level 1
-* level 2
-* level 3
+* scratching the surface
+* only working on symptons, not on the root of the cause
+* confusing cause and effect
+* what did we want to achieve in the first place
+
 * level 4
+* level 3
+* level 2
+* level 1
+
 
 ### what would we need to change? 
 
+What needs to happen? What needs to be done/achieved on level 4 so that visible behavior in level 1 is desired new behavior?
 
-change?
+* collective consciousness, not individual responsibility
+* corporate culture, if we not only commit to our values but also live and breath and work by them
+* walk the talk
+
+
+
+
