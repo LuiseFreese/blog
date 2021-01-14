@@ -86,7 +86,7 @@ short intro old world
 not productive, incompliant working behavior... 
 
 ### iceberg of the old world
-
+Luise: 
 * level 1: events - what just happened: 
 
 People can't focus, experience both a lack of efficiency AND effectiveness, waste their times with tasks they shouldn't do at all and are rather busy than productive
@@ -115,11 +115,14 @@ unknown art of collaboration
 
 ### iceberg of the desired new world
 
+Michael: 
 * scratching the surface
 * only working on symptons, not on the root of the cause
 * confusing cause and effect
 * what did we want to achieve in the first place
 
+
+Luise: 
 * level 4
 * level 3
 * level 2
@@ -128,6 +131,8 @@ unknown art of collaboration
 
 ### what would we need to change? 
 
+
+Luise & Michael
 What needs to happen? What needs to be done/achieved on level 4 so that visible behavior in level 1 is desired new behavior?
 
 * collective consciousness, not individual responsibility
@@ -135,5 +140,5 @@ What needs to happen? What needs to be done/achieved on level 4 so that visible 
 * walk the talk
 
 
-
-
+Luise & Michael
+## conclusion
