@@ -115,11 +115,11 @@ unknown art of collaboration
 
 ### iceberg of the desired new world
 
-Michael: 
-* scratching the surface
-* only working on symptons, not on the root of the cause
-* confusing cause and effect
-* what did we want to achieve in the first place
+You see what happens here, right? When we approach a modern workstyle mindset as we usually do, we barely go to the root of the problem at all. We're barely scratching the surface of it. And that is all fair and square but we also know that when we're fixing the symptons of the problem, our solutions won't sustain. 
+Because in the end, where confusing cause and effect. If we only focus on the cause and just trying to fix the symptoms, we barely fix the underlying issue at all. We need to work on the cause, to end up with a different effect in the end. 
+Think about it, what we really want to achieve in the first place, is a sustainable change of habits towards a better work environment and a healthy mindset. 
+
+To give you a little guidance, here is a quick walkthrough of the iceberg model of the desired new world:
 
 
 Luise: 
