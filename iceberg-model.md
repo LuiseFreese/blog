@@ -56,26 +56,28 @@ Before we can change how we do an M 365 project to solve our oldworld problems i
 
 ![iceberg model of visible events and unvisble patterns, systems and mental models](https://github.com/LuiseFreese/blog/blob/main/media/iceberg.jpg "The iceberg model - a tool to get the bigger picture")
 
-We will 
+As we know, that an iceberg shows only its tip above the water and that most of it is hidden underneath it, it works as a good metaphor for things that are not visible obviously to us. The iceberg model introduces us to 4 different stages, which we will uncover now: 
+
+
 * Events:
 
 Very visbibly, we will find events. An event is the answer to the question *What is happening right now?*
-On this level, people only *react* on what just happened and then stop to think about it. 
+On this level, people only *react* on what just happened and then stop to think about it. For example: "I caught a cold."
 
 * Patterns:
 
 Already underneath the surface, we will find patterns: *What has been happening over time? What are the trends?* 
-On this level, people think about what led to the visible event and try to connect the dots.
+On this level, people think about what led to the visible event and try to connect the dots, for example: "I caught a cold more often in the past when I slept less".
  
 * Structures:
 
 Digging one level deeper, we will see which system supports and influences these patterns: *What's influencing these patterns?
 Where are the connections between patterns?* 
-On this level, people think about what influences these patterns and try to understand the *Why*. 
+On this level, people think about what influences these patterns and try to understand the *Why*, for example: "Working crazy hours, worrying about problems at work and eating late night affected my quality of sleep". 
 
 * Mental models:
 
-Finally, we will investigate, *what values, beliefs or assumptions shape the system and keep it in place?* People now dig into which thinking generated the structures that are in place. 
+Finally, we will investigate, *what values, beliefs or assumptions shape the system and keep it in place?* People now dig into which thinking generated the structures that are in place, for example: "Our belief of "work is the most important thing, even more important than health and the more I do the more valuable I am" led to my behavior (which seemed to be normal, because everyone did that) which resulted in physical manifestation of unhealthy work ethics that showed as catching colds easily"
 
 Let's have a look on how this works in the "old world" 
 
@@ -94,7 +96,7 @@ People abuse tools, work around disfunctional processes, communication patterns 
 
 * level 3: structure- what is influencing these patterns? 
 
-Typical organizations look like a pyramide, with a  few decision-makers at the top (leadership) and the rest of the workforce at the bottom, which is a result from the approach to design companies like military institutions with a defined chain of command and with compartmentalized structures. This led to divisions, which don't communicate well and are now rather information silos. The given structure leads to processes, that make sure that this structure stays as it is - which conflicts directly with the need to convert from Privacy to Transparency, from Planning to Experimentation and from Controlling to Empowering. But segmentation of organization is not only an issue across departments (horizontically), but also in in hierarchy (vertically), which leads us to another iceberg, that is responsible for a lack of understanding of problems of workforce by leadership: 
+Typical organizations look like a pyramide, with a  few decision-makers at the top (leadership) and the rest of the workforce at the bottom, which is a result from the approach to design companies like military institutions with a defined chain of command and with compartmentalized structures. This led to departments, which don't communicate well and are now rather information silos. The given structure leads to processes, that make sure that this structure stays as it is - which conflicts directly with the need to convert from privacy to transparency, from planning to experimentation and from controlling to empowering. But segmentation of organization is not only an issue across departments (horizontically), but also in in hierarchy (vertically), which leads us to another iceberg, that is responsible for a lack of understanding of problems of workforce by leadership: 
 
 ![iceberg of ignorance](https://github.com/LuiseFreese/blog/blob/main/media/icebergignorance.jpg)
 
@@ -104,16 +106,15 @@ Leadership, who doesn't understand issues and a workforce, that can not regularl
  
 * level 4
 
-Let's have a look which collective believes in our culture (which is then only reflected in corporate cultures and way to often reduced to "individual mindset": What do we people believe in, that they design organizations like this? Of course, redesigning takes a huge amount of energy (and money) and surely it is easier to keep the status quo than to change. But why is this status quo, this broken system tsill om place? Because we (or at least enough of us in key posistions) believe in "knowledge is power" instead of "Sharing is Caring". The "command and control" approach looks as if it also provides security and predictibility, and although we already know better, we stick to this ego system instead of an eco system. 
+Let's have a look which collective believes in our culture (which is then only reflected in corporate cultures and way to often reduced to "individual mindset": What do we people believe in, that they design organizations like this? Of course, redesigning takes a huge amount of energy (and money) and surely it is easier to keep the status quo than to change. But why is this status quo, this broken system tsill om place? Because we (or at least enough of us in key posistions) believe in "knowledge is power" instead of "Sharing is Caring". The "command and control" approach looks as if it also provides security and predictibility, and although we already know better, we stick to this *ego system* instead of an *eco system*. 
 
 What can we now do about it? Make people aware of the broken system that doesn't meet our needs anymore and that forces people into workarounds, unhealthy work ethics and poor connection to their organization. Stop trying to fix users when we need to fix this system. 
 
-
 ### iceberg of the desired new world
 
+
 You see what happens here, right? When we approach a modern workstyle mindset as we usually do, we barely go to the root of the problem at all. We're barely scratching the surface of it. And that is all fair and square but we also know that when we're fixing the symptons of the problem, our solutions won't sustain. 
-Because in the end, we are confusing cause and effect. If we only focus on the cause and just try to fix the symptoms, we barely fix the underlying issue at all. We need to work on the cause, to end up with a different effect in the end. 
-Think about it, what we really want to achieve in the first place, is a sustainable change of habits towards a better work environment and a healthy mindset. 
+Because in the end, we are confusing cause and effect. If we only focus on the cause and just try to fix the symptoms, we barely fix the underlying issue at all. We need to work on the cause, to end up with a different effect in the end. What we really want to achieve in the first place, is a sustainable change of habits towards a better work environment and a healthy mindset. If we want to change people's behavior, which we see in level 1, we will need to change our core beliefs and mental models of level 4. 
 
 To give you a little guidance, here is a quick walkthrough of the iceberg model of the desired new world:
 
