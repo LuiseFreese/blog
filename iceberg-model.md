@@ -1,4 +1,4 @@
-# Look behind the scenes of challenges in adoption of Microsoft
+# Why Microsoft 365 adoption projects fail
 
 ## intro about the challenge: 
 
@@ -45,11 +45,7 @@ Do you know where you know this principle from? That's right, from every agile a
 
 Digitalization needs to be the accelerator on that, but can never be the main driver. We need a new approach to think about work in general.
 
-
-* one step to achieve transformation, accelerated by digitalization could be M365
-* just rolling out M365 won't solve our Vuca problems
-* we need to see the bigger picture to figure out with which part M365 can help
-* if we face oldworld problems, we won't solve them with assigning licenses to users
+Microsoft 365 can be one step to achieve transformation, but is not a goal by itself. Just rolling out Microsoft 365 (or a subset of its tools and services) won't solve our Vuca problems. We need to see the bigger picture to figure out with which part of it Microsoft 365 can help, because we won't solve any problem with assigning licenses to users. 
 
 
 ## approach to solve the issue:
