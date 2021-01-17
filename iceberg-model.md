@@ -105,16 +105,15 @@ Leadership, who doesn't understand issues and a workforce, that can not regularl
  
 * level 4
 
-Let's have a look which collective believes in our culture (which is then only reflected in corporate cultures and way to often reduced to "individual mindset"
-   * knowledge is power mentality
-   * ego system>eco system
-   * command and control
+Let's have a look which collective believes in our culture (which is then only reflected in corporate cultures and way to often reduced to "individual mindset": What do we people believe in, that they design organizations like this? Of course, redesigning takes a huge amount of energy (and money) and surely it is easier to keep the status quo than to change. But why is this status quo, this broken system tsill om place? Because we (or at least enough of us in key posistions) believe in "knowledge is power" instead of "Sharing is Caring". The "command and control" approach looks as if it also provides security and predictibility, and although we already know better, we stick to this ego system instead of an eco system. 
+
+What can we now do about it? Make people aware of the broken system that doesn't meet our needs anymore and that forces people into workarounds, unhealthy work ethics and poor connection to their organization. Stop trying to fix users when we need to fix this system. 
 
 
 ### iceberg of the desired new world
 
 You see what happens here, right? When we approach a modern workstyle mindset as we usually do, we barely go to the root of the problem at all. We're barely scratching the surface of it. And that is all fair and square but we also know that when we're fixing the symptons of the problem, our solutions won't sustain. 
-Because in the end, where confusing cause and effect. If we only focus on the cause and just trying to fix the symptoms, we barely fix the underlying issue at all. We need to work on the cause, to end up with a different effect in the end. 
+Because in the end, we are confusing cause and effect. If we only focus on the cause and just try to fix the symptoms, we barely fix the underlying issue at all. We need to work on the cause, to end up with a different effect in the end. 
 Think about it, what we really want to achieve in the first place, is a sustainable change of habits towards a better work environment and a healthy mindset. 
 
 To give you a little guidance, here is a quick walkthrough of the iceberg model of the desired new world:
