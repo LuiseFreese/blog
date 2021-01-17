@@ -56,6 +56,7 @@ Before we can change how we do an M 365 project to solve our oldworld problems i
 
 ![iceberg model of visible events and unvisble patterns, systems and mental models](https://github.com/LuiseFreese/blog/blob/main/media/iceberg.jpg "The iceberg model - a tool to get the bigger picture")
 
+We will 
 * Events:
 
 Very visbibly, we will find events. An event is the answer to the question *What is happening right now?*
@@ -96,6 +97,8 @@ People abuse tools, work around disfunctional processes, communication patterns 
 Typical organizations look like a pyramide, with a  few decision-makers at the top (leadership) and the rest of the workforce at the bottom, which is a result from the approach to design companies like military institutions with a defined chain of command and with compartmentalized structures. This led to divisions, which don't communicate well and are now rather information silos. The given structure leads to processes, that make sure that this structure stays as it is - which conflicts directly with the need to convert from Privacy to Transparency, from Planning to Experimentation and from Controlling to Empowering. But segmentation of organization is not only an issue across departments (horizontically), but also in in hierarchy (vertically), which leads us to another iceberg, that is responsible for a lack of understanding of problems of workforce by leadership: 
 
 ![iceberg of ignorance](https://github.com/LuiseFreese/blog/blob/main/media/icebergignorance.jpg)
+
+[source](https://corporate-rebels.com/iceberg-of-ignorance/)
 
 Leadership, who doesn't understand issues and a workforce, that can not regularly connect to their leadership team lead to processes which do not reflect the work that needs to be done, structures that cement the status quo and decisions about tools and working methods that serve old principles privacy, planning and controlling. 
  
