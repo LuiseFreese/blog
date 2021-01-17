@@ -1,4 +1,4 @@
-# The iceberg model and modern working principles in Microsoft 365
+# Look behind the scenes of challenges in adoption of Microsoft
 
 ## intro about the challenge: 
 
@@ -86,28 +86,26 @@ short intro old world
 not productive, incompliant working behavior... 
 
 ### iceberg of the old world
-Luise: 
+
 * level 1: events - what just happened: 
 
-People can't focus, experience both a lack of efficiency AND effectiveness, waste their times with tasks they shouldn't do at all and are rather busy than productive
+People can't focus, experience both a lack of efficiency AND effectiveness, waste their times with tasks they shouldn't do at all and are rather busy than productive.
 
 * level 2: patterns - what was happening over time? 
 
-People abuse tools, work around disfunctional and organizational structures. They are not familiar with the art of collaboration
-information hiding
-task switching
-unknown art of collaboration
+People abuse tools, work around disfunctional processes, communication patterns and organizational structures. They are not familiar with the art of collaboration, feel to be under pressure to be always available and react on everythintg instantaneously. High frequency of task-switching while working rather next to each other than together is challenging and exhausting. 
 
 * level 3: structure- what is influencing these patterns? 
 
-  * information silos
-  * tools that support working next to each other instead of collaboration
-  * lethargy to change / "we've always done it like this before"
-  * simple or complicated problems to solve
-  * hierarchy
+Typical organizations look like a pyramide, with a  few decision-makers at the top (leadership) and the rest of the workforce at the bottom, which is a result from the approach to design companies like military institutions with a defined chain of command and with compartmentalized structures. This led to divisions, which don't communicate well and are now rather information silos. The given structure leads to processes, that make sure that this structure stays as it is - which conflicts directly with the need to convert from Privacy to Transparency, from Planning to Experimentation and from Controlling to Empowering. But segmentation of organization is not only an issue across departments (horizontically), but also in in hierarchy (vertically), which leads us to another iceberg, that is responsible for a lack of understanding of problems of workforce by leadership: 
 
+![iceberg of ignorance](https://github.com/LuiseFreese/blog/blob/main/media/icebergignorance.jpg)
+
+Leadership, who doesn't understand issues and a workforce, that can not regularly connect to their leadership team lead to processes which do not reflect the work that needs to be done, structures that cement the status quo and decisions about tools and working methods that serve old principles privacy, planning and controlling. 
+ 
 * level 4
 
+Let's have a look which collective believes in our culture (which is then only reflected in corporate cultures and way to often reduced to "individual mindset"
    * knowledge is power mentality
    * ego system>eco system
    * command and control
