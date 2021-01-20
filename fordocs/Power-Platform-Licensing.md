@@ -1,4 +1,4 @@
-ok then. 
+# Power Platform Licensing
 
 ## Overview
 
