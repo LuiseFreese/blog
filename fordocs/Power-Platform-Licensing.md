@@ -35,6 +35,25 @@ Dataverse (previously known as Common Data Services / CDS) is one of the Premium
 
 The required license resulted in a barrier when it came to empowering users to make good decisions where data should sit in their apps. They abused SharePoint lists and even Excel tables as backends for data, which wouldn't be the best choice to do [short paragraph or link why Excel and SP are not always the best choice]. As Microsoft Teams works as platform for millions of users and Microsoft wanted to give everyone the power create apps as part of that platform, they made an exception to Dataverse: If you want to use Dataverse for you your apps you build inside of Teams, you won't need a Power Apps Standalone license anymore. The license is then called "Dataverse for Teams" and is a seeded license in Microsoft 365, which means that you do not need to pay extra for that. 
 
+## Guidance
+
+Of course we do not want to encourage anyone to work around purchasing licenses, but to make best use of your seeded license, we advise you to 
+
+
+### Do your Apps/flows in Teams wherever possible to be able to use Dataverse with no additional cost
+
+If you need Dataverse, let your Power Automate flows and Power Apps live in Microsoft Teams, because this way you can use the power of Dataverse as Dataverse for Teams which means that the license is included in your Microsoft 365 license. You should pick Dataverse for Teams over other other premium connectors, especially in enterprise-scale applications, because it is the preferred way to store your data, see also [Considerations for optimized performance in Power Apps] https://powerapps.microsoft.com/de-de/blog/considerations-for-optimized-performance-in-power-apps/). When you are very experienced in Microsoft 365, you will probably consider to store data in SharePoint lists, also as SharePoint is a standadrd connector, which means that you don't need a Power Apps Standalone license, but Dataverse has more capability, is faster and doesn't have issues like "only 12 complex columns in one view", 5000 items threshold and more. 
+
+### To learn Power Platform, use the Community Plan
+
+There is a [free Community Plan to learn Power Platform](https://powerapps.microsoft.com/en-us/communityplan/). You are not allowed to use it in production, but can try out things and have access to all premium connectors. You can use this free community plan also in a free [Microsoft 365 developer tenant](https://developer.microsoft.com/en-us/microsoft-365/dev-program). 
+
+### Think Governance early with COE
+
+### Prepare for change
+The license docs are updated often (lately its been monthly) Take time to review changes as often as you can to catch those not heavily publicized.
+Think of your scale and what that is worth to you or your organization.
+
 
 
 
