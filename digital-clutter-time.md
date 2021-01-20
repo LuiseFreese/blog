@@ -5,3 +5,9 @@ Do you sometimes have that feeling of being busy and under pressure for the whol
 ## focus time & collaboration
 
 As we know, that collaboration is very important, that we are better together in achieving goals and that teamwork is our reality, it seems as if we forget, that there are not only teamwork-oriented periods but that we also the need focus time, to prepare, process, and evaluate content as well as leverage ideas. How often are our days full of back-to-back meetings, how often do meetings overlap 
+
+
+awareness consciuosness, that meetings are valuable
+dont do meetings for the sake
+cost of meetings
+rule of two feet
