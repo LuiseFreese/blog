@@ -25,7 +25,21 @@ Once you can answer these questions, in best case even jot down your answers, yo
 
 ### If you zone out, leave
 
-Heard your colleagues saying: "I will mute myself because I need to work on something aside, but I still listen with one ear"? Please ask them to leave in these cases. MUltitasking is an illusion and if some participants can#t fully commit to contribute it's rather a waste of time than adding value in a meaningful way. 
+Heard your colleagues saying: "I will mute myself because I need to work on something aside, but I still listen with one ear"? Please ask them to leave in these cases. Multitasking is an illusion and if some participants can't fully commit to contribute it's rather a waste of time than adding value in a meaningful way. 
+
+Sometimes, people zone out not on purpose, it just happens. This is a coping mechanism to deal with information overload. Meetings all day long, all week without time for ourselves result in our minds going elsewhere, which again means that we joined a meeting, but are not present in the moment. 
+
+### Throwing Tech solutions on people problems
+
+Working in tech and loving all things Microsoft 365, it would be easy to search for technical solutions to solve these issues. And of course, there are some features that assist us to maintain a healthy work behavior: 
+
+* notification in Microsoft Teams, that the meeting will end in 5 minutes, to make everyone aware, to not go over time
+
+* setting in Outlook to end meetings a couple of minutes earlier by default so that you at least have time to grab a coffee. 
+
+But as much as I appreciate a hot coffee, these 5 minutes in between are more covering the problem that we don't take time to reflect and force every colleague to come up with a workaround how to solve that instead of working on an organization-wide healthy strategy how to avoid mental overload and aim for a corporate culture in which having focus time is as important as collaboration time. 
+
+
 
 
 
