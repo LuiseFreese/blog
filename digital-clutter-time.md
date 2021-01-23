@@ -42,14 +42,30 @@ Once you can answer these questions, even jot down your answers, you can more ea
 
 ## structure your work
 
-The best life advice I ever became, was from the steward* ess in any plane: "Put your own oxygen mask before you help others." This means for my work: 
+The best life advice I ever became, was from the steward* ess in any plane: "Put your own oxygen mask before you help others."  Some suggestions: 
 
-* No back to back meetings, I schedule half an hour upfront and after a meeting to prepare/postprocess to reflect and note down which impact the content of the meeting ahs on my work and about which implications I need to think
-* Beyond that, I schedule focus time. I use [Cortana](https://calendar.help] for that and I never postpone my focus time to fit in a meeting. 
-* I don't read or process my emails as the first thing I do in the morning, but I reserved a slot for processing my mails. To enjoy my inbox zero, [I follow this process]( https://github.com/LuiseFreese/blog/blob/main/how-to-stay-organized-with%20your-emails-like-rockstar.md)
+* No back to back meetings, schedule half an hour upfront and after a meeting to prepare/postprocess to reflect and note down which impact the content of the meeting has on your work and about which implications you need to think
+* Beyond that, schedule focus time. I use [Cortana](https://calendar.help] for that and I never postpone my focus time to fit in a meeting. 
+* Don't read or process your emails as the first thing you do in the morning, but I reserved a slot for processing my mails. To enjoy my inbox zero, [I follow this process](https://m365princess.com/how-to-stay-organized-with-your-emails-in-outlook-like-a-rockstar/)
 * schedule your breaks. This is even more important when working from home. 
 
 If we first schedule breaks, processing time and focus time to actually get work done, and then see, if meetings fit in our calendar as well, we will establish more healthy working habits as if we want to be everywhere and block ourselves because we can't get anything done anymore. My post on [how to avoid overcommitting](https://m365princess.com/how-to-avoid-overcommitting/) relates to this. 
+
+## What does this mean in the context of this series to digital declutter? 
+
+Conscious decisions on how to spend our time will improve our focus and minimize distractions. It's of course not the goal to exclude ourselves from collaboration or all meetings, but once meetings and a fragmented calendar eat up our time, we will need to find balance and ways to protect our productivity. Awareness of our goals and of which commitments will work towards them can help us to select those meetings which are important to us in the context of a shared vision with our coworkers and teammembers. 
+
+### How to start and what's next
+
+* Start to elaborate on your personal goals and the goals of your team
+* work out, which committments work towards these goals
+* go over your calendar and get rid of jour fixes and similar events, that don't support these goals
+* eliminate as well meetings that are usually poorly prepared , lack of an agenda or tend to go over time
+
+
+
+
+
 
 
 
