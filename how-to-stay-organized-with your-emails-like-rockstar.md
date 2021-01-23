@@ -38,24 +38,24 @@ Create a new QuickStep: Manage QuickSteps → New → Custom
 
 name: DO TODAY
 
-action: Move to folder TO DO
-action: Mark as unread
-action: Flag message: Today
-If you want to, you can choose an icon for that QuickStep and a shortcut as well.
+* action: Move to folder TO DO
+* action: Mark as unread
+* action: Flag message: Today
+* If you want to, you can choose an icon for that QuickStep and a shortcut as well.
 
 
 Now, we will have to duplicate this QuickStep for
 
-DO TOMORROW
-DO THIS WEEK
-DO NEXT WEEK
+* DO TOMORROW
+* DO THIS WEEK
+* DO NEXT WEEK
 lets go!
 
 Manage QuickSteps
 duplicate
-rename COPY OF DO TODAY in DO TOMORROW
-dont forget to flag message for tommorow
-repeat steps 1–4 for DO THIS WEEK and DO NEXT WEEK
+* rename COPY OF DO TODAY in DO TOMORROW
+* dont forget to flag message for tommorow
+* repeat steps 1–4 for DO THIS WEEK and DO NEXT WEEK
 
 We will need another QuickSteps for mails I only have to read and no action is required.
 
@@ -63,9 +63,9 @@ QuickSteps → New → Custom
 
 Name it READ
 
-action: Move to folder: Read Me
-action: Mark as unread
-no flag (!)
+* action: Move to folder: Read Me
+* action: Mark as unread
+* no flag (!)
 
 Our last QuickStep “COMPLETED” was prepared by Microsoft (thanks!) so we only have to customize it a little bit:
 
@@ -85,11 +85,11 @@ Click in searchbar → a new Tab SEARCH is visible (!)
 
 Click on MORE and select the following properties:
 
-From
-Subject
-Categories
-Attachment contains
-To
+* From
+* Subject
+* Categories
+* Attachment contains
+* To
 Bam! We pimped your search bar! You now may filter your stuff like data in Excel 🙂
 
 
@@ -98,7 +98,7 @@ Email is meant for targeted information and its asynchronous communication, whic
 
 ### Label Your Mails
 Starting in the morning you will see a huge amount of new mails waiting for you to respond, take action, call back etc. We have to qualify those mails using two steps:
-step: categorize your mail. Your category is the answer on the question WHAT do I have to do?
+categorize your mail. Your category is the answer on the question WHAT do I have to do?
 press on one QuickStep. Your QuickStep is the answer on the Question till WHEN do I have to complete this?
 Repeat this with every new mail. After that, your inbox is empty. YEAH!
 Stay focused
@@ -130,6 +130,6 @@ Old Emails in Inbox
 
 ### To get rid of old mails which do not contain helpful information for you, we may use these tricks:
 
-arrange mails by type, then collapse all groups so you can delete old Meeting Acceptance, Mailbox is full quota and Out-Of-Office- Notifications very fast
-arrange mails by FROM or by SUBJECT to get a better overview
-make use of Clean up Folder, which moves only redundant (!) items to Deleted Items
+* arrange mails by type, then collapse all groups so you can delete old Meeting Acceptance, Mailbox is full quota and Out-Of-Office- Notifications very fast
+* sort mails by FROM or by SUBJECT to get a better overview
+* make use of Clean up Folder, which moves only redundant (!) items to Deleted Items
