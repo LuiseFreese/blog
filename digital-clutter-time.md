@@ -64,7 +64,7 @@ Conscious decisions on how to spend our time will improve our focus and minimize
 * go over your calendar and get rid of jour fixes and similar events, that don't support these goals
 * eliminate as well meetings that are usually poorly prepared , lack of an agenda or tend to go over time
 
-What are your strategies to feel connected and get work done? 
+What are your strategies to feel connected and get work done? How do you plan your days, weeks, months? Or do you more have that feeling, that other plan work for you? How do you perceive that in terms of sovereignty and being in control and charge? Curious to learn what you think, please let me know. 
 
 
 
