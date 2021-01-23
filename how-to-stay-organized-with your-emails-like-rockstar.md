@@ -4,7 +4,7 @@ I Have A Dream
 * weekly overview of all I have to do
 * group my tasks by topic or project so I can bundle up similar tasks
 * find my stuff in no time
-* ninbox zero (yes, the HOLY GRAIL :-))
+* inbox zero (yes, the HOLY GRAIL :-))
 ## Preparations
 To manage our mails in Outlook we have to do a few preparations:
 
