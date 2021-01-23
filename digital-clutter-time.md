@@ -10,7 +10,7 @@ Collaboration is critical; we are better together in achieving goals, and teamwo
 
 But why do we attend all these meetings without taking the time to capture and condense the insights, process information, and reevaluate decisions? How intense is our commitment towards these meetings' goals if they only consume our time, but we don't make time to reflect on them? How do we decide if we should be part of a meeting? Because we've been invited to it? Because a particular process requires the attendance of the role that I incorporate? Because we noticed a lack of information flow and want to talk with a group of people synchronously? I like to apply the 'rule of two feet' from the Barcamp approach: If I can't learn nor contribute in a meaningful way, I will leave (or not even accept the invite) respectfully - and no one feels upset. Why? Because my presence is not required in all meetings and a good summary sometimes is more valuable than trying to squeeze in another meeting. 
 
-These days, it sometimes feels as I was talking 8 hours straight into my webcam, which is energy-draining not only because I miss meeting people in reality but also because quickly switching contexts and needing to focus on the next bunch of people then entirely is exhausting. No time to take a moment and work through what happened in a meeting makes many meetings pointless. Good meetings add value to our work, and we can add value to other's work. And: in good discussions, every attendee is present. 
+These days, it sometimes feels as I was talking 8 hours straight into my webcam, which is energy-draining not only because I miss meeting people in reality but also because quickly switching contexts and needing to focus on the next bunch of people is exhausting. No time to take a moment and work through what happened in a meeting makes many meetings pointless. Good meetings add value to our work, and we can add value to other's work. And: in good discussions, every attendee is present. 
 
 ### If you zone out, leave
 
@@ -44,10 +44,10 @@ Once you can answer these questions, even jot down your answers, you can more ea
 
 ## structure your work
 
-The best life advice I ever became, was from the steward* ess in any plane: "Put your own oxygen mask before you help others."  Some suggestions: 
+The best life advice I ever became, was from the flight attendant in any plane: "Put your own oxygen mask before you help others."  Some suggestions: 
 
 * No back to back meetings, schedule half an hour upfront and after a meeting to prepare/postprocess to reflect and note down which impact the content of the meeting has on your work and about which implications you need to think
-* Beyond that, schedule focus time. I use [Cortana](https://calendar.help] for that and I never postpone my focus time to squeeze in a another meeting. 
+* Beyond that, schedule focus time. I use [Cortana](https://calendar.help) for that and I never postpone my focus time to squeeze in a another meeting. 
 * Don't read or process your emails as the first thing you do in the morning, but reserve a slot for processing mails. To enjoy my inbox zero, [I follow this process](https://m365princess.com/how-to-stay-organized-with-your-emails-in-outlook-like-a-rockstar/)
 * schedule your breaks. This is even more important when working from home. 
 
