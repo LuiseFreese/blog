@@ -2,6 +2,8 @@
 
 Do you sometimes have that feeling of being busy and under pressure for the whole day (or even the entire week) and still couldn't check off all tasks from your list? Do you have the presentiment that although we all focus on productivity, efficiency, and getting the most out of everything, we still scratch the surface and even get in our way with how we structure our workdays? Well, welcome to the club; you are not alone.
 
+This is the 3rd part of my series about digital declutter - you can catch up with [Part 1 Digital clutter is evil](https://github.com/LuiseFreese/blog/blob/main/digital-clutter-is-evil.md) and [Part 2 digital clutter and your 168 open tabs](https://github.com/LuiseFreese/blog/blob/main/digital%20declutter-tabs.md) before you continue reading. 
+
 ## focus time & meetings
 
 Collaboration is critical; we are better together in achieving goals, and teamwork is our reality. But sometimes, it seems as if we forget that there are not only teamwork-oriented periods but that we also need focus-time to prepare, process, and evaluate content as well as leverage ideas. How often are our days full of back-to-back meetings, how often do sessions overlap? How often do we feel that we do not even have enough time to eat, go to the restroom, get a fresh coffee? Not to mention taking a break or get some fresh air? I know, we are all swamped, our days are all tightly timed, even lunchtime needs to be productive.
@@ -22,7 +24,7 @@ Working in tech and loving all things Microsoft 365 would be easy to search for 
 
 * notification in Microsoft Teams that the meeting will end in 5 minutes, to make everyone aware, to not go over time
 
-* setting in Outlook to end meetings a couple of minutes earlier by default so that you at least have time to grab a coffee. 
+* setting in Outlook to end meetings a couple of minutes earlier by default so that we at least have time to grab a coffee. 
 
 ### the real issue
 But as much as I appreciate a hot coffee, these 5 minutes in between are more cover the problem that we don't take time to reflect on and force every colleague to come up with a workaround how to solve that instead of working on an organization-wide healthy strategy how to avoid mental overload and aim for a corporate culture in which having focus time is as important as collaboration time.
@@ -45,8 +47,8 @@ Once you can answer these questions, even jot down your answers, you can more ea
 The best life advice I ever became, was from the steward* ess in any plane: "Put your own oxygen mask before you help others."  Some suggestions: 
 
 * No back to back meetings, schedule half an hour upfront and after a meeting to prepare/postprocess to reflect and note down which impact the content of the meeting has on your work and about which implications you need to think
-* Beyond that, schedule focus time. I use [Cortana](https://calendar.help] for that and I never postpone my focus time to fit in a meeting. 
-* Don't read or process your emails as the first thing you do in the morning, but I reserved a slot for processing my mails. To enjoy my inbox zero, [I follow this process](https://m365princess.com/how-to-stay-organized-with-your-emails-in-outlook-like-a-rockstar/)
+* Beyond that, schedule focus time. I use [Cortana](https://calendar.help] for that and I never postpone my focus time to squeeze in a another meeting. 
+* Don't read or process your emails as the first thing you do in the morning, but reserve a slot for processing mails. To enjoy my inbox zero, [I follow this process](https://m365princess.com/how-to-stay-organized-with-your-emails-in-outlook-like-a-rockstar/)
 * schedule your breaks. This is even more important when working from home. 
 
 If we first schedule breaks, processing time and focus time to actually get work done, and then see, if meetings fit in our calendar as well, we will establish more healthy working habits as if we want to be everywhere and block ourselves because we can't get anything done anymore. My post on [how to avoid overcommitting](https://m365princess.com/how-to-avoid-overcommitting/) relates to this. 
@@ -61,6 +63,8 @@ Conscious decisions on how to spend our time will improve our focus and minimize
 * work out, which committments work towards these goals
 * go over your calendar and get rid of jour fixes and similar events, that don't support these goals
 * eliminate as well meetings that are usually poorly prepared , lack of an agenda or tend to go over time
+
+What are your strategies to feel connected and get work done? 
 
 
 
