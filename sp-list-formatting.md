@@ -98,7 +98,15 @@ we can now look at a list like that:
 * paste the code
 * click `Save`
 
+Thats it! 
 
-### how to tweak samples
+We will find [view samples](https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples) in the same GitHub repository. 
 
-## awesome list experience
+## Want to learn more? 
+
+you can find helpful resources to learn more here: 
+
+[aka.ms/m365pnp](https://aka.ms/m365pnp]
+[Microsoft 365 PnP Community on TechCommunity](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/)
+[Microsoft 365 PnP List formatting repository on GitHub](https://github.com/pnp/sp-dev-list-formatting)
+
