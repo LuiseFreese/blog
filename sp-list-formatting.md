@@ -67,16 +67,13 @@ Sometimes, even if those option are already cool, we need some more flexibility.
 
 There is a way to format both columns and views beyond what is already offered as seen above. Perhaps you might have noticed the little link `Advanced mode`? This is where we will find the cool tools to play with! 
 
-This field expects you to put some JSON code in it in order to format this column. If you never heard about JSON, then the next paragraph is made for you. 
+<img src="https://github.com/LuiseFreese/blog/blob/main/media/advanced-mode.png" width="250">
 
-### what is JSON
-
-link April
-link Bob
+This field expects you to put some JSON code in it in order to format this column. If you never heard about JSON, you can easily get started with [Intro to JSON](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/introduction-to-json/ba-p/2049369) by Bob German, [this video](https://www.youtube.com/watch?v=iiADhChRriM), or you can learn more at [w3schools](https://www.w3schools.com/js/js_json_intro.asp). 
 
 ## samples
 
-As I don't want to reinvent the wheel, we will browse to the Microsoft 365 PnP List formatting repository on GitHub and open the folder `column samples`. In here, we will find free-to-use samples to make our lists look awesome. 
+As we don't want to reinvent the wheel, we will browse to the [Microsoft 365 PnP List formatting repository on GitHub](https://github.com/pnp/sp-dev-list-formatting) and open the folder `column samples`. In here, we will find free-to-use samples to make our lists look awesome. 
 
 Instead of having a list like this: 
 
@@ -87,10 +84,21 @@ we can now look at a list like that:
 <img src="https://github.com/LuiseFreese/blog/blob/main/media/example%20list.png" width="600">
 
 
+### How can I apply a sample?
+
+* get familiar with the samples that are available on GitHub
+* check regularly for new ones / pin the repo
+* select the one that is interesting for you
+* read the readm.me file to know the requirements to your column. Some samples only work with choice, text or number columns
+* open the JSON file
+* copy the code to yoyr clipboard
+* go to your SharePoint list
+* go to column settings --> format this column
+* click on `Advanced mode`
+* paste the code
+* click `Save`
 
 
-
-
-## how to tweak samples
+### how to tweak samples
 
 ## awesome list experience
