@@ -61,12 +61,33 @@ Rules are a powerful feature to determine how a column should look like. Let's s
 
 ### how can I change the look and feel of a list with JSON
 
+Sometimes, even if those option are already cool, we need some more flexibility. 
+
+<img src="https://github.com/LuiseFreese/blog/blob/main/media/whatif.jpg" width="250">
+
+There is a way to format both columns and views beyond what is already offered as seen above. Perhaps you might have noticed the little link `Advanced mode`? This is where we will find the cool tools to play with! 
+
+This field expects you to put some JSON code in it in order to format this column. If you never heard about JSON, then the next paragraph is made for you. 
+
 ### what is JSON
 
 link April
 link Bob
 
 ## samples
+
+As I don't want to reinvent the wheel, we will browse to the Microsoft 365 PnP List formatting repository on GitHub and open the folder `column samples`. In here, we will find free-to-use samples to make our lists look awesome. 
+
+Instead of having a list like this: 
+
+<img src="https://github.com/LuiseFreese/blog/blob/main/media/example%20list-BEFORE.png" width="600">
+
+we can now look at a list like that: 
+
+<img src="https://github.com/LuiseFreese/blog/blob/main/media/example%20list.png" width="600">
+
+
+
 
 
 
