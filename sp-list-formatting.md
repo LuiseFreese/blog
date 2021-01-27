@@ -28,9 +28,24 @@ Lists can contain different columns, and columns have a certain column type, dep
 * give a grasp on what is going on
 * are mobile friendly
 
-Already built-in and with no need customize a column we will find 
+Already built-in and with no need customize a column we will find options to format columns, like this choice column: 
 
 ![create a column and format choices](https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-create.png)
+
+We can also display a gallery view
+
+![format as gallery](https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-formatgallery.png)
+
+and change format view:
+
+![format a column](https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-format.png)
+
+or format the columns:
+![format view](https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-formatcolumns.png)
+
+even with rules like if - then - else: 
+
+![create a rule](https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-formatrules.png)
 
 ### how can I apply conditional formatting aka rules
 
