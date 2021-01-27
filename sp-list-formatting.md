@@ -55,6 +55,10 @@ Formatting a view means modifying the way the entire list is displayed. Formatti
 
 ### how can I apply conditional formatting aka rules
 
+Rules are a powerful feature to determine how a column should look like. Let's say we want to apply a background color depending on a number value. If the number is below 30, the field should be red, between 30 and 70 it should yellow and above 70 it should be green. Lets see how this looks like: 
+
+![list formatting in action](https://github.com/LuiseFreese/blog/blob/main/media/list-formatting.gif)
+
 ### how can I change the look and feel of a list with JSON
 
 ### what is JSON
