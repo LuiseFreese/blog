@@ -28,22 +28,28 @@ Lists can contain different columns, and columns have a certain column type, dep
 * give a grasp on what is going on
 * are mobile friendly
 
-Already built-in and with no need customize a column we will find options to format columns, like this choice column: 
+Already built-in we will find options to format columns and views. 
+Formatting a view means modifying the way the entire list is displayed. Formatting a column means changing the way this column looks like. 
 
 ![create a column and format choices](https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-create.png)
 
-We can also display a gallery view
+#### Formatting Views
 
-![format as gallery](https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-formatgallery.png)
-
-and change format view:
+We can change the format view 
 
 ![format a column](https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-format.png)
 
-or format the columns:
+and also display a gallery view
+
+![format as gallery](https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-formatgallery.png)
+
+#### Formatting columns
+
+If we want to change the columns appearance, we can do that very enduser-friendly directly in the UI:
+
 ![format view](https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-formatcolumns.png)
 
-even with rules like if - then - else: 
+and even with rules like if - then - else: 
 
 ![create a rule](https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-formatrules.png)
 
