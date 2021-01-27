@@ -30,7 +30,7 @@ Lists can contain different columns, and columns have a certain column type, dep
 
 Already built-in and with no need customize a column we will find 
 
-
+![create a column and format choices](https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-create.png)
 
 ### how can I apply conditional formatting aka rules
 
