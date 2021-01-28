@@ -56,7 +56,12 @@ Within To Do we can find a very interesting feature called "My Day" in which you
 
 To protect my focus time, I use My Analytics: 
 
-![]()
+![focus plan](https://github.com/LuiseFreese/blog/blob/main/media/insights-focusplan2.png)
+![network plan](https://github.com/LuiseFreese/blog/blob/main/media/insights-networkplan.png)
+![collaboration plan](https://github.com/LuiseFreese/blog/blob/main/media/insights-collaborationplan.png)
+![network plan](https://github.com/LuiseFreese/blog/blob/main/media/insights-networkplan.png)
+![insights notice](https://github.com/LuiseFreese/blog/blob/main/media/insights-notice.png)
+![wellbeing plan](https://github.com/LuiseFreese/blog/blob/main/media/insights-wellbeingplan.png)
 
 I often say: "What isn't in my calendar, won't happen in my life!" I follow some very simple rules: 
 
