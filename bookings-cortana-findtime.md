@@ -76,6 +76,5 @@ Networking plan makes sure you don't stay in your filtierbubble only but expand 
 I often say: "What isn't in my calendar, won't happen in my life!" I follow some very simple rules: 
 
 
-bookings
-cortana
+
 findtime
