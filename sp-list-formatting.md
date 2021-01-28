@@ -64,7 +64,7 @@ Sometimes, even if those options are already cool, we need some more flexibility
 
 <img src="https://github.com/LuiseFreese/blog/blob/main/media/whatif.jpg" width="350">
 
-There is a way to format both columns and views beyond what is already offered, as seen above. Perhaps you might have noticed the little link `Advanced mode`? This is where we will find the cool tools to play with! 
+There is a way to format both columns and views beyond what is already offered, as seen above. Perhaps you might have noticed the little link **Advanced mode**? This is where we will find the cool tools to play with! 
 
 <img src="https://github.com/LuiseFreese/blog/blob/main/media/advanced-mode.png" width="350">
 
