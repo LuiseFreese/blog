@@ -51,6 +51,8 @@ Already built-in we will find options to format columns and views. Formatting a 
 
 <img src="https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-formatrules.png" width="250">
 
+
+
 ### how can I apply conditional formatting aka rules
 
 Rules are a powerful feature to determine how a column should look like. Let's say we want to apply a background color depending on a number value. If the number is below 30, the field should be red, between 30 and 70 it should yellow and above 70 it should be green. Lets see how this looks like: 
@@ -75,11 +77,11 @@ As we don't want to reinvent the wheel, we will browse to the [Microsoft 365 PnP
 
 Instead of having a list like this: 
 
-<img src="https://github.com/LuiseFreese/blog/blob/main/media/example%20list-BEFORE.png" width="900">
+<img src="https://github.com/LuiseFreese/blog/blob/main/media/example%20list-BEFORE.png" width="1200">
 
 we can now look at a list like that: 
 
-<img src="https://github.com/LuiseFreese/blog/blob/main/media/example%20list.png" width="900">
+<img src="https://github.com/LuiseFreese/blog/blob/main/media/example%20list.png" width="1200">
 
 
 ### How can I apply a sample?
