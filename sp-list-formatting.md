@@ -29,19 +29,19 @@ Lists can contain different columns, and each column has a certain column type, 
 
 Already built-in, we will find options to format columns and views. Formatting a view means modifying the way the entire list is displayed. Formatting a column means changing the way this particular column looks like. 
 
-<img src="https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-create.png" width="650">
+<img src="https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-create.png" width="350">
 
-![create](https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-create.png)
+
 
 #### Formatting Views
 
 * We can change the format view 
 
-<img src="https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-format.png" width="650">
+<img src="https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-format.png" width="350">
 
 * and also display a gallery view
 
-<img src="https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-formatgallery.png" width="650">
+<img src="https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-formatgallery.png" width="350>
 
 #### Formatting columns
 
@@ -50,7 +50,7 @@ Already built-in, we will find options to format columns and views. Formatting a
 <img src="https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-formatcolumns.png" width="450">
 * and even with rules like if - then - else: 
 
-<img src="https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-formatrules.png" width="650">
+<img src="https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-formatrules.png" width="350">
 
 ### How can I apply conditional formatting, aka rules
 
@@ -62,11 +62,11 @@ Rules are a powerful feature to determine how a column should look like. Let's s
 
 Sometimes, even if those options are already cool, we need some more flexibility. 
 
-<img src="https://github.com/LuiseFreese/blog/blob/main/media/whatif.jpg" width="650">
+<img src="https://github.com/LuiseFreese/blog/blob/main/media/whatif.jpg" width="350">
 
 There is a way to format both columns and views beyond what is already offered, as seen above. Perhaps you might have noticed the little link `Advanced mode`? This is where we will find the cool tools to play with! 
 
-<img src="https://github.com/LuiseFreese/blog/blob/main/media/advanced-mode.png" width="650">
+<img src="https://github.com/LuiseFreese/blog/blob/main/media/advanced-mode.png" width="350">
 
 This field expects you to put some JSON code in it to format this column. If you never heard about JSON, you can quickly get started with [Intro to JSON](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/introduction-to-json/ba-p/2049369) by Bob German, [this video](https://www.youtube.com/watch?v=iiADhChRriM), or you can learn more at [w3schools](https://www.w3schools.com/js/js_json_intro.asp). 
 
