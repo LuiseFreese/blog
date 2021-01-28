@@ -31,6 +31,8 @@ Already built-in, we will find options to format columns and views. Formatting a
 
 <img src="https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-create.png" width="650">
 
+![create](https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-create.png)
+
 #### Formatting Views
 
 * We can change the format view 
