@@ -64,7 +64,6 @@ The Focus Plan does not only give me an overview what happened in the past 4 wee
 
 In the Wellbeing Plan gives me insights on my ability to disconnect and recharge my inner batteries. It calls me out on working crazy hours and suggests to take real breaks. Being confronted with real numbers instead of just guessing is very valuable to me, because I am very hesitant in taking time off. 
 
-
 Ever wondered if the time you spend with meetings is really adding value? The collaboration plan confronts me with my meeting habits. If I joined on time, got distracted by writing emails during meetings, if I added a Teams link or if my meetings overlapped. This report is gold, because it reminds me, that I am responsible for getting the most out of the very precious time when I meet with others. If we try to multitask, need to join late and leave early, I will probably prioritzed other things. I find it very helpful to see this so I can readjust my commitments and make  more informed decisions what to work on. 
 
 ![collaboration plan](https://github.com/LuiseFreese/blog/blob/main/media/insights-collaborationplan.png)
@@ -73,8 +72,17 @@ Networking plan makes sure you don't stay in your filtierbubble only but expand 
 
 ![network plan](https://github.com/LuiseFreese/blog/blob/main/media/insights-networkplan.png)
 
-I often say: "What isn't in my calendar, won't happen in my life!" I follow some very simple rules: 
+3. Things that get in the way
+
+Now that My Analytics/Insights is protecting my focus time, evenings and nudges me into healthy meetings, it is just less likely, that things conflict with how I planned my time. Of course, we all know those emergency cases, but they don't occur every single day. 
+
+4. habits
+
+Well, changing youir habits is hard. Habits are not only well-trained and familiar, they also originate in some common beliefs/ mental models. If you want to learn more about those, read the article about [Why Microsoft 365 adoption projects fail](https://docs.microsoft.com/en-us/microsoft-365/community/why-m365-adoption-projects-fail) on docs.microsoft.com - collaboration with [Michael Roth](https://gezeitenbrand.de)
+
+If change is that hard- how can we still master it? 
 
 
 
-findtime
+## cortana
+## findtime
