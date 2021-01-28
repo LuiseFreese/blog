@@ -75,11 +75,11 @@ As we don't want to reinvent the wheel, we will browse to the [Microsoft 365 PnP
 
 Instead of having a list like this: 
 
-<img src="https://github.com/LuiseFreese/blog/blob/main/media/example%20list-BEFORE.png" width="600">
+<img src="https://github.com/LuiseFreese/blog/blob/main/media/example%20list-BEFORE.png" width="900">
 
 we can now look at a list like that: 
 
-<img src="https://github.com/LuiseFreese/blog/blob/main/media/example%20list.png" width="600">
+<img src="https://github.com/LuiseFreese/blog/blob/main/media/example%20list.png" width="900">
 
 
 ### How can I apply a sample?
@@ -95,6 +95,8 @@ we can now look at a list like that:
 * click on `Advanced mode`
 * paste the code
 * click `Save`
+
+![Use samples from M365 PnP repository](https://github.com/LuiseFreese/blog/blob/main/media/formatsplist.gif)
 
 Thats it! 
 
