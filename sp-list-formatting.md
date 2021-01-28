@@ -47,7 +47,7 @@ Already built-in, we will find options to format columns and views. Formatting a
 
 * If we want to change the column's appearance, we can do that very end-user-friendly directly in the UI:
 
-<img src="https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-formatcolumns.png" width="450">
+<img src="https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-formatcolumns.png" width="350">
 * and even with rules like if - then - else: 
 
 <img src="https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-formatrules.png" width="350">
