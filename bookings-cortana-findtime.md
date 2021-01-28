@@ -22,16 +22,45 @@ I added a link to my bookings page to my Outlook signature and told my For me, t
 
 ## Use insights to increase awareness, protect your time and don't miss to stay on track
 
+I use a service called [My Analatics](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/mya-landing-page) that helps me to protect my precious time, makes me aware of unhealty working habit, supports me in staying in touch with people relevant to me and increase my reach. 
 
+### How does My Analatycs work? 
 
+My analytics a a personal productivity tracker. Think about is as your Smart Watch, that tell you to go for a walk, stand up regularly or that measures how fast you run (when you go for a run). 
 
+My analytics works with 4 elements: 
 
+* MyAnalytics dashboard - which is where you can see how you spent your time over the 4 weeks across 4 different plans: focus, wellbeing, collaboration and network 
+* Insights Outlook add-in - gives you suggestions based on your working behavior
+* Digests - This is a summary on the last week with actionable insights
+* Inline suggestions in Outlook - recommendations to improve your work patterns
 
+Ever wonderes how it can already be 5pm and how the heck you spent your day? Have been busy all day long but can't really tell how 9 hours could have passed but you still couldn't check off your most important tasks? Well, we all know those days and even weeks. The reasons are pretty obvious: 
 
+* poor planning and proritizing of tasks / unclear committment which tasks need to be completed today
+* too many meetings that don't add value to your work
+* things get into the way of your planning and it's hard to stay on track
+* it's challenging to change habits
+
+To tackle these, I do the following: 
+
+1. All my tasks will be reflected in Microsoft To Do: 
+
+personal tasks
+tasks that live in planner but can be accessed via To Do
+emails from external people, that contain task, which can be accessed via To Do
+
+Within To Do we can find a very interesting feature called "My Day" in which you daily commit to the tasks you want to work on today. Learn more about it in mb blog about [reasons why I fell in love with Microsoft to Do](https://m365princess.com/11-5-reasons-to-fall-in-love/). If you feel like having alreadu too much on the plate, it can be useful to dig a little bit deeper into [How to stop overcommitting](https://m365princess.com/how-to-avoid-overcommitting/)
+
+2. I decide very carefully which meetings I attend. If I can't learn something in a meeting that I works towards the objectives of my team or me or if i can't contribute in a meaningful way, I will not participate. If you want to know more why and how I do this, read my blog post about [digital clutter and how we use our time](https://m365princess.com/digital-declutter-time/)
+
+To protect my focus time, I use My Analytics: 
+
+![]()
 
 I often say: "What isn't in my calendar, won't happen in my life!" I follow some very simple rules: 
 
-1. e
+
 bookings
 cortana
 findtime
