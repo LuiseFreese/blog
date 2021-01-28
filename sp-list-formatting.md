@@ -6,7 +6,7 @@ If you never heard anything about modern SharePoint list formatting, don't worry
 
 ## Why would we use SharePoint lists
 
-First things first: Why should we use SharePoint lists and not use - for instance - an Excel spreadsheet? Because we don't need to hide information in cascading folders, that should be at the user's fingertips. The beauty of lists lies in their simplicity and flexibility to organize work and track the information that matters most to our businesses. 
+First things first: Why should we use SharePoint lists and not use - for instance - an Excel spreadsheet? Because we don't need to hide information in cascading s, that should be at the user's fingertips. The beauty of lists lies in their simplicity and flexibility to organize work and track the information that matters most to our businesses. 
 
 Creating, sharing, and tracking lists is easy and available on any device; everyone stays in the loop, and we can use lists for all kinds of purposes like tracking issues, assets, routines, contacts, inventory, and more. Lists can easily be customized to make them visually more appealing. 
 
@@ -14,10 +14,10 @@ Creating, sharing, and tracking lists is easy and available on any device; every
 
 Now that we are teased into modern lists and libraries in SharePoint, it's time to turn on modern experiences. We can do it like this in the classic experience:
 
-* select `Library Settings` or `List Settings` on the ribbon
-* select `Advanced settings` and select `List experience.`
-* select `New experience` 
-* save with `Ok.`
+* select **Library Settings** or **List Settings** on the ribbon
+* select **Advanced settings** and select **List experience**
+* select **New experience** 
+* save with **Ok**
 
 ### How can we change the look and feel of a list in the UI
 
@@ -41,7 +41,7 @@ Already built-in, we will find options to format columns and views. Formatting a
 
 * and also display a gallery view
 
-<img src="https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-formatgallery.png" width="350>
+<img src="https://github.com/LuiseFreese/blog/blob/main/media/list-formatting-formatgallery.png" width="350">
 
 #### Formatting columns
 
@@ -87,14 +87,14 @@ we can now look at a list like that:
 * Get familiar with the samples that are available on GitHub
 * regularly check for new ones / pin the repo
 * select the one that is interesting for you
-* read the readme.md file to know the requirements for your column. Some samples only work with choice, text, or number columns
+* read the `readme.md` file to know the requirements for your column. Some samples only work with choice, text, or number columns
 * open the JSON file
 * copy the code to your clipboard
 * go to your SharePoint list
 * go to column settings --> format this column
-* click on `Advanced mode`
+* click on **Advanced mode**
 * paste the code
-* click `Save`
+* click **Save**
 
 ![Use samples from M365 PnP repository](https://github.com/LuiseFreese/blog/blob/main/media/formatsplist.gif)
 
