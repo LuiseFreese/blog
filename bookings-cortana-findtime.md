@@ -64,7 +64,6 @@ The Focus Plan does not only give me an overview what happened in the past 4 wee
 
 In the Wellbeing Plan gives me insights on my ability to disconnect and recharge my inner batteries. It calls me out on working crazy hours and suggests to take real breaks. Being confronted with real numbers instead of just guessing is very valuable to me, because I am very hesitant in taking time off. 
 
-![network plan](https://github.com/LuiseFreese/blog/blob/main/media/insights-networkplan.png) 
 
 Ever wondered if the time you spend with meetings is really adding value? The collaboration plan confronts me with my meeting habits. If I joined on time, got distracted by writing emails during meetings, if I added a Teams link or if my meetings overlapped. This report is gold, because it reminds me, that I am responsible for getting the most out of the very precious time when I meet with others. If we try to multitask, need to join late and leave early, I will probably prioritzed other things. I find it very helpful to see this so I can readjust my commitments and make  more informed decisions what to work on. 
 
