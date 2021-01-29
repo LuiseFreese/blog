@@ -98,6 +98,10 @@ we can now look at a list like that:
 
 ![Use samples from M365 PnP repository](https://github.com/LuiseFreese/blog/blob/main/media/formatsplist.gif)
 
+One more example how amazing a list can look like? I run a the [PimpYourOwnDevoce.com](pyod.shop) sticker store together with [Elio Struyf](https://www.eliostruyf.com) and we use a SharePoint list as our inventory ([Elio blogged about the whole architecture here](https://www.eliostruyf.com/running-online-store-powerplatform-azure/). With [this sample](https://lists.handsontek.net/format-image-column-preview-microsoft-lists-sharepoint/) we can hover over our images to have a big preview:
+
+![pyod inventory list](https://github.com/LuiseFreese/blog/blob/main/media/listformat-pyod.gif)
+
 That's it! 
 
 We will find [view samples](https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples) in the same GitHub repository. 
