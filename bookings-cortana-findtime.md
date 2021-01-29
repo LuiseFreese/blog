@@ -82,6 +82,13 @@ Well, changing youir habits is hard. Habits are not only well-trained and famili
 
 If change is that hard- how can we still master it? 
 
+We need to stick to process: 
+
+1. set a specific goal
+2. plan
+3. practice
+4. celebrate
+
 
 
 ## cortana
