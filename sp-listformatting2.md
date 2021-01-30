@@ -50,7 +50,7 @@ Blogging for me does not stop with my own blog and [my foodblog](https://www.tha
 
 ## Ideation and Decision making progress
 
-Running a sticker business means, that all [cool ideas for new stickers](https://pimpyourowndevice.com/news/2021/01/how-we-started-pixelart-stickers/) need to have a decent home. That's where our Ideas lists comes into play. Each idea is an item and we work each week through a defined process that is reflected in the **Status** and **Next Step** columns. We define, if we need to still work on the idea until it is ready to be printed, who will design the sticker or if we will defer the idea. To deternmine, how much we believe in the sticker, we use 3 columns: **Rating Elio**, **Rating Luise** and **Rating**. 
+Running a sticker business means, that all [cool ideas for new stickers](https://pimpyourowndevice.com/news/2021/01/how-we-started-pixelart-stickers/) need to have a decent home. That's where our Ideas lists comes into play. Each idea is an item and we work each week through a defined process that is reflected in the **Status** and **Next Step** columns. We define, if we need to still work on the idea until it is ready to be printed, who will design the sticker or if we will defer the idea. To determine, how much we believe in the sticker, we use 3 columns: **Rating Elio**, **Rating Luise** and **Rating**. 
 
 **RatingElio** and **RatingLuise** are Number Columns, with a nice rainbow-heart-effect formatting. The column expects values between 1 (not very convinced) and 5 (super convinced) and shows emoji hearts instead of a number:
 
@@ -105,3 +105,7 @@ Running a sticker business means, that all [cool ideas for new stickers](https:/
 ## Conclusion & Feedback
 
 I love to automate everything AND to have awesome looking lists with rainbows, unicorns and special buttons that make my life easier as I don't need to care about all day-to-day tasks, but can focus on ideation and growing the business. I am curious for which use cases you use lists and flows? 
+
+Would love to hear from you! #SharingIsCaring ❤
+
+
