@@ -1,6 +1,6 @@
 # How we use SharePoint list formatting and Power Automate at PYOD to ease our marketing
 
-Together with [Elio Struyf](https://www.eliostruyf.com), I run an online sticker shop called [PYOD - pimpyourowndevice.com](https://pyod.shop). Elio described, [how we use Power Platform and Azure Functions](https://www.eliostruyf.com/running-online-store-powerplatform-azure/) to keep the store up-to-date and to print the labels for our envelopes to send out the stickers. This blog post shows, how I use SharePoint and Power Platform to market our products and make our day-to-day work even easier. We strongly believe that low-code and custom code work complement each other and that we can achieve more together. 
+Together with [Elio Struyf](https://www.eliostruyf.com), I run an online sticker shop called [PYOD - pimpyourowndevice.com](https://pyod.shop). Elio described, [how we use Power Platform and Azure Functions](https://www.eliostruyf.com/running-online-store-powerplatform-azure/) to keep the store up-to-date and to print the labels for our envelopes to send out the stickers. This blog post shows, how I use SharePoint and Power Platform to market our products and make our day-to-day work even easier. We strongly believe that low-code and custom code complement each perfectly and that we can achieve more together. 
 
 ## Posting a random sticker
 
@@ -12,7 +12,7 @@ The flow looks like this:
 
 ### How does this flow work? 
 
-It is a scheduled cloud Power Automate flow, which runs every 15 hours and gets all items from the Inventory that are for sale. The compose action will get a random item, because I do not want to post every item but only one. The expression is: 
+It is a scheduled cloud Power Automate flow, which runs every 15 hours and gets all items from the inventory that are for sale. The compose action will get a random item, because I do not want to post every item but only one. The expression is: 
 
 `body('Get_items')?['value'][rand(1,length(body('Get_items')?['value']))]`
 
