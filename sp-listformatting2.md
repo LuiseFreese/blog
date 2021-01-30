@@ -47,6 +47,46 @@ Of course, we do not only use that for typos, but also if we get a question on s
 
 Running a sticker business means, that all [cool ideas for new stickers](https://pimpyourowndevice.com/news/2021/01/how-we-started-pixelart-stickers/) need to have a decent home. Thats where our Ideas lists comes into play. Each idea is an item and we work each week through a defined process that is reflected in the **Status** and **Next Step** columns. We define, if we need to still work on the idea until it is ready to be printed, who will design the sticker or if we will discard it. To deternmine, how much we believe in the sticker, we use 3 columns: **Rating Elio**, **Rating Luise** and **Rating**. 
 
-Rating Elio and Rating Luise are Number Columns, with a nice rainbow-heart effect formatting. 
+Rating Elio and Rating Luise are Number Columns, with a nice rainbow-heart effect formatting. The column expects values between 1 (not very convinced) and 5 (super convinced) and shows emoji hearts instead of a number:
 
-<script src="https://gist.github.com/LuiseFreese/feb49003c05e3d399bf4eaccf6cad142.js"></script>
+`{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "span",
+      "txtContent": "💛",
+      "style": {
+        "display": "=if([$RatingElio] >= 1, 'inherit','none'"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "🧡",
+      "style": {
+        "display": "=if([$RatingElio] >= 2, 'inherit','none'"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "💖",
+      "style": {
+        "display": "=if([$RatingElio] >= 3, 'inherit','none'"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "💜",
+      "style": {
+        "display": "=if([$RatingElio] >= 4, 'inherit','none'"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "💙",
+      "style": {
+        "display": "=if([$RatingElio] >= 5, 'inherit','none'"
+      }
+    }
+  ]
+}`
