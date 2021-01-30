@@ -20,7 +20,26 @@ Well, there are timezones, and as this shop sells and ships worldwide it's benef
 
 ## Ooops, something went wrong
 
-Sometimes, we make mistakes. Broken links because of a typo in our list, for example. 
+Sometimes, we make mistakes, like broken links because of a typo in our list, for example. As this doesn't look, I created a **oops, something went wron** column in our SharePoint list and associated a flow with it: 
+
+![tweet this item now](https://github.com/LuiseFreese/blog/blob/main/media/pyod-twitter-now.png)
+
+
+### How does this flow work?
+
+This fglow is very similar to the first one. I used the **For a selected Item** trigger, get the item of the list that matches the `ID` of the selected item and then update and create my update via Buffer as shown before. 
+
+### How does this flow work in the SharePoint list?
+
+To have a nice trigger in the list, I formatted the **oops, something went wron** column with [this sample](https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/generic-start-flow/start-flow-button.json). 
+
+To learn, how you can apply column samples to your SharePoint lists, you can read my blog about [SharePoint list formatting made easy](https://m365princess.com/sharepoint-list-formatting-made-easy/)
+
+This particular sample will create a button in each row of your list which executes a flow. To know, which flow it needs to execute (as you can run several flow associated to the same list), you will need to provide the ID of the flow that you want to run. You can find it in URL of the flow. You can change text, backgroundcolor, icon next to the text and more, please use [Fluent UI Icons](https://developer.microsoft.com/en-us/fluentui#/styles/web/icons) for reference. 
+
+Of course, we do not only use that for typos, but also if we get a question on socials about a certain sticker to easily tweet it. I created this flow two times for our different social media profiles and formatted the list columns accordingly
+
+![SharePoint list with flow action](https://github.com/LuiseFreese/blog/blob/main/media/pyod-twitter-list.png)
 
 
 ## News by RSS
