@@ -49,7 +49,50 @@ Running a sticker business means, that all [cool ideas for new stickers](https:/
 
 **RatingElio** and **RatingLuise** are Number Columns, with a nice rainbow-heart effect formatting. The column expects values between 1 (not very convinced) and 5 (super convinced) and shows emoji hearts instead of a number:
 
-<script src="https://gist.github.com/LuiseFreese/feb49003c05e3d399bf4eaccf6cad142.js">rainbow Hearts</script>
+`{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  
+  "elmType": "div",
+  
+  "children": [
+    {
+      "elmType": "span",
+      "txtContent": "💛",
+      "style": {
+        "display": "=if([$RatingElio] >= 1, 'inherit','none'"
+      }
+    },
+    
+    {
+      "elmType": "span",
+      "txtContent": "🧡",
+      "style": {
+        "display": "=if([$RatingElio] >= 2, 'inherit','none'"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "💖",
+      "style": {
+        "display": "=if([$RatingElio] >= 3, 'inherit','none'"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "💜",
+      "style": {
+        "display": "=if([$RatingElio] >= 4, 'inherit','none'"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "💙",
+      "style": {
+        "display": "=if([$RatingElio] >= 5, 'inherit','none'"
+      }
+    }
+  ]
+}
 
 **Rating** is a calculated column and will sum up **RatingElio** and **RatingLuise**
     
