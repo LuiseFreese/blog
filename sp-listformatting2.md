@@ -47,13 +47,12 @@ Of course, we do not only use that for typos, but also if we get a question on s
 
 Running a sticker business means, that all [cool ideas for new stickers](https://pimpyourowndevice.com/news/2021/01/how-we-started-pixelart-stickers/) need to have a decent home. Thats where our Ideas lists comes into play. Each idea is an item and we work each week through a defined process that is reflected in the **Status** and **Next Step** columns. We define, if we need to still work on the idea until it is ready to be printed, who will design the sticker or if we will discard it. To deternmine, how much we believe in the sticker, we use 3 columns: **Rating Elio**, **Rating Luise** and **Rating**. 
 
-**RatingElio** and **RatingLuise** are Number Columns, with a nice rainbow-heart effect formatting. The column expects values between 1 (not very convinced) and 5 (super convinced) and shows emoji hearts instead of a number:
+**RatingElio** and **RatingLuise** are Number Columns, with a nice rainbow-heart-effect formatting. The column expects values between 1 (not very convinced) and 5 (super convinced) and shows emoji hearts instead of a number:
 
-`{
+```json
+{
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
-  
   "elmType": "div",
-  
   "children": [
     {
       "elmType": "span",
@@ -62,7 +61,6 @@ Running a sticker business means, that all [cool ideas for new stickers](https:/
         "display": "=if([$RatingElio] >= 1, 'inherit','none'"
       }
     },
-    
     {
       "elmType": "span",
       "txtContent": "🧡",
@@ -93,6 +91,7 @@ Running a sticker business means, that all [cool ideas for new stickers](https:/
     }
   ]
 }
+```
 
 **Rating** is a calculated column and will sum up **RatingElio** and **RatingLuise**
     
