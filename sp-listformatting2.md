@@ -4,7 +4,7 @@ Together with [Elio Struyf](https://www.eliostruyf.com), I run an online sticker
 
 ## Posting a random sticker
 
-We use a SharePoint list for our inventory. This means, that each sticker is an item in the list and that we have dedicated columns for all attributes like price, dimensions, material in that list. These attributes are of course reflected in the store. To automate sharing our stickers on socials, I added some more columns like twitter text, twitter hashtags, and a shortlink to this sticker in the store. I experimented a bit with Buffer to automate posting on Social Media, but I was not happy with it, as I couldn't find an easy way to post stickers in a certain rythm. My solution: building a Power Automate flow, which posts a random item from said SharePoint list.
+We use a SharePoint list for our inventory. This means, that each sticker is an item in the list and that we have dedicated columns for all attributes like price, dimensions, material in that list. These attributes are of course reflected in the store. To automate sharing our stickers on socials, I added some more columns like twitter text, twitter hashtags, and a shortlink to this sticker in the store. I experimented a bit with Buffer to automate posting on Social Media, but I was not happy with it, as I couldn't find an easy way to post stickers in a certain rhythm. My solution: building a Power Automate flow, which posts a random item from said SharePoint list.
 
 The flow looks like this: 
 
