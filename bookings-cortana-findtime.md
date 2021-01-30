@@ -82,10 +82,15 @@ Well, changing youir habits is hard. Habits are not only well-trained and famili
 
 If change is that hard- how can we still master it? 
 
-We need to stick to process: 
+We need to stick to a process: 
 
 1. set a specific goal
+Without a clear goal, you can't improve and can't track your progress. Set a goal like "Over the next two weeks, I will batch process my emails at 10 am and 3 pm"
+
 2. plan
+
+You need to be very clear and concise wahy you want to do that, and what drives you to set up this goal. 
+In our example, it could be that it reduces your stress level, leads to less interryptions and more focused working hours . 
 3. practice
 4. celebrate
 
