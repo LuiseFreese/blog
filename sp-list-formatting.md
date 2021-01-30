@@ -116,3 +116,5 @@ You can find helpful resources to learn more here:
 
 Have fun and happy Modern SharePoint list formatting - 
 *#SharingIsCaring ❤*
+
+PS: Did you like this post? [I wrote even more about list formatting](https://m365princess.com/how-we-use-sharepoint-list-formatting-and-power-automate-at-pyod-to-ease-our-marketing/)
