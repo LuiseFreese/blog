@@ -41,5 +41,12 @@ Of course, we do not only use that for typos, but also if we get a question on s
 
 ![SharePoint list with flow action](https://github.com/LuiseFreese/blog/blob/main/media/pyod-twitter-list.png)
 
-
 ## News by RSS
+
+## Ideation and Decision making progress
+
+Running a sticker business means, that all [cool ideas for new stickers](https://pimpyourowndevice.com/news/2021/01/how-we-started-pixelart-stickers/) need to have a decent home. Thats where our Ideas lists comes into play. Each idea is an item and we work each week through a defined process that is reflected in the **Status** and **Next Step** columns. We define, if we need to still work on the idea until it is ready to be printed, who will design the sticker or if we will discard it. To deternmine, how much we believe in the sticker, we use 3 columns: **Rating Elio**, **Rating Luise** and **Rating**. 
+
+Rating Elio and Rating Luise are Number Columns, with a nice rainbow-heart effect formatting. 
+
+<script src="https://gist.github.com/LuiseFreese/feb49003c05e3d399bf4eaccf6cad142.js"></script>
