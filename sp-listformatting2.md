@@ -16,6 +16,8 @@ It is a scheduled cloud Power Automate flow, which runs every 15 hours and gets 
 
 `body('Get_items')?['value'][rand(1,length(body('Get_items')?['value']))]`
 
+I use the rand() function to get a random value between 1 and the amount of list items in this list.
+
 In the next step, I parse the JSON code from the Outputs of my compose action so that I get all keys as dynamic content in my flow. Now I will create an update in Buffer, with the title of my item, description, hashtags and the link to the shop. Finally, I share the created update from Buffer. The Flow [automagically 🦄](https://pimpyourowndevice.com/stickers/automagically-large/) creates an `Apply to Each` loop for me, as it could be, that there is more than one update created. 
 
 ### why does this run every 15 hours? 
@@ -106,6 +108,8 @@ Running a sticker business means, that all [cool ideas for new stickers](https:/
 
 I love to automate everything AND to have awesome looking lists with rainbows, unicorns and special buttons that make my life easier as I don't need to care about all day-to-day tasks, but can focus on ideation and growing the business. I am curious for which use cases you use lists and flows? 
 
-Would love to hear from you! #SharingIsCaring ❤
+I would love to hear from you! 
+
+*#SharingIsCaring ❤*
 
 
