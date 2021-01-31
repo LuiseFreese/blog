@@ -44,7 +44,7 @@ Of course, we do not only use that for typos, but also if we get a question on s
 
 ## News by RSS
 
-Blogging for me does not stop with my own blog and [my foodblog](https://www.thatkitchenprincess.com), but I also write stories on [PYOD News](https://pimpyourowndevice.com/news). Because I want to automatically want to tweet these micro blog posts, I build another flow to do exactly that, after Elio prepared an rss feed for the news site. 
+Blogging for me does not stop with my own blog and [my foodblog](https://www.thatkitchenprincess.com), but I also write stories on [PYOD News](https://pimpyourowndevice.com/news). Because I want to automatically tweet these micro blog posts, I build another flow to do exactly that, after Elio prepared an rss feed for the news site. 
 
 ![PYOD post rss](https://github.com/LuiseFreese/blog/blob/main/media/pyod-ideas-news-rss.png)
 
