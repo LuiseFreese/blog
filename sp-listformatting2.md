@@ -104,6 +104,8 @@ Running a sticker business means, that all [cool ideas for new stickers](https:/
     
 ![PYOD ideas list](https://github.com/LuiseFreese/blog/blob/main/media/pyod-ideas-list-format.png)
 
+You can find a similar sample here: [conditional format](https://github.com/LuiseFreese/sp-dev-list-formatting/tree/master/column-samples/number-conditional-format)
+
 ## Conclusion & Feedback
 
 I love to automate everything AND to have awesome looking lists with rainbows, unicorns and special buttons that make my life easier as I don't need to care about all day-to-day tasks, but can focus on ideation and growing the business. I am curious for which use cases you use lists and flows? 
