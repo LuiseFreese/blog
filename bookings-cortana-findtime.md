@@ -18,9 +18,17 @@ licenses and you will need Outlook on the web or Outlook mobile have enabled, wh
 I added a link to my bookings page to my Outlook signature and told my customers about it. Whenever a new customer-to-be or a someone from community wants to schedule a meeting, I reply with this link and bookings does the rest for me. It reflects my availability and I can exclude times from it as well. The beauty of it is, that I do not need to send emails back and forth about scheduling a meeting anymore. This makes scheduling fast and effortless and looks very professional as well. [Find more information here](https://www.microsoft.com/en-us/microsoft-365/business/scheduling-and-booking-app).
 
 
-## Use Cortana to schedule time for Weekly meetings, focus time, breaks and catching up with messages\
+## Use Cortana to schedule time for weekly meetings, focus time, breaks and catching up with messages\
 
-I use [Cortana](https://calendar.help) at 
+I use [Cortana](https://calendar.help) to schedule 1:1 weekly meetings, that do not need to be on a predefined time/weekday each week, but can be handled flexible, and also use it for (virtual) coffee meetings. 
+
+![Cortana Schedule](https://github.com/LuiseFreese/blog/blob/main/media/calendarhelp.png)
+
+After clicking on the tile, my Outlook client opens a new email with cortana@calendar.help in cc and a message to Cortana to book a meeting for 30 minutes every week. You can of course change the value and the default value as well. Cortana will now send email an email to the recipient and propose 3 different free timeslots and get back to you after the scheduling was sucessful. 
+
+![Cortana weekly](https://github.com/LuiseFreese/blog/blob/main/media/cortanaweekly.png)
+
+You might have noticed, that you can also book focus time with Cortana, but I prefer to do this with Insight/My Analytics: 
 
 ## Use insights to increase awareness, protect your time and don't miss to stay on track
 
