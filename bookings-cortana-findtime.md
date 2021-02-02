@@ -115,4 +115,4 @@ Celebrating the small wins is important - we can reflect on our journey and feel
 
 FindTime is an Outlook Add-In by Microssoft, which lets send - similar to Cortana@calendar.help - some proposals for meeting times to one or more persons. The difference is, that you need to select those times by yourself and that the recipients will vote on the times if they can make it or not and what of the options would be their preferred time slot to meet. This way, you can create a poll and see, which time slot you should pick, because all or at least the majority of invitees confirmed the upcoming meeting. 
 
-![FindTime create meeting](https://github.com/LuiseFreese/blog/blob/main/media/findtime.gif)
+![FindTime create meeting](https://github.com/LuiseFreese/blog/blob/main/media/find-time.gif)
