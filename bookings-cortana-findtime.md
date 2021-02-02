@@ -4,7 +4,7 @@ Keeping our calendars as a representation of our daily agenda is crucial, especi
 
 ## Use Microsoft Bookings to schedule meetings with customers and the community
 
-Included in my Microsoft 365 license comes [Microsoft Bookings](https://docs.microsoft.com/en-us/microsoft-365/bookings/bookings-overview?view=o365-worldwide), a service that lets externals book appointments via website in free slots depending on your availability without letting them see your actual calendar. It automatically sends invites, confirmations, and reminders and integrates perfectly with Microsoft Teams meetings. Bookings is available for all customers with 
+Included in my Microsoft 365 license comes [Microsoft Bookings](https://docs.microsoft.com/en-us/microsoft-365/bookings/bookings-overview?view=o365-worldwide), a service that lets externals book appointments via a website in free slots depending on your availability without letting them see your actual calendar. It automatically sends invites, confirmations, and reminders and integrates perfectly with Microsoft Teams meetings. Bookings is available for all customers with 
 
 * Microsoft 365 Business Premium
 * Microsoft 365 Business Standard
@@ -37,7 +37,7 @@ You might have noticed that you can also book focus time with Cortana, but I pre
 
 ## Use My Analytics/Insights to increase awareness, protect your time, and don't miss staying on track
 
-I use a service called [My Analatics](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/mya-landing-page) to protect my precious time, makes me aware of unhealthy working habits, support me in staying in touch with people relevant to me and increase my reach. 
+I use a service called [My Analatics](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/mya-landing-page) to protect my precious time, makes me aware of unhealthy working habits, support me in staying in touch with people relevant to me and increase my reach
 
 ### How does My Analytics work? 
 
@@ -108,7 +108,7 @@ It would help if you were very clear and concise about why you want to do that a
 
 3. practice
 
-Now comes the most challenging part - DOING what we planned. And now My Analytics comes into play: For example, with its Outlook Add-in, that prompts me to make an appointment with myself and book focus time. I can also book focus time regularly in the Dashboard, but it comes very handy in Outlook, where we still do our mails and lots of meeting planning. 
+Now comes the most challenging part - DOING what we planned. And now My Analytics comes into play: For example, with its Outlook Add-in, that prompts me to make an appointment with myself and book focus time. I can also book focus time regularly in the Dashboard, but it comes very handy in Outlook, where we still receive and process our mails and do lots of meeting planning. 
 
 ![Outlook Insights Add In](https://github.com/LuiseFreese/blog/blob/main/media/insights-outlook-addin.png)
 
@@ -118,7 +118,7 @@ Celebrating the small wins is essential - we can reflect on our journey and feel
 
 ## Feedback and what's next
 
-Using a combination of different tools to for different workloads helps me getting the most out of my day - which can be quite busy. I would love to know how you schedule your meetings, protect your focus time and manage to get your work done! Which tools do you use, which approaches help you? 
+Using a combination of different tools for different workloads helps me getting the most out of my day - which can be quite busy. I would love to know how you schedule your meetings, protect your focus time and manage to get your work done! Which tools do you use, which approaches help you? 
 
 
 
