@@ -17,8 +17,13 @@ licenses, and you will need Outlook on the web or Outlook mobile have enabled, w
 
 I added a link to my bookings page to my Outlook signature and told my customers about it. Whenever a new customer-to-be or someone from the community wants to schedule a meeting, I reply with this link, and bookings does the rest for me. It reflects my availability, and I can exclude times from it as well. The beauty of it is that I do not need to send emails back and forth about scheduling a meeting anymore. This makes scheduling fast and effortless and looks very professional as well. [Find more information here](https://www.microsoft.com/en-us/microsoft-365/business/scheduling-and-booking-app).
 
+## FindTime to schedule meetings with larger groups and let them vote for a date
 
-## Use Cortana to schedule time for weekly meetings, focus time, breaks, and catching up with messages
+FindTime is an Outlook Add-In by Microsoft, which let's sends some proposals for meeting times to one or more persons. You need to select those times by yourself and that the recipients will vote on the times if they can make it or not and what of the options would be their preferred time slot to meet. This way, you can create a poll and see which time slot you should pick because all or at least the majority of invitees confirmed the upcoming meeting. 
+
+![FindTime create meeting](https://github.com/LuiseFreese/blog/blob/main/media/findtimeaddin.gif)
+
+## Use Cortana to schedule time for weekly meetings
 
 I use [Cortana](https://calendar.help) to schedule 1:1 weekly meetings that do not need to be on a predefined time/weekday each week, but can be handled flexibly, and also use it for (virtual) coffee meetings. 
 
@@ -30,13 +35,13 @@ After clicking on the tile, my Outlook client opens a new email with cortana@cal
 
 You might have noticed that you can also book focus time with Cortana, but I prefer to do this with Insights/My Analytics: 
 
-## Use insights to increase awareness, protect your time, and don't miss staying on track
+## Use My Analytics/Insights to increase awareness, protect your time, and don't miss staying on track
 
-I use a service called [My Analatics](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/mya-landing-page) to protect my precious time, makes me aware of unhealthy working habit, supports me in staying in touch with people relevant to me and increase my reach. 
+I use a service called [My Analatics](https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/mya-landing-page) to protect my precious time, makes me aware of unhealthy working habits, support me in staying in touch with people relevant to me and increase my reach. 
 
 ### How does My Analytics work? 
 
-My analytics a personal productivity tracker. Think about your Smart Watch, which tells you to go for a walk, stand up regularly, or measure how fast you run (when you go for a run). 
+My analytics is a personal productivity tracker. Think about it as your Smart Watch, which tells you to go for a walk, stand up regularly, or measure how fast you run (when you go for a run) to establish healthy habits. 
 
 My analytics works with 4 elements: 
 
@@ -86,7 +91,7 @@ Networking plan makes sure you don't stay in your filter bubble only but expand 
 
 Now that My Analytics/Insights is protecting my focus time, evenings and nudges me into healthy meetings, it is less likely, that things conflict with how I planned my time. Of course, we all know those emergency cases, but they don't occur every single day. 
 
-4. habits
+4. Habits
 
 Well, changing your habits is hard. Patterns are not only well-trained and familiar; they also originate in some common beliefs/ mental models. If you want to learn more about those, read the article about [Why Microsoft 365 adoption projects fail](https://docs.microsoft.com/en-us/microsoft-365/community/why-m365-adoption-projects-fail) on docs.microsoft.com - collaboration with [Michael Roth](https://gezeitenbrand.de)
 
@@ -111,8 +116,10 @@ Now comes the most challenging part - DOING what we planned. And now My Analytic
 
 Celebrating the small wins is essential - we can reflect on our journey and feel what's right for us! It is also an excellent opportunity to share what helps us to inspire more people. 
 
-## FindTime
+## Feedback and what's next
 
-FindTime is an Outlook Add-In by Microsoft, which let's send - similar to Cortana@calendar.help - some proposals for meeting times to one or more persons. The difference is that you need to select those times by yourself and that the recipients will vote on the times if they can make it or not and what of the options would be their preferred time slot to meet. This way, you can create a poll and see which time slot you should pick because all or at least the majority of invitees confirmed the upcoming meeting. 
+Using a combination of different tools to for different workloads helps me getting the most out of my day - which can be quite busy. I would love to know how you schedule your meetings, protect your focus time and manage to get your work done! Which tools do you use, which approaches help you? 
 
-![FindTime create meeting](https://github.com/LuiseFreese/blog/blob/main/media/find-time.gif)
+
+
+
