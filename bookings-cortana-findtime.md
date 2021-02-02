@@ -15,10 +15,12 @@ Included in my Microsoft 365 license comes [Microsoft Bookings](https://docs.mic
 
 licenses and you will need Outlook on the web or Outlook mobile have enabled, which requires your mailbox to be in Exchange Online. The bookings calendar will create a new calendar in Exchange Online as well as a related entry in Azure Active Directory. You can add scheduling policies and define timeincrements to be able to book, lead time upfront of a meeting and if you need to have time in between of meetings. 
 
-I added a link to my bookings page to my Outlook signature and told my For me, this means that I just added a link to my bookings page into my Outlok signature and told my customers about it. Whenever a new customer-to-be or a someone from community wants to schedule a meeting, I reply with this link and bookings does the rest for me. It reflects my availability and I can exclude times from it as well.  The beeauty of it is, that I do not need to send emails back and forth about scheduling a meeting anymore. This makes scheduling fast and effortless and looks very professional as well. [Find more information here](https://www.microsoft.com/en-us/microsoft-365/business/scheduling-and-booking-app).
+I added a link to my bookings page to my Outlook signature and told my customers about it. Whenever a new customer-to-be or a someone from community wants to schedule a meeting, I reply with this link and bookings does the rest for me. It reflects my availability and I can exclude times from it as well. The beauty of it is, that I do not need to send emails back and forth about scheduling a meeting anymore. This makes scheduling fast and effortless and looks very professional as well. [Find more information here](https://www.microsoft.com/en-us/microsoft-365/business/scheduling-and-booking-app).
 
 
-## Use Cortana to schedule time for Weekly meetings, focus time, breaks and catching up with messages
+## Use Cortana to schedule time for Weekly meetings, focus time, breaks and catching up with messages\
+
+I use [Cortana](https://calendar.help) at 
 
 ## Use insights to increase awareness, protect your time and don't miss to stay on track
 
@@ -96,6 +98,10 @@ You need to be very clear and concise why you want to do that, and what drives y
 Now comes the hardest part - actually DOING what we we planned. And now My Analytics comes into play: For example, with its Outlook Add-in, that prompts me make an appoint ment with myself and book focus time. I can also book focus time regularly in the Dashboard, but it comes very handy in Outlook, where we still do our mails and lots of meeting planning. 
 
 4. celebrate
+
+Celebrating the small wins is important - we can reflect on our journey and feel, whats good for us! It is also a good opportunity to share, what help us to inspire more people. 
+
+
 
 
 
