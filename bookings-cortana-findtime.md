@@ -89,9 +89,12 @@ Without a clear goal, you can't improve and can't track your progress. Set a goa
 
 2. plan
 
-You need to be very clear and concise wahy you want to do that, and what drives you to set up this goal. 
-In our example, it could be that it reduces your stress level, leads to less interryptions and more focused working hours . 
+You need to be very clear and concise why you want to do that, and what drives you to set up this goal. In our example, it could be that it reduces your stress level, leads to less interruptions and more focused working hours. 
+
 3. practice
+
+Now comes the hardest part - actually DOING what we we planned. And now My Analytics comes into play: For example, with its Outlook Add-in, that prompts me make an appoint ment with myself and book focus time. I can also book focus time regularly in the Dashboard, but it comes very handy in Outlook, where we still do our mails and lots of meeting planning. 
+
 4. celebrate
 
 
