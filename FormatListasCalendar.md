@@ -32,7 +32,7 @@ To achieve this, I used a Filter Query in the **Get items** action: `Date eq 'ut
 
 ## Conclusion & What's next?
 
-With a list, a view and 2 flows I could automate another piece of contentmanagement and daily marketing in this small business scenario. I would love to know what you like to use calendar view for and what you want to automate.
+With a list, a view and 2 flows I could automate another piece of content management and daily marketing in this small business scenario. I would love to know what you like to use calendar view for and what you want to automate.
 
 
 
