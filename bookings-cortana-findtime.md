@@ -18,7 +18,7 @@ licenses and you will need Outlook on the web or Outlook mobile have enabled, wh
 I added a link to my bookings page to my Outlook signature and told my customers about it. Whenever a new customer-to-be or a someone from community wants to schedule a meeting, I reply with this link and bookings does the rest for me. It reflects my availability and I can exclude times from it as well. The beauty of it is, that I do not need to send emails back and forth about scheduling a meeting anymore. This makes scheduling fast and effortless and looks very professional as well. [Find more information here](https://www.microsoft.com/en-us/microsoft-365/business/scheduling-and-booking-app).
 
 
-## Use Cortana to schedule time for weekly meetings, focus time, breaks and catching up with messages\
+## Use Cortana to schedule time for weekly meetings, focus time, breaks and catching up with messages
 
 I use [Cortana](https://calendar.help) to schedule 1:1 weekly meetings, that do not need to be on a predefined time/weekday each week, but can be handled flexible, and also use it for (virtual) coffee meetings. 
 
@@ -28,7 +28,7 @@ After clicking on the tile, my Outlook client opens a new email with cortana@cal
 
 ![Cortana weekly](https://github.com/LuiseFreese/blog/blob/main/media/cortanaweekly.png)
 
-You might have noticed, that you can also book focus time with Cortana, but I prefer to do this with Insight/My Analytics: 
+You might have noticed, that you can also book focus time with Cortana, but I prefer to do this with Insights/My Analytics: 
 
 ## Use insights to increase awareness, protect your time and don't miss to stay on track
 
@@ -56,9 +56,9 @@ To tackle these, I do the following:
 
 1. All my tasks will be reflected in Microsoft To Do: 
 
-personal tasks
-tasks that live in planner but can be accessed via To Do
-emails from external people, that contain task, which can be accessed via To Do
+* personal tasks
+* tasks that live in planner but can be accessed via To Do
+* emails from external people, that contain task, which can be accessed via To Do
 
 Within To Do we can find a very interesting feature called "My Day" in which you daily commit to the tasks you want to work on today. Learn more about it in mb blog about [reasons why I fell in love with Microsoft to Do](https://m365princess.com/11-5-reasons-to-fall-in-love/). If you feel like having alreadu too much on the plate, it can be useful to dig a little bit deeper into [How to stop overcommitting](https://m365princess.com/how-to-avoid-overcommitting/)
 
@@ -105,13 +105,10 @@ You need to be very clear and concise why you want to do that, and what drives y
 
 Now comes the hardest part - actually DOING what we we planned. And now My Analytics comes into play: For example, with its Outlook Add-in, that prompts me make an appoint ment with myself and book focus time. I can also book focus time regularly in the Dashboard, but it comes very handy in Outlook, where we still do our mails and lots of meeting planning. 
 
+![Outlook Insights Add In](https://github.com/LuiseFreese/blog/blob/main/media/insights-outlook-addin.png)
+
 4. celebrate
 
 Celebrating the small wins is important - we can reflect on our journey and feel, whats good for us! It is also a good opportunity to share, what help us to inspire more people. 
 
-
-
-
-
-## cortana
-## findtime
+## FindTime
