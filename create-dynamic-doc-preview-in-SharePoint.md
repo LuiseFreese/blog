@@ -22,7 +22,7 @@ Here we go:
 8. In the Dropdown Menu select your document library
 9. Publish your page
 
-[Create a dynamic preview of documents in SharePint](https://github.com/LuiseFreese/blog/blob/main/media/Fileviewer.gif)
+![Create a dynamic preview of documents in SharePint](https://github.com/LuiseFreese/blog/blob/main/media/Fileviewer.gif)
 
 💡 You can now click through presentations, scroll through lengthy Word files and preview Excel spreadsheets. 
 
