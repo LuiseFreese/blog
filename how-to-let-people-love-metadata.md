@@ -33,7 +33,7 @@ To cope with that, people get creative and invent super awkward file names, like
 
 I mean, wow, what is that? Shouldn't they stick to a naming convention? 
 
-![naming convention Dilbert]()
+![naming convention Dilbert](https://github.com/LuiseFreese/blog/blob/main/media/AML-25602_577155_mutable_color.gif)
 
 What are people trying to do? They add some attributes of a file to its name so that they could more easily know what this document is about before they need to open it. Versions, status, name of people who created/modified the document (but maybe thats the name of a Project Manager, a role that needs to approve something?! We actually don't know), and, almost mandatory, a date. Is this a due date, the date of creation, last edit, last edit by this person? Again, nobody can know. We guesswork, we compare, we track changes and send even more emails.. *Could you please send me the LATEST version of that file?!*
 
