@@ -47,6 +47,8 @@ Creating a gazillion of cascading folders seems to be the holy grail in some org
 
 A folder allows only one attribute for a file and people need to pick one out of several attributes and prioritize exactly this. Let's say our document belongs to Project DeathStar, is a Plan and is still a draft? Should we then file it under the Project folder, the Plan folder or the Draft Folder if those happen to be on the same level? What if we nest folders into other folders? Will this solve the problem? Well, let's see: An accounting department needs to store invoices, purchase notices and contracts. Shall we group those by type or by year? 
 
+![cascading folder structures](https://github.com/LuiseFreese/blog/blob/main/media/folders.gif)
+
 
 
 
