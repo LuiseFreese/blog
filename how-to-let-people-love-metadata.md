@@ -43,6 +43,10 @@ Creating a gazillion of cascading folders seems to be the holy grail in some org
 
 A folder allows only one attribute for a file and people need to pick one out of several attributes and prioritize exactly this. Let's say our document belongs to Project DeathStar, is a Plan and is still a draft? Should we then file it under the Project folder, the Plan folder or the Draft Folder if those happen to be on the same level? 
 
+Well, people will make a choice, and save their different copies in different folders - or create new cascading folders, which won't solve the problem as you can see here: 
+
+
+
 on a higher level:
 
 * information hiding
