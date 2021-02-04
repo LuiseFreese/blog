@@ -45,7 +45,7 @@ To be able to cope with these akward file names, they try to segment information
 
 Creating a gazillion of cascading folders seems to be the holy grail in some organizations. They are used to work with folders when it comes to paperwork and applied the working methods from back then to their digital work. They did not evolve in their working behavior in the last (at least) 30 years. This is why they didn't find approaches that support retrievability of information but that map working with papers and that imitates as if they were still working on paper: 
 
-A folder allows only one attribute for a file and people need to pick one out of several attributes and prioritize exactly this. Let's say our document belongs to Project DeathStar, is a Plan and is still a draft? Should we then file it under the Project folder, the Plan folder or the Draft Folder if those happen to be on the same level? 
+A folder allows only one attribute for a file and people need to pick one out of several attributes and prioritize exactly this. Let's say our document belongs to Project DeathStar, is a Plan and is still a draft? Should we then file it under the Project folder, the Plan folder or the Draft Folder if those happen to be on the same level? What if we nest folders into other folders? Will this solve the problem? Well, let's see: An accounting department needs to store invoices, purchase notices and contracts. Shall we group those by type or by year? 
 
 
 
