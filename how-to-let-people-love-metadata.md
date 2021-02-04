@@ -21,6 +21,8 @@ Let's say Person A sends an email with an attachment to Person B so he/she could
 7 A's Inbox folder in Outlook
 8 A saves the file as a separate copy on her/his file server
 
+![sending copies of copies](https://github.com/LuiseFreese/blog/blob/main/media/copies.gif)
+
 1 file - 7 additional copies.  What, if we don't play this ping-pong game with 2, but with 5 people and not one time back- and forth, but 3 times? You see, this is the ugly truth of "have been sitting in documents and email the whole day". Which one is the valid one? What is the final one? 
 
 ### awkward files names
