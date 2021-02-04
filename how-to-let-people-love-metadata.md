@@ -35,6 +35,8 @@ I mean, wow, what is that? Shouldn't they stick to a naming convention?
 
 What are people trying to do? They add some attributes of a file to its name so that they could more easily know what this document is about before they need to open it. Versions, status, name of people who created/modified the document (but maybe thats the name of a Project Manager, a role that needs to approve something?! We actually don't know), and, almost mandatory, a date. Is this a due date, the date of creation, last edit, last edit by this person? Again, nobody can know. We guesswork, we compare, we track changes and send even more emails.. *Could you please send me the LATEST version of that file?!*
 
+![awkward file name contains metadata](https://github.com/LuiseFreese/blog/blob/main/media/metadata.gif)
+
 To be able to cope with these akward file names, they try to segment information so that there is less items to scroll through:
 
 ### cascading folder structures
@@ -43,7 +45,7 @@ Creating a gazillion of cascading folders seems to be the holy grail in some org
 
 A folder allows only one attribute for a file and people need to pick one out of several attributes and prioritize exactly this. Let's say our document belongs to Project DeathStar, is a Plan and is still a draft? Should we then file it under the Project folder, the Plan folder or the Draft Folder if those happen to be on the same level? 
 
-Well, people will make a choice, and save their different copies in different folders - or create new cascading folders, which won't solve the problem as you can see here: 
+
 
 
 
