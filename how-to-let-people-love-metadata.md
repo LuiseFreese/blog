@@ -49,16 +49,15 @@ A folder allows only one attribute for a file and people need to pick one out of
 
 ![cascading folder structures](https://github.com/LuiseFreese/blog/blob/main/media/folderstypeandyear.gif)
 
+## How does this lead us to people out of a sudden loving metadata? 
 
+Of course most of them know, that we can use metadata in SharePoint and Teams, but they will insist that it takes just too much time to fill in columns with data to describe what a file is about. But once we explain the evil trinity (copies of copies of copies, awkward file names, cascading folder structures) and show them how time-consuming this behavior is, they will open their minds and get it: yes, it WILL take some time to maintain metadata, but this will save everyone even more time because we can better filter and therefor faster retrieve what we were looking for in the first place. Plus: we will not have to deal with this tremendous amount of copies anymore, as SharePoint offers us version history. 
 
+Please note, that a folder per se isn't evil, but that, if we overdo (3 levels and more) we will create an insane chaos. 
 
+## Feedback and what's next? 
 
-on a higher level:
-
-* information hiding
-* no trust
-
-
+I would love to know what you do to convince people to choose metadata instead of folders? One of the blog posts could be around version history- what do you think? 
 
 
 
