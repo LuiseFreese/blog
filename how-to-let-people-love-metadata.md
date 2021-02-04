@@ -12,14 +12,14 @@ We know that most organizations have redundant content: copies of copies of copi
 
 Let's say Person A sends an email with an attachment to Person B so he/she could change it and send it back. How many different copies would we now have created? Let's count: 
 
-1 Original
-2 A's Sent Items folder in Outlook
-3 B's Inbox folder in Outlook
-4 B saves the file in her/his file server
-5 B makes changes to the file and saves it as a separate file on her/his file server
-6 B attaches the file to an email and sends this back to A
-7 A's Inbox folder in Outlook
-8 A saves the file as a separate copy on her/his file server
+* 1 Original
+* 2 A's Sent Items folder in Outlook
+* 3 B's Inbox folder in Outlook
+* 4 B saves the file in her/his file server
+* 5 B makes changes to the file and saves it as a separate file on her/his file server
+* 6 B attaches the file to an email and sends this back to A
+* 7 A's Inbox folder in Outlook
+* 8 A saves the file as a separate copy on her/his file server
 
 ![sending copies of copies](https://github.com/LuiseFreese/blog/blob/main/media/copies.gif)
 
@@ -45,13 +45,17 @@ To be able to cope with these awkward file names, they try to segment informatio
 
 Creating a gazillion of cascading folders seems to be the holy grail in some organizations. They are used to working with folders when it comes to paperwork and applying the working methods back then to their digital work. They did not evolve in their working behavior in the last (at least) 30 years. This is why they didn't find approaches that support retrievability of information, but that map working with papers and that imitates as if they were still working on paper: 
 
-A folder allows only one attribute for a file, and people need to pick one out of several attributes and prioritize precisely this. Let's say our document belongs to Project DeathStar, is a Plan, and is still a draft? Should we then file it under the Project folder, the Plan folder, or the Draft Folder if they happen on the same level? What if we nest folders into other folders? Will this solve the problem? Well, let's see: An accounting department needs to store invoices, purchase notices, and contracts. Shall we group those by type or by year? 
+A folder allows only one attribute for a file, and people need to pick one out of several attributes and prioritize precisely this. Let's say our document belongs to Project DeathStar, is a Plan, and is still a draft? Should we then file it under the Project folder, the Plan folder, or the Draft Folder if they happen on the same level? 
+
+What if we nest folders into other folders? Will this solve the problem? Well, let's see: An accounting department needs to store invoices, purchase notices, and contracts. Shall we group those by type or by year? 
 
 ![cascading folder structures](https://github.com/LuiseFreese/blog/blob/main/media/folderstypeandyear.gif)
 
 ## How does this lead us to people out of a sudden loving metadata? 
 
-Most of them know that we can use metadata in SharePoint and Teams, but they will insist that it takes too much time to fill in columns with data to describe what a file is about. But once we explain the evil trinity (copies of copies of copies, awkward file names, cascading folder structures) and show them how time-consuming this behavior is, they will open their minds and get it: yes, it WILL take some time to maintain metadata, but this will save everyone even more time because we can better filter and therefor faster retrieve what we were looking for in the first place. Plus: we will not have to deal with this tremendous amount of copies anymore, as SharePoint offers us version history. 
+Most of them know that we can use metadata in SharePoint and Teams, but they will insist that it takes too much time to fill in columns with data to describe what a file is about. But once we explain the evil trinity (copies of copies of copies, awkward file names, cascading folder structures) and show them how time-consuming this behavior is, they will open their minds and get it: 
+
+Yes, it WILL take some time to maintain metadata, but this will save everyone even more time because we can better filter and therefore faster retrieve what we were looking for in the first place. Plus: we will not have to deal with this tremendous amount of copies anymore, as SharePoint offers us version history. 
 
 Please note that a folder per se isn't evil, but that if we overdo (3 levels and more), we will create insane chaos. 
 
