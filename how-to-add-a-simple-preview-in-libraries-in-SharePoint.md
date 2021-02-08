@@ -2,7 +2,7 @@
 
 After my last #M365Hack where I showed you how you can create a [Dynamic preview for documents in SharePoint](https://m365princess.com/create-a-dynamic-preview-for-documents-in-sharepoint/) a few people reached out and asked about an easy way to just have a simple preview of a document or image in a library. 
 
-Although this trick isn't knew at all, many of my customers found it valuable, which is why I want to share it here as well. 
+Although this trick isn't new at all, many of my customers found it valuable, which is why I want to share it here as well. 
 
 ## ❓ Question: Luise, can you build...
 
