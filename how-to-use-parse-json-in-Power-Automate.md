@@ -26,7 +26,7 @@ Now our flow needs to get all items from the list that we want to randomly pick 
 
 We need to do some magic so we get a random item, I used the following expression for that: 
 
-![Expression]https://github.com/LuiseFreese/blog/blob/main/media/parsejson-expression.png)
+![Expression](https://github.com/LuiseFreese/blog/blob/main/media/parsejson-expression.png)
 
 `body('Get_items')?['value'][rand(1,length(body('Get_items')?['value']))]`
 
