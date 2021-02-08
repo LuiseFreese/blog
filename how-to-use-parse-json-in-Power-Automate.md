@@ -16,7 +16,7 @@ and this is the overview of the flow that we are going to build:
 
 ### Trigger
 
-First things first, our trigger needs to be the Recurrence trigger, in which we specify, in which rhythm this flow shall run. 
+First things first, our trigger needs to be the **Recurrence** trigger, in which we specify, in which rhythm this flow shall run. 
 
 ### SharePoint Get Items
 
@@ -36,11 +36,11 @@ We use the rand() expression to get a random list item from that list. The argum
 
 Now to the interesting part of this flow: We want to exactly post this random list item but we if we look into our Dynamic Content, it gives us only content from the Get items action, but that is before we get a random list item, and as we do't want to tweet ALL list items, this isn't a good idea. How do we solve this now? Well, we parse JSON, which means that we turn the code into objects again and those objects are then reflected in the Dynamic Content in Power Automate. 
 
-Before we add the Parse JSON action, we need to find out, WHICH JSON we need to parse. As already mentioned, we can see the JSON code in our run history, which is why we save our unfinished flow and let it run. Then we open the run history, and have a look at the Outputs and copy everything inside of that box. 
+Before we add the Parse JSON action, we need to find out, WHICH JSON we need to parse. As already mentioned, we can see the JSON code in our run history, which is why we save our unfinished flow and let it run. Then we open the run history, and have a look at the Outputs of the **Compose** action and copy everything inside of that box. 
 
 ![Flow run history- Outputs Compose action](https://github.com/LuiseFreese/blog/blob/main/media/parsejson-history.png)
 
-Now we edit our flow again, add the Parse JSON action, add the Outputs from our Compose Action as Inputs to that action and click the **Generate from sample** button. We will now paste the copied JSON into the **Insert a sample JSON Payload** box and click **Done**. What we did with that is telling the flow which objects it needs to parse. If we now look at this action, we can see the JSON inside of our Parse JSON action, but all values from the run history are replaced by placeholders: "string" (if it was text), "boolean" (if it was a yes/no etc.).
+Now we edit our flow again, add the Parse JSON action, add the Outputs from our Compose Action as Inputs to that action and click the **Generate from sample** button. We will now paste the copied JSON into the **Insert a sample JSON Payload** box and click **Done**. What we did with that is telling the flow which objects it needs to parse. If we now look at this action, we can see the JSON inside of our Parse JSON action, but all values from the run history are replaced by placeholders: "string" (if it was text), "boolean" (if it was a yes/no), etc.
 
 ![Flow run history- Outputs Compose action](https://github.com/LuiseFreese/blog/blob/main/media/parsejson.png)
 
@@ -48,7 +48,11 @@ Now that this action knows what to parse, we can proceed with the next action
 
 ### Send a tweet
 
-We can now see a lot of new Dynamic Content which comes from our **Parse JSON** action. Now we can select all values we need in that tweet, plus some more or less generic hashtags (Pro's will add hashtags into a dedicated column in SharePoint.) If we now save and run our flow, it will first GET all items from the list, then identify a random list element and send out a tweet with the Title and URL auf exactly that list item. 
+We can now see a lot of new Dynamic Content which comes from our **Parse JSON** action. 
+
+![Dynamic Content](https://github.com/LuiseFreese/blog/blob/main/media/parsejson-dynamiccontent.png)
+
+We can now select all values we need in that tweet, plus some more or less generic hashtags (Pro's will add hashtags into a dedicated column in SharePoint.) If we now save and run our flow, it will first GET all items from the list, then identify a random list element and send out a tweet with the Title and URL auf exactly that list item. 
 
 ![Flow run history- Outputs Compose action](https://github.com/LuiseFreese/blog/blob/main/media/parsejson-twitter.png)
 
@@ -56,5 +60,4 @@ We can now see a lot of new Dynamic Content which comes from our **Parse JSON** 
 
 The Parse JSON action can help you turn Outputs from previous actions into Dynamic Content which you can then use in your flow. I'd love to know what you do with Parse JSON, let me know!
 
-*If you are now hungryu because of recipes in the list: [ThatKitchenPrincess.com](https://thatkitchenprincess.com "my food blog")*
-
+*If you are now hungry because of recipes in the list: [ThatKitchenPrincess.com](https://thatkitchenprincess.com "my food blog 😋")*
