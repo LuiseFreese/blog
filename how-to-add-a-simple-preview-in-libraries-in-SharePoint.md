@@ -1,4 +1,4 @@
-# How to add a simple preview in a library in SharePoint
+# #M365Hack - How to add a simple preview in a library in SharePoint
 
 After my last #M365Hack where I showed you how you can create a [Dynamic preview for documents in SharePoint](https://m365princess.com/create-a-dynamic-preview-for-documents-in-sharepoint/) a few people reached out and asked about an easy way to just have a simple preview of a document or image in a library. 
 
