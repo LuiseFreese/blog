@@ -12,6 +12,6 @@ a preview for images and documents in a SharePoint library?
 
 an additional column (single line of text will do the job) and name this column **Thumbnail** - thats it. #Magic 🔮
 
-[How to add a Thumnbail column to a library](https://github.com/LuiseFreese/blog/blob/main/media/Thumbnail.gif)
+![How to add a Thumnbail column to a library](https://github.com/LuiseFreese/blog/blob/main/media/Thumbnail.gif)
 
 Works with .docx, .pdf, .pptx, .xlsx files.
