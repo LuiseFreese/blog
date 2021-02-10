@@ -42,7 +42,7 @@ We will now add actions to create the team and the first channel (technically it
 
 Now we add a conditions: if user wants Learning material, we want to pin a website to the **Learning** channel.
 
-Unfortunatley, there are no actions "pin a website to a channel in Teams" in Power Automate. Fortunately, we can still do this by making an HTTP request towards Microsoft Graph. This is why I added the HTTP action into the flow: 
+Unfortunatley, there are no action "pin a website to a channel in Teams" in Power Automate. Fortunately, we can still do this by making an HTTP request towards Microsoft Graph. This is why I added the HTTP action into the flow: 
 
 ![HTTP request](https://github.com/LuiseFreese/blog/blob/main/media/how-to-get-started-with-http-requests-in-PowerAutomate/condition1.png)
 
@@ -70,7 +70,8 @@ Second thing we need to know is which method we want to use. As already explaine
 | PATCH | ✒ update|
 | DELETE | 🗑 remove|
 
-If we now open the dropdown menu for the **Method** field in the HTTP action, we will see a representation of that: 
+If we now open the dropdown menu for the **Method** field in the HTTP action, we will see a representation of that:
+
 ![different methods in HTTP action](https://github.com/LuiseFreese/blog/blob/main/media/how-to-get-started-with-http-requests-in-PowerAutomate/methods.png)
 
 As we want to *create* a new tab in a channel, we will use **POST**.
@@ -81,15 +82,13 @@ Headers are not mandatory for all requests, but look like this: `Content-type: a
 
 #### Data (or body)
 
-If we call an endpoint, it's not enough to specify the URL the request needs to make to, but we will also need to post some addiutional info into the body of our requests. Most GET requests though don't need information in the body, as they will only list the requested resources. 
+If we call an endpoint, it's not enough to specify the URL the request needs to make to, but we will also need to post some additional info into the body of our requests. Most GET requests though don't need information in the body, as they will only list the requested resources. 
 
 ### Fill in the HTTP action
 
-If we carefully follow the docs, we will see that we should do this: 
+If we carefully follow the [Docs](https://docs.microsoft.com/en-us/graph/teams-configuring-builtin-tabs), we will see that we should do this: 
 
 `POST https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/tabs`
-
-
 
 >{
 
@@ -101,60 +100,65 @@ If we carefully follow the docs, we will see that we should do this:
 
 >}
 
-
-while for websites this applies: 
-
 Some remarks on that: 
 
-1. Choose Method **POST** - we already figured that out
-2. https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/tabs is our URL, but we will need to replace `{team-id}` and `{channel-id}` with the actual dynamic content
-3. choose a `displayName` for the Tab as you wish
+* Choose Method **POST** - we already figured that out
+* https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/tabs is our URL, but we will need to replace `{team-id}` and `{channel-id}` with the actual dynamic content
+* Choose a `displayName` for the Tab as you wish
 4. `"teamsApp@odata.bind"` is "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/com.microsoft.teamspace.tab.web"
-4. both `websiteUrl` and `contentUrl` are the full URL of the website you want to pin including `https://`. If your website is only `http://` you can't use that inside of Teams. 
-5. we don't need `removeUrl` and `entityID`. 
+4. Both `websiteUrl` and `contentUrl` are the full URL of the website you want to pin including `https://`. If your website is only `http://` you can't use that inside of Teams. 
 
 In total, this looks like this:
 
 ![http request without auth](https://github.com/LuiseFreese/blog/blob/main/media/how-to-get-started-with-http-requests-in-PowerAutomate/http-without-auth.png)
 
 #### Authentication in Azure AD
+
 We are almost there, but some critucal parts are missing. As you can see in the last image, there is a **Show advanced options** link in the HTTP action and we need to click on it. Our HTTP request need authentication. We can authenticate via Azure Active Directory OAuth, but we will first need to have a representation of our app (yes, this flow that calls Graph is an application) in Azure AD. 
 
 We will follow these steps to register an app in Azure AD: 
 
-* go to portal.azure.com and log in
-* click **app registrations**
-* click **New App registration**
-* Gice your app a nice name
-* save tenant ID and Client(app) ID somewhere (notepad or similar)
-* click **API PERMISSIONS** and select **Microsoft Graph**
+* Go to portal.azure.com and log in
+* Click **app registrations**
+* Click **New App registration**
+* Give your app a nice name
+* Save tenant ID and Client(app) ID somewhere (notepad or similar)
+* Click **API PERMISSIONS** and select **Microsoft Graph**
 * Now look up the permissions needed for this action: [Add tabs to a channel(https://docs.microsoft.com/en-us/graph/api/channel-post-tabs?view=graph-rest-1.0):
-
 
 | Permission type | Permissions (from least to most privileged)|
 | ------- |:-----:|
-|Delegated (work or school account)|TeamsTab.Create, TeamsTab.ReadWriteForTeam, TeamsTab.ReadWrite.All, Group.ReadWrite.All, Directory.ReadWrite.All|
+|Application|TeamsTab.Create.Group*, TeamsTab.Create, TeamsTab.ReadWriteForTeam.All, TeamsTab.ReadWrite.All, Group.ReadWrite.All, Directory.ReadWrite.All|
 
-* select all these permissions
-* grant Admin consent
+* Select all these permissions
+* Grant Admin consent
 * Click **Certificates & secrets** 
 * Click **New client secret** 
 * Type in a description
 * Click **Add**
 * Copy the value and save it in your notepad (you will need that later) 
 
+#### Write the IDs into variables
 
+In our flow, we will now initialize three variables at first level (before any condition) and set their values the copied values of Tenant ID, App ID and App Secret. All three variables are of type string. 
 
+#### Complete the HTTP request
 
+Now we will fill in some more information in the HTTP request: 
 
+Authority: `https://login.microsoftonline.com`
+Audience: `https://graph.microsoft.com`
 
+Besides that, we will use our three variables for Tenant ID, App ID and App Secret. 
 
+![auth in HTTP request](https://github.com/LuiseFreese/blog/blob/main/media/how-to-get-started-with-http-requests-in-PowerAutomate/auth.png)
 
+## Celebrate
 
+If we now run the flow and take a look at the new team in Microsoft Teams: 
 
+![Channel with Tab](https://github.com/LuiseFreese/blog/blob/main/media/how-to-get-started-with-http-requests-in-PowerAutomate/channel-with-tab.png)
 
+## Conclusion
 
-
-
-
-## Resources that might help you
+HTTP requests re a super coo method to achieve a lot of things that are not actions in Power Automate, but can still be executed using Microsoft Graph (or other APIs!). What are you using HTTP requests for? 
