@@ -37,11 +37,7 @@ Now how do we create an HTTP requests in Power Automate? First let me introduce 
 We want to use Power Automate to create a Team with some predefined content in it. To make things easier, we will use the mobile trigger and ask for Team Name, Team Description, and if a user wants a channel for **Learning** and wants to pin training material (a website) as a tab to this channel
 ![manual trigger of flow](https://github.com/LuiseFreese/blog/blob/main/media/how-to-get-started-with-http-requests-in-PowerAutomate/manually-trigger.png) (Of course, we would do that later in a form, an app, or a bot, but for understanding the logic of HTTP requests in Power Automate I will keep this as simple as possible)
 
-We will now add actions to create the team: 
-
-![create the Team and add a channel](https://github.com/LuiseFreese/blog/blob/main/media/how-to-get-started-with-http-requests-in-PowerAutomate/create-team.png)
-
-Now we add a condition: If user wants learning material, we want create a chabnnel called **Learning** and want to pin a website to it. 
+We will now add actions to create the team and then we add a condition: If user wants learning material, we want create a chabnnel called **Learning** and want to pin a website to it. 
 
 Unfortunatley, there is no action "pin a website to a channel in Teams" in Power Automate. Fortunately, we can still do this by making an HTTP request towards Microsoft Graph. This is why I added the HTTP action into the flow: 
 
@@ -92,13 +88,11 @@ If we carefully follow the [Docs](https://docs.microsoft.com/en-us/graph/teams-c
 `POST https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/tabs`
 
 >{
-
 > "displayName": "M365Princess Blog","teamsApp@odata.bind" : "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/com.microsoft.teamspace.tab.web", 
 >"configuration": {
 >      "contentUrl": "https://m365princess.com",
 >     "websiteUrl": "https://m365princess.com"
 >  }
-
 >}
 
 Some remarks on that: 
@@ -147,8 +141,8 @@ In our flow, we will now initialize three variables at first level (before any c
 
 Now we will fill in some more information in the HTTP request: 
 
-Authority: `https://login.microsoftonline.com`
-Audience: `https://graph.microsoft.com`
+* Authority: `https://login.microsoftonline.com`
+* Audience: `https://graph.microsoft.com`
 
 Besides that, we will use our three variables for Tenant ID, App ID and App Secret. 
 
@@ -156,7 +150,7 @@ Besides that, we will use our three variables for Tenant ID, App ID and App Secr
 
 Our flow should look like this: 
 
-![flow in total](https://github.com/LuiseFreese/blog/blob/main/media/how-to-get-started-with-http-requests-in-PowerAutomate/flow=total.png)
+![flow in total](https://github.com/LuiseFreese/blog/blob/main/media/how-to-get-started-with-http-requests-in-PowerAutomate/flow-total.png)
 
 ## Celebrate
 
