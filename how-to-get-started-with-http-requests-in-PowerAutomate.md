@@ -50,7 +50,7 @@ You can see a lot of fields in that HTTP action, so I will make you understand t
 
 ### What do we need to make a successfull HTTP request? 
 
-💡 It is a very good idea to open documentation on [docs.microsoft.com](https://docs.microsoft.com/en-us/graph/api/overview?toc=.%2Fref%2Ftoc.json&view=graph-rest-1.0) while buiding your flows that call Microsoft Graph. You will find in nearly all pages 4 things, that we need to consider when doing an HTTP request: 
+💡 It is a very good idea to open documentation on [docs.microsoft.com](https://docs.microsoft.com/en-us/graph/api/overview?toc=.%2Fref%2Ftoc.json&view=graph-rest-1.0) buiding your flows that call Microsoft Graph. You will find in nearly all pages 4 things, that we need to consider when doing an HTTP request: 
 
 #### Endpoint
 
@@ -89,15 +89,20 @@ If we carefully follow the docs, we will see that we should do this:
 
 `POST https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/tabs`
 
-`
-{
-"displayName": "M365Princess Blog","teamsApp@odata.bind" : "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/com.microsoft.teamspace.tab.web",
-  "configuration": {
-      "contentUrl": "https://m365princess.com",
-     "websiteUrl": "https://m365princess.com"
-  }
-}
-`
+
+
+>{
+
+> "displayName": "M365Princess Blog","teamsApp@odata.bind" : >"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/com.microsoft.teamspace.tab.web",
+
+>  "configuration": {
+>      "contentUrl": "https://m365princess.com",
+>     "websiteUrl": "https://m365princess.com"
+>  }
+
+>}
+
+
 while for websites this applies: 
 
 Some remarks on that: 
