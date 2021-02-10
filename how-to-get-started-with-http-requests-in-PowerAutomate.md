@@ -83,26 +83,22 @@ Headers are not mandatory for all requests, but look like this: `Content-type: a
 
 If we call an endpoint, it's not enough to specify the URL the request needs to make to, but we will also need to post some addiutional info into the body of our requests. Most GET requests though don't need information in the body, as they will only list the requested resources. 
 
-![Get file content](https://github.com/LuiseFreese/blog/blob/main/media/how-to-get-started-with-http-requests-in-PowerAutomate/get-file-content.png)
-
 ### Fill in the HTTP action
 
 If we carefully follow the docs, we will see that we should do this: 
 
-`POST https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/tabs
-{
-  "displayName": "word",
-  "teamsApp@odata.bind" : "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/com.microsoft.teamspace.tab.file.staticviewer.word",
-  "configuration": {
-     "entityId": "115A90F4-AC9C-4F79-9837-36D1EFB3BE08",
-     "contentUrl": "https://m365x165177.sharepoint.com/sites/4NewCloneWithClonableParts/Shared%20Documents/General/Employee Handbook.docx",
-     "removeUrl": null,
-     "websiteUrl": null
-  }
-}`
-while for websites this applies: 
+`POST https://graph.microsoft.com/v1.0/teams/{team-id}/channels/{channel-id}/tabs`
 
-![website tabs in Microsoft Teams](https://github.com/LuiseFreese/blog/blob/main/media/how-to-get-started-with-http-requests-in-PowerAutomate/website-tabs.png)
+`
+{
+"displayName": "M365Princess Blog","teamsApp@odata.bind" : "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/com.microsoft.teamspace.tab.web",
+  "configuration": {
+      "contentUrl": "https://m365princess.com",
+     "websiteUrl": "https://m365princess.com"
+  }
+}
+`
+while for websites this applies: 
 
 Some remarks on that: 
 
@@ -117,16 +113,33 @@ In total, this looks like this:
 
 ![http request without auth](https://github.com/LuiseFreese/blog/blob/main/media/how-to-get-started-with-http-requests-in-PowerAutomate/http-without-auth.png)
 
-
-
 #### Authentication in Azure AD
 We are almost there, but some critucal parts are missing. As you can see in the last image, there is a **Show advanced options** link in the HTTP action and we need to click on it. Our HTTP request need authentication. We can authenticate via Azure Active Directory OAuth, but we will first need to have a representation of our app (yes, this flow that calls Graph is an application) in Azure AD. 
 
 We will follow these steps to register an app in Azure AD: 
 
-1. go to portal.azure.com
-2. log in
-3. click
+* go to portal.azure.com and log in
+* click **app registrations**
+* click **New App registration**
+* Gice your app a nice name
+* save tenant ID and Client(app) ID somewhere (notepad or similar)
+* click **API PERMISSIONS** and select **Microsoft Graph**
+* Now look up the permissions needed for this action: [Add tabs to a channel(https://docs.microsoft.com/en-us/graph/api/channel-post-tabs?view=graph-rest-1.0):
+
+
+| Permission type | Permissions (from least to most privileged)|
+| ------- |:-----:|
+|Delegated (work or school account)|TeamsTab.Create, TeamsTab.ReadWriteForTeam, TeamsTab.ReadWrite.All, Group.ReadWrite.All, Directory.ReadWrite.All|
+
+* select all these permissions
+* grant Admin consent
+* Click **Certificates & secrets** 
+* Click **New client secret** 
+* Type in a description
+* Click **Add**
+* Copy the value and save it in your notepad (you will need that later) 
+
+
 
 
 
