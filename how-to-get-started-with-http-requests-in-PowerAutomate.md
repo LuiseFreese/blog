@@ -93,11 +93,12 @@ If we carefully follow the docs, we will see that we should do this:
 
 >{
 
-> "displayName": "M365Princess Blog","teamsApp@odata.bind" : >"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/com.microsoft.teamspace.tab.web",
+> "displayName": "M365Princess Blog","teamsApp@odata.bind" : "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/com.microsoft.teamspace.tab.web", 
 >"configuration": {
 >      "contentUrl": "https://m365princess.com",
 >     "websiteUrl": "https://m365princess.com"
 >  }
+
 >}
 
 
