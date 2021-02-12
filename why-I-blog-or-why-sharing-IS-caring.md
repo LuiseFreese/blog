@@ -1,13 +1,13 @@
 # Why I blog and how
 
-I run this blog for a few years, and sometimes people outside of my filter bubble ask me why I do this, as no one pays me for that, and I don't have any ads on my website. Instead of explaining this over and over again, I decided to write a metablog post on why I blog. If you come across my website for the very time today: I mostly blog about Microsoft 365 and Power Platform; sometimes, I throw in some more personal posts as well. I write not only here, 
+I run this blog for a few years now, and sometimes people outside of my filter bubble ask me why I do this, as no one pays me for that, and I don't have any ads on my website. Instead of explaining this over and over again, I decided to write a metablog post on why I blog. If you come across my website for the very time today: I mostly blog about Microsoft 365 and Power Platform; sometimes, I throw in some more personal posts as well. I write not only here, 
 
 * but also on [Community Docs](https://docs.microsoft.com/en-us/microsoft-365/community/)
 * took lead of the [Microsoft 365 PnP Community on TechCommunity](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/bg-p/Microsoft365PnPBlog)
 * run my own [food blog](https://thatkitchenprincess.com) and 
 * write the stories for [PYOD news](https://pyod.shop), the blog of the sticker business that I run together with [Elio Struyf](https://eliostruyf.com)
 
-You can say that writing is an essential part of my life. 
+You can say that writing is an essential part of my life. I strongly believe in the **Sharing Is Caring** mission, which most of you will heard about in the context of [Microsoft 365 PnP](https://aka.ms/m365PnP) and I feel it's important to understand why blogging incorporates so much of #SharingIsCaring for me. 
 
 ## Why do I blog?
 
@@ -110,7 +110,7 @@ I also take care of the featured image and the Twitter Card preview Text.
 
 ### marketing
 
-To share and reshare my blog posts, I add them into a queue so that they get automatically republished on Twitter and LinkedIn, [I blogged about how to do that here](https://m365princess.com/how-we-use-sharepoint-list-formatting-and-power-automate-at-pyod-to-ease-our-marketing/)
+To share and reshare my blog posts, I add them into a queue so that they get automatically republished on Twitter and LinkedIn, [I blogged about how to do that here](https://m365princess.com/how-we-use-sharepoint-list-formatting-and-power-automate-at-pyod-to-ease-our-marketing/).
 
 ## Conclusion and What's next?
 
