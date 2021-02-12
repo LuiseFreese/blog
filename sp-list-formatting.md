@@ -1,12 +1,12 @@
 # Modern SharePoint list formatting
 
-This article shall give you guidance and inspiration on how to turn your classic boring lists into interactive modern list experiences, which will wow your users, let them get information at first sight, and increase overall productivity. This post is not about the Microsoft 365 list templates; I will cover them in the next blog post. 
+This article shall give you guidance and inspiration on how to turn your classic boring lists into interactive modern list experiences, which will wow your users, let them get information at first sight, and increase overall productivity. This post is not about the Microsoft 365 list templates; I will cover them in one of the next blog posts. 
 
 If you never heard anything about modern SharePoint list formatting, don't worry; I will guide you through this. 
 
 ## Why would we use SharePoint lists
 
-First things first: Why should we use SharePoint lists and not use - for instance - an Excel spreadsheet? Because we don't need to hide information in cascading s, that should be at the user's fingertips. The beauty of lists lies in their simplicity and flexibility to organize work and track the information that matters most to our businesses. 
+First things first: Why should we use SharePoint lists and not use - for instance - an Excel spreadsheet? Because we don't need to hide information in cascading folders, that should be at the user's fingertips. The beauty of lists lies in their simplicity and flexibility to organize work and track the information that matters most to our businesses. 
 
 Creating, sharing, and tracking lists is easy and available on any device; everyone stays in the loop, and we can use lists for all kinds of purposes like tracking issues, assets, routines, contacts, inventory, and more. Lists can easily be customized to make them visually more appealing. 
 
