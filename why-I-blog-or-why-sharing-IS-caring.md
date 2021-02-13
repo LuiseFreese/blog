@@ -82,7 +82,9 @@ I write my blogposts as markdown-files in a public repository in GitHub.
 
 #### GitHub
 
-Some people might think about code or open-source at first when they hear GitHub and wouldn't recommend this as a blogging tool in the first place, but for my purposes, it is incredible. Collaboration with others on blog posts works like a charm, and the commit history is an excellent visual representation of my blogging (and other) efforts. I do not get more green tiles, but the green tiles show me my persistence, and it's more comfortable to reach my goals then. 
+Some people might think about code or open-source at first when they hear GitHub and wouldn't recommend this as a blogging tool in the first place, but for my purposes, it is incredible. Collaboration with others on blog posts works like a charm, and the commit history is an excellent visual representation of my blogging (and other) efforts. I do not do this to get more green tiles, but the green tiles show me my persistence, and it's more comfortable to reach my goals then. L:ooking at my commit history is one part of keeping me motivated. 
+
+![my GitHub commit history in 2021](https://github.com/LuiseFreese/blog/blob/main/media/why-I-blog-or-why-sharing-IS-caring/GitHub-commit-history.png)
 
 #### Public
 
