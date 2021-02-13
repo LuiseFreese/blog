@@ -1,8 +1,8 @@
 # Why I blog and how
 
-I run this blog for a few years now, and sometimes people outside of my filter bubble ask me why I do this, as no one pays me for that, and I don't have any ads on my website. Instead of explaining this over and over again, I decided to write a metablog post on why I blog. If you come across my website for the very time today: I mostly blog about Microsoft 365 and Power Platform; sometimes, I throw in some more personal posts as well. I write not only here, 
+I run this blog for a few years now, and sometimes people outside of my filter bubble ask me why I do this, as no one pays me for that, and I don't have any ads on my website. Instead of explaining this over and over again, I decided to write a metablog post on why I blog. If you come across my website for the very first time today: I mostly blog about Microsoft 365 and Power Platform; sometimes, I throw in some more personal posts as well. I write not only here, but also
 
-* but also on [Community Docs](https://docs.microsoft.com/en-us/microsoft-365/community/)
+* on [Community Docs](https://docs.microsoft.com/en-us/microsoft-365/community/)
 * took lead of the [Microsoft 365 PnP Community on TechCommunity](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/bg-p/Microsoft365PnPBlog)
 * run my own [food blog](https://thatkitchenprincess.com) and 
 * write the stories for [PYOD news](https://pyod.shop), the blog of the sticker business that I run together with [Elio Struyf](https://eliostruyf.com)
@@ -17,25 +17,25 @@ It seems we already covered the first reason for me to blog: If I know something
 
 ### Solidifying my knowledge
 
-If we need to explain something you know to someone else, we will likely try to find examples, analogies, and metaphors that our audience will find relatable, which will increase their understanding. The same happens when we blog about a solution or write a how-to guide or elaborate on thoughts regarding a product or a specific behavior. We need to slow down our thinking and try to see our topic with different eyes. Changing the perspective will enable us to see the whole picture and will complement what we already know. It will allow us to flip sides and perceive our knowledge from a new view. And it will force us to get familiar with the 'hows' and the 'whys' of best practices or different approaches as we will need to explain everything in detail. This applies even more when we want to write bias- and assumption-free, beginner-friendly content. 
+If we need to explain something we know to someone else, we will likely try to find examples, analogies, and metaphors that our audience will find relatable, which will increase their understanding. The same happens when we blog about a solution or write a how-to guide or elaborate on thoughts regarding a product or a specific behavior. We need to slow down our thinking and try to see our topic with different eyes. Changing the perspective will enable us to see the whole picture and will complement what we already know. It will allow us to flip sides and perceive our knowledge from a new view. And it will force us to get familiar with the 'hows' and the 'whys' of best practices or different approaches as we will need to explain everything in detail. This applies even more when we want to write bias- and assumption-free, beginner-friendly content. 
 
 > Blogging helps me solidifying my knowledge and broadening my view. 
 
 ### Exploring new areas
 
-Sometimes, we write about what we already know and about topics we want or need to explore. The fact that we need to understand the nitty-gritty details leads to discovering more and more levels- and very often, we will be surprised that the post took more time to write, covers this topic in more depth, and that we learned so much by writing it. Of course, if we happily jump into a new rabbit hole, we can't know how deep this is and how much time and effort it will take to understand it. Perhaps we will notice half-way that our previous assumptions, where this post will lead to, were partially or entirely wrong, or we will learn how our freshly gained knowledge connects to and relates with the things we already know. This is very rewarding for me: not only learning facts but also connecting the dots and making sense of subjects that I didn't (fully) understand before. As the world (and tech) gets more complex, it's essential to understand the impacts of new features, changes in licensing, product launches, etc. 
+Sometimes, we write about what we already know, but verz often, we write about topics we want or need to explore. The fact that we need to understand the nitty-gritty details leads to discovering more and more levels- and very often, we will be surprised that the post took us more time to write, covers this topic in more depth, and that we learned so much by writing it. Of course, if we happily jump into a new rabbit hole, we can't know how deep this is and how much time and effort it will take us to understand it. Perhaps we will notice half-way through, that our previous assumptions, where this post will lead to, were partially or entirely wrong, or we will learn how our freshly gained knowledge connects to and relates with the things we already know. This is very rewarding for me: not only learning facts but also connecting the dots and making sense of subjects that I didn't (fully) understand before. As the world (and tech) gets more and more complex, it's essential to understand the impacts of new features, changes in licensing, product launches, etc. 
 
 > Writing blog posts makes me more comfortable and more sustainably understand new things and connecting them with my existing knowledge
 
 ### Extending comfort zone
 
-But there is another aspect of writing what we know or what we want to explore. It is about being open to our learning journey and finding joy in being a #LearnItAll. I don't think that stepping outside of our comfort zones (and then returning to it) is something we should look for. I instead aim to *extend* my comfort zone so that once I managed to do the thing outside of my comfort zone, my comfort zone (and me within) grows. 
+But there is another aspect of writing what we know or what we want to explore. It is about being open about our learning journey and finding joy in being a #LearnItAll. I don't think that stepping outside of our comfort zones (and then returning to it) is something we should look for. I instead aim to *extend* my comfort zone so that once I managed to do the thing outside of my comfort zone, my comfort zone (and me within) grows. 
 
 > Being a content creator allows me to grow both personally and professionally while sharing my passion with the community
 
 ### Reuseability /Repurposeability
 
-Once I wrote a blog post, I can repurpose the gained/solidified knowledge easily: I can give sessions, workshops, talks about it, participate with my perspective in panel discussions or TweetJams or interviews, and do not need to limit myself to the fact that this is a one-time-publishing event. Reusing my content makes me aware of how much I already know and what is still not addressed to everyone. As we know, new people start every day, and we overestimate a lot of what people know. Therefore, it's a good idea to reuse what we already published because it will expose us to new audiences and help them find their way into this community and pay it forward as well. 
+Once I wrote a blog post, I can repurpose the gained/solidified knowledge easily: I can give sessions, workshops, talks about it, participate with my perspective in panel discussions, TweetJams, or interviews, and do not need to limit myself to the fact that this is a one-time-publishing event. Reusing my content makes me aware of how much I already know and what is still not addressed to everyone. As we know, new people start every day, and we overestimate a lot of what people know. Therefore, it's a good idea to reuse what we already published because it will expose us to new audiences and help them find their way into this community and pay it forward as well. 
 
 ### (so called) Soft Skills
 
@@ -60,15 +60,15 @@ It is not enough to remember knowledge or understand it or use and implement it,
 
 > Blogging gives me more opportunities to do new things
 
-* Empathy
+#### Empathy
 
 Changing perspectives and figuring out how others feel about something not only broaden my horizon but also affect my decision-making process and make me communicate better. As a result, empathy makes my content more accessible, more inclusive, and more bias-free. 
 
 > Creating Content makes me even more empathetic and lets me even more understand the real value of a holistic diversity of backgrounds and skills  
 
-* Creativity
+#### Creativity
 
-This one sounds too apparent. When I *create* a new blog post, this is about creativity. It is about the act of making *something* out of *nothing*. I modify something and produce something unique that represents my knowledge and beliefs and serves my purpose. Some people fight against the fear of the blinking cursor. But I managed to turn this uncertainty and my sometimes occurring doubts if my thoughts are worth reading into the freedom to express myself how I want it. I enjoy being a content creator and doing this on my terms on conditions. I don't have any deadlines (although I set a goal on frequency), no topics to cover, no specific amount of lines to write. My blogs are an invitation for others to learn and feel inspired to share what they know. 
+This one sounds too apparent. When I *create* a new blog post, this is about creativity. It is about the act of making *something* out of *nothing*. I do not only modify something, but produce something unique that represents my knowledge and beliefs and serves my purpose. Some people fight against the fear of the blinking cursor. But I managed to turn this uncertainty and my sometimes occurring doubts if my thoughts are worth reading into the freedom to express myself how I want it. I enjoy being a content creator and doing this on my terms on conditions. I don't have any deadlines (although I set a goal on frequency), no topics to cover, no specific amount of lines to write. My blogs are an invitation for others to learn and feel inspired to share what they know. 
 
 > My blogging habits make me feel more confident about my skills
 
@@ -84,13 +84,15 @@ I write my blogposts as markdown-files in a public repository in GitHub.
 
 Some people might think about code or open-source at first when they hear GitHub and wouldn't recommend this as a blogging tool in the first place, but for my purposes, it is incredible. Collaboration with others on blog posts works like a charm, and the commit history is an excellent visual representation of my blogging (and other) efforts. I do not get more green tiles, but the green tiles show me my persistence, and it's more comfortable to reach my goals then. 
 
-#### public
+#### Public
 
-*But why on earth do you write in public?* people ask me. *You could set up a private repo; once you commit, the whole world can see your ~~shitty~~ non-mature first drafts, your rough ideas, your typos, and broken links*. Yes, that is true. But also, there is nothing wrong with not being perfect or about showing work in progress. I feel very comfortable with that. Plus, if someone finds a typo, they invited to PR that :-) 
+*But why on earth do you write in public?* people ask me. *You could set up a private repo; once you commit, the whole world can see your ~~shitty~~ non-mature first drafts, your rough ideas, your typos, and broken links*. 
+
+Yes, that is true. But also, there is nothing wrong with not being perfect or about showing work in progress. I feel very comfortable with that. Plus, if someone finds a typo, they invited to PR that :-) 
 
 ![read.me of luisefreese/blog on GitHub](https://github.com/LuiseFreese/blog/blob/main/media/why-I-blog-or-why-sharing-IS-caring/pr-welcome.png)
 
-#### markdown
+#### Markdown
 
 This allows me to focus on my content instead of being distracted by a UI that gives me too many options to format my text. Concentrating on writing lets me get into this flow-feeling more easily, where words and thoughts seem to directly from my mind into my fingers. 
 
@@ -108,7 +110,7 @@ To publish a post, I need to insert `[git-github-markdown url="{url of my blogpo
 
 I also take care of the featured image and the Twitter Card preview Text. 
 
-### marketing
+### Marketing
 
 To share and reshare my blog posts, I add them into a queue so that they get automatically republished on Twitter and LinkedIn, [I blogged about how to do that here](https://m365princess.com/how-we-use-sharepoint-list-formatting-and-power-automate-at-pyod-to-ease-our-marketing/).
 
