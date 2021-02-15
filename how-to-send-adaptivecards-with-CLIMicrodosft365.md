@@ -1,6 +1,6 @@
 # How to send Adaptive Cards with CLI Microsoft 365
 
-In this blog post I want to explain how you can send an Adaptive Card with CLI Microsoft 365. I will guide you from zero to hero, so even if you don't know anything about  the CLI Microsoft 365 or about Adaptive cards, don't b stop reading, you will be able to do that in a few minutes. 
+In this blog post I want to explain how you can send an Adaptive Card with CLI Microsoft 365. I will guide you from zero to hero 🚀, so even if you don't know anything about  the CLI Microsoft 365 or about Adaptive cards, don't  stop reading, you will be able to do that in a few minutes- I promise! 
 
 ## What is CLI Microsoft 365?
 
@@ -35,13 +35,13 @@ In case you wonder:
 
 #### Login
 
-Now that we installed CLI Microsoft 365, it's time to actually do something here. But before we can get or post anything, we will need to log into our tenant. To do that, run the following command: 
+Now that we installed CLI Microsoft 365, it's time to actually do something here. But before we can get or post anything, we will need to log into our tenant. Pro Tip: You can use your [Developer Tenant](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/what-is-a-dev-tenant-and-why-would-you-want-one/ba-p/2036610) to do that! Run the following command: 
 
 `m365 login`
 
 In response you will be asked to open a webbrowser and login with a code. If you are using Visual Studio Code, you can click on the link, please copy the code upfront. If you use PowerShell, you will need to copy/paste the URL into a new Browser tab. 
 
-[Login](https://github.com/LuiseFreese/blog/blob/main/media/how-to-send-adaptivecards-with-CLIMicrosoft365/login.png)
+![Login](https://github.com/LuiseFreese/blog/blob/main/media/how-to-send-adaptivecards-with-CLIMicrosoft365/login.png)
 
 After you pasted the code, 
 
@@ -67,7 +67,8 @@ If you want some inspiration, what you could do now, run this command:
 which gives you a list of things you can try, these are called command groups, as each of them can contain several commands.  When you now choose one of the command groups and run for example this one: 
 
 `m365 outlook`
- you will get the commands, that are available to you in this command group. Just try them out! Pro Tip: You can use your [Developer Tenant](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/what-is-a-dev-tenant-and-why-would-you-want-one/ba-p/2036610) to do that! 
+
+ you will get the commands, that are available to you in this command group. Just try them out! 
 
 ## What are Adaptive Cards?
 
