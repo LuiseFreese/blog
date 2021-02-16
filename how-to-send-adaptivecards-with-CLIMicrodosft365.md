@@ -115,7 +115,7 @@ Now go ahead and adjust the sample to work in your environment:
 * copy the whole code
 * run it 
 
-⚡ Turned out, that there are some differences how to use quotes and when there is a need to escape in JSON, which resulted in this [PR](https://github.com/pnp/cli-microsoft365/pull/2167). 
+⚡ Turned out, that there are some differences how to use quotes and when there is a need to escape in JSON using different shells, which resulted in this [PR](https://github.com/pnp/cli-microsoft365/pull/2167). 
 
 
 
