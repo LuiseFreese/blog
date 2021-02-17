@@ -4,7 +4,7 @@ In this blog post I want to explain how you can send an Adaptive Card with CLI M
 
 ## What is CLI Microsoft 365?
 
-Lets first get us all on the same page and clarify, what CLI Microsoft 365 is and why we should use it: It is a CLI (Command Line Interface) which let's us manage Microsoft 365 from any kind of OS: It doesn't matter if we work on Windows, MacOS or Linux. Previously, some configurations were only possible by PowerShell for Windows, which limited a lot of admins. Even if you work on Windows and are pretty fine with using PowerShell, CLI might be a nice alternative to try out. 
+Lets first get us all on the same page and clarify, what CLI Microsoft 365 is and why we should use it: It is a CLI (Command Line Interface) which let's us manage Microsoft 365 from any kind of OS: It doesn't matter if we work on Windows, MacOS or Linux. Previously, some configurations were only possible by PowerShell for Windows, which limited a lot of admins. But even if you work on Windows and are pretty fine with using PowerShell, CLI might be a nice alternative to try out. 
 
 ### How to use CLI Microsoft 365 
 
@@ -18,11 +18,11 @@ To use the CLI MIcrosoft 365, you will need to install Node.js - Please follow t
 * download the LTS version of Node.js
 * install Node.js
 
-> If in doubt, if you have the correct version installed or if you need to use different versions of Node.js, pleas read [Use Node Version Manager to develop your SPFx apps](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/use-node-version-manager-to-develop-your-spfx-apps/ba-p/2128393) [Toni Pohl](https://twitter.com/atwork)
+> If in doubt, if you have the correct version installed or if you need to use different versions of Node.js, pleas read [Use Node Version Manager to develop your SPFx apps](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/use-node-version-manager-to-develop-your-spfx-apps/ba-p/2128393) by [Toni Pohl](https://twitter.com/atwork)
 
 #### Install CLI Microsoft 365
 
-Now that you have Node.js installed, we can continue with installing the CLI Microsoft 365. You can choose any shell you like: If you want to use PowerShell or the Terminal in Visual Studio Code or whatever makes you happy. I like to use the PowerShell terminal in Visual Studio Code, because links are render to be clickable and this saves me copy/pasting links into a new browser tab. But if you don't have Visual Studio Code or if you like to use PowerShell or any other shell, that is perfectly fine as well. To install CLI Microsoft 365, run the command: 
+Now that you have Node.js installed, we can continue with installing the CLI Microsoft 365. You can choose any shell you like: If you want to, you can use PowerShell or PowerShell in the Terminal in Visual Studio Code or whatever makes you happy. I like to use the PowerShell terminal in Visual Studio Code, because links render to be clickable and this saves me copy/pasting links into a new browser tab. But if you like to any other shell, that is perfectly fine as well. To install CLI Microsoft 365, run the command: 
 
 `npm i -g @pnp/cli-microsoft365`
 
@@ -30,6 +30,7 @@ In case you wonder:
 
 * the `i` is an alias for `install`
 * the `-g` means that we want to install this package globally
+* it will take about 2 minutes
 
 #### Login
 
@@ -37,7 +38,7 @@ Now that we installed CLI Microsoft 365, it's time to actually do something here
 
 `m365 login`
 
-In response you will be asked to open a webbrowser and login with a code. If you are using Visual Studio Code, you can click on the link, please copy the code upfront. If you use PowerShell, you will need to copy/paste the URL into a new Browser tab. 
+In response you will be asked to open a webbrowser and login with a code. If you are using Visual Studio Code, you can click on the link, please copy the code upfront. 
 
 ![Login](https://github.com/LuiseFreese/blog/blob/main/media/how-to-send-adaptivecards-with-CLIMicrosoft365/login.png)
 
@@ -49,7 +50,7 @@ After you pasted the code,
 You will be seeing this message and can close this browser tab- we won't need it anymore. 
 ![you are logged in](https://github.com/LuiseFreese/blog/blob/main/media/how-to-send-adaptivecards-with-CLIMicrosoft365/PnPmanagementShellOK.png)
 
-You don't believe that? Let's check with CLI Microsoft 365 and run this command to get your status: 
+Yay! You successfully logged in! You don't believe that? Let's check with CLI Microsoft 365 and run this command to get your status: 
 
 `m365 status`
 
@@ -66,41 +67,42 @@ which gives you a list of things you can try, these are called command groups, a
 
 `m365 outlook`
 
-you will get the commands, that are available to you in this command group. Just try them out!
+you will get the commands, that are available to you in this command group. Sometimes, you can go several levels deep-Just try them out!
 
 ## What are Adaptive Cards?
 
-Next thing we need to know is, what are Adaptive cards and why would we want to use them? When we look at [adaptivecards.io](https://adaptivecards.io) we can read the definition 'Adaptive Cards are platform-agnostic snippets of UI, authored in JSON, that apps and services can openly exchange. When delivered to a specific app, the JSON is transformed into native UI that automatically adapts to its surroundings. It helps design and integrate light-weight UI for all major platforms and frameworks.' This means, that we get a nice method to share and display information without needing to know how to use HTML/CSS to render them correctly in different host applications. If you like to know more, please read [Get started with Adaptive Cards](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/get-started-with-adaptive-cards/ba-p/2048786) by [Tomasz Poszytek](https://twitter.com/tomaszposzytek)
+Next thing we need to know is, what are Adaptive Cards and why would we want to use them? When we look at [adaptivecards.io](https://adaptivecards.io) we can read the definition 'Adaptive Cards are platform-agnostic snippets of UI, authored in JSON, that apps and services can openly exchange. When delivered to a specific app, the JSON is transformed into native UI that automatically adapts to its surroundings. It helps design and integrate light-weight UI for all major platforms and frameworks.' This means, that we get a nice method to share and display information without needing to know how to use HTML/CSS to render them correctly in different host applications. If you like to know more, please read [Get started with Adaptive Cards](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/get-started-with-adaptive-cards/ba-p/2048786) by [Tomasz Poszytek](https://twitter.com/tomaszposzytek)
 
 ## How do we send an Adaptive Card with CLI Microsoft 365? 
 
-Now that we know what is an Adaptive Card, let's have a look on how we get this sent by CLI. The documentation provides us with a sample and this sample needs to have a URL. Where do we get this from? This depends on where you want to send this Adaptive Card to. In this example, I want to use Microsoft Teams as host application and therefore we will need to create an incoming webhook in Teams. 
+Now that we know what is an Adaptive Card, let's have a look on how we get this sent by CLI. The [documentation](https://pnp.github.io/cli-microsoft365/cmd/adaptivecard/adaptivecard-send/) provides us with a sample and this sample needs to have a URL. Where do we get this from? This depends on where you want to send this Adaptive Card to. In this example, I want to use Microsoft Teams as host application and therefore we will need to create an incoming webhook in Teams. 
 
 ### Create the Webhook
 
 If you have no clue what is a webhook, no problem, [Rabia Williams](https://www.twitter.com/williamsrabia) got you covered with [How to configure and use Incoming Webhooks in Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/how-to-configure-and-use-incoming-webhooks-in-microsoft-teams/ba-p/2051118). 
 
+* Open Microsoft Teams 
 * Click the ellipsis icon on the Teams channel that you want to send the Adaptive Card to
 * Click **Connectors**
 * Search for 'webhook'
 ![incoming webhook in Teams](https://github.com/LuiseFreese/blog/blob/main/media/how-to-send-adaptivecards-with-CLIMicrosoft365/incoming-webhook.png)
 * Click **Add**
-* Click **Add**
+* Click **Add** (yes, yet again)
 * Give your webhook a name
 * If you like to, you can upload a picture- messages sent via this webhook (our Adaptive Card) will have this image then as Profile Pic - this step is optional. 
 * Click **Create** 
 * Copy the generated URL
 * Click **Done**
 
-This URL is the URL we will need in the command later - If you want to, paste it into a notepad. 
+This URL is the URL we will need in the command later - If you want to, paste it into a notepad or similar. 
 
 ### Author your Card
 
-Now it's time to author your card. You can do this in a lot of Editors, I used either the [Adaptive Cards Designer](https://adaptivecards.io/designer) or the [Adaptive Cards Viewer Extension in Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=tomlm.vscode-adaptivecards), but recently also found [Adaptive Card Studio](https://marketplace.visualstudio.com/items?itemName=madewithcardsio.adaptivecardsstudiobeta). You can also use one of the provided samples and use them as-is or adjust them to your needs. 
+Now it's time to author your card. You can do this in a lot of editors, I use either the [Adaptive Cards Designer](https://adaptivecards.io/designer) or the [Adaptive Cards Viewer Extension in Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=tomlm.vscode-adaptivecards), but recently also found [Adaptive Card Studio](https://marketplace.visualstudio.com/items?itemName=madewithcardsio.adaptivecardsstudiobeta). You can also use one of the [provided samples](https://adaptivecards.io/samples/) and use them as-is or adjust them to your needs. 
 
-If you feel like authoring your Card in Designer or Visual Studio Code is fine for you right now, go ahead with this, otherwise you can also use the sample cards that are provided in the [documentation of CLI Microsoft 365](https://pnp.github.io/cli-microsoft365/cmd/adaptivecard/adaptivecard-send/). I used the last sample, 'Send custom card with card data'.
+If you feel like authoring your Card in Designer or Visual Studio Code is fine for you right now, go ahead with this, otherwise you can also use the examples that are provided in the [documentation of CLI Microsoft 365](https://pnp.github.io/cli-microsoft365/cmd/adaptivecard/adaptivecard-send/). I used the last one, 'Send custom card with card data'.
 
-For everyone not very familiar writing and understanding code: We can make more sense of the snippet by copy/paste this into Visual Studio Code, and then press Alt +z to soft-wrap this and then separate the Adaptive Card from the rest:
+For everyone not very familiar writing and understanding code: We can make more sense of the snippet by copy/paste this into Visual Studio Code, and then press Alt+z to soft-wrap this and then separate the Adaptive Card from the rest:
 
 * Select JSON in Language Mode
 * Insert somenew lines right before the first `{`
