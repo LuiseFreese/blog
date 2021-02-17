@@ -20,11 +20,9 @@ To use the CLI MIcrosoft 365, you will need to install Node.js - Please follow t
 
 > If in doubt, if you have the correct version installed or if you need to use different versions of Node.js, pleas read [Use Node Version Manager to develop your SPFx apps](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/use-node-version-manager-to-develop-your-spfx-apps/ba-p/2128393) [Toni Pohl](https://twitter.com/atwork)
 
-
 #### Install CLI Microsoft 365
 
 Now that you have Node.js installed, we can continue with installing the CLI Microsoft 365. You can choose any shell you like: If you want to use PowerShell or the Terminal in Visual Studio Code or whatever makes you happy. I like to use the PowerShell terminal in Visual Studio Code, because links are render to be clickable and this saves me copy/pasting links into a new browser tab. But if you don't have Visual Studio Code or if you like to use PowerShell or any other shell, that is perfectly fine as well. To install CLI Microsoft 365, run the command: 
-
 
 `npm i -g @pnp/cli-microsoft365`
 
@@ -68,7 +66,7 @@ which gives you a list of things you can try, these are called command groups, a
 
 `m365 outlook`
 
- you will get the commands, that are available to you in this command group. Just try them out!
+you will get the commands, that are available to you in this command group. Just try them out!
 
 ## What are Adaptive Cards?
 
@@ -115,7 +113,13 @@ Now go ahead and adjust the sample to work in your environment:
 * copy the whole code
 * run it 
 
-⚡ Turned out, that there are some differences how to use quotes and when there is a need to escape in JSON using different shells, which resulted in this [PR](https://github.com/pnp/cli-microsoft365/pull/2167). 
+⚡ Turned out, that there are some differences how to use quotes `'` or `"` - please consider which shell you are using before you copy/paste the code from [CLI Microsoft 365 documentation](https://pnp.github.io/cli-microsoft365/cmd/adaptivecard/adaptivecard-send/). 
+
+Congratulations 🚀- you sent your first adaptive Card with CLI. 
+
+## Feedback and what's next? 
+
+I hope you liked this little post on how to get started with CLI Microsoft 365 and learning how to send an Adaptive Card with it. I would like to learn, for which usecases you would do this? Please comment below! 
 
 
 
