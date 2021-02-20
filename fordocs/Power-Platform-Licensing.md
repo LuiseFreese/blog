@@ -2,7 +2,9 @@
 
 ## Overview
 
-This article shall give you a detailed and easy to understand overview about licensing/pricing regarding Power Platform. It won't replace all other bits posted across docs.microsoft.com but gives you a solid understanding which licenses you will need for your solutions. You will learn about Core Licensing Concepts and Levers and we will give you some guidance plus showcase some licensing scenarios. The goal is to provide the citizen developer with the bulk of the information to make decisions on the spot or mitigate the research effort and time to confirm nuance cases or specialized scenarios.  
+This article shall give a direct and easy to understand overview about licensing/pricing in Power Apps, Power Automate and Power Virtual Agents along with the key features and services associated with them. It won't replace all other material posted across docs.microsoft.com but gives you, the reader, a solid understanding as which licenses apply to your solutions. This article focuses on Core Licensing Concepts and Levers along with guidance and licensing scenarios. The goal is to provide the citizen developer with the bulk of the information to make decisions on the spot or mitigate the research effort and time to confirm nuance cases or specialized use cases.  
+
+Please note that the scope of this article excludes as well as other licensing associated with third party connectors or services.  
 
 ## Core Concepts
 
