@@ -49,12 +49,109 @@ Before we can build the connector, we will need to register for [Spotify's Devel
 * Log into your brand new Spotify for Developers account 
 * Go to your [Dashbaord](https://developer.spotify.com/dashboard/applications)\
 * Click **Create an App**
-* *
+* Give your app a name and accept T&C
+![Create a new app](https://github.com/LuiseFreese/blog/blob/main/media/how-to-use-custom-connectors-in-powerautomate/create-an-app.png)
+* Click **Create**
+* Copy the `Client ID` and the `Client Secret` 
 
 #### Build the custom Connector
 
-### Use the custom connectir in our flow
+* Go to [flow.microsoft.com](https://flow.microsoft.com)
+* Click **Data**
+* Click **Custom connectors**
+* Click **New Custom connector**, **Create from blank**\
+* Add a name for your connector
+* Click **Continue**
+* If you like to, you can upload a connector icon, this step is optional
+* enter `api.spotify.com` as **Host**
 
+![Custom Connector - general](https://github.com/LuiseFreese/blog/blob/main/media/how-to-use-custom-connectors-in-powerautomate/cc-general.png)
+
+You can find the values you need to fill in here in the [Spotify for developers documentation](https://developer.spotify.com/documentation/web-api/reference/#reference-index), but to make things easier for you, I will provide them for you. 
+
+* Click on **Security**
+* Select **OAuth2.0**
+* Select **Generic Oath 2** as Identity Provider
+* Paste in your Client ID and Client secret
+* enter `https://accounts.spotify.com/authorize` as Authorization URL
+* enter `https://accounts.spotify.com/api/token` as Token URL and Refresh URL
+* enter `user-read-currently-playing` as scope
+* Click **Create connector 
+* Copy the Redirect URL
+* go to your [Spotify app](https://developer.spotify.com/dashboard/applications)
+* Click **Edit settings**
+* past the Redirect URI into the field for Redirect URIs 
+* Click **Add**
+* Click **Save**
+
+![edit settings](https://github.com/LuiseFreese/blog/blob/main/media/how-to-use-custom-connectors-in-powerautomate/edit%20settings.png)
+
+Now go back to your Custom connector
+
+* Click on **Definition**
+* Click **New action**
+* enter something like `GetSong` in Summary
+* enter a description
+* enter an operation ID like `getssong` - please note, that this ID shouldn't start with an upper case letter
+![Custom Connector definition]((https://github.com/LuiseFreese/blog/blob/main/media/how-to-use-custom-connectors-in-powerautomate/cc-definition-general.png))
+
+* Click **import from sample**
+* Select verb **Get*
+* paste in `https://api.spotify.com/v1/me/player/currently-playing` as URL
+
+(For reference: https://developer.spotify.com/console/get-users-currently-playing-track/)
+
+* Click **Import** 
+* Click **Update connector** 
+* Click **Test**
+
+To test our new connector, we need to select from an existing connection or create a new connection. 
+
+* Click **New connection**
+
+A new pop up window will appear and promt you to **Agree** - you as a user authorize your Spotify app to retrieve data related to your user account - such as the song currently playing. 
+
+![custom connector authorization]((https://github.com/LuiseFreese/blog/blob/main/media/how-to-use-custom-connectors-in-powerautomate/cc-authorization.png))
+
+* Click **Agree**
+* Click **Close**
+
+### Use the custom connector in our flow
+
+Now it's time to build our flow
+
+#### Trigger flic
+
+As already said, we want the flic button to be our trigger
+
+https://github.com/LuiseFreese/blog/blob/main/media/how-to-use-custom-connectors-in-powerautomate/flic.png
+
+You can choose, if you want this flow to be triggered by any event type or if you want to save the two other event types for other flows. 
+
+Now we want to get the current song from our shiny new Custom connector: 
+
+* Click on **Insert a new Step**
+* Click on **Custom**
+* Select the new custom connector for Spotify
+*
+
+Our intention now is to tweet something like "I am currently listenintg to {songname} by {artistname}, check it out {spotify URL}. But from our custom connector, we don't get the name of song and artist per se, we will need to first parse the JSON output. If you never heard of that before, don't worry, go read this article about [how to parse JSON in Power Automate](), I will just wait here for you and drink a coffee. 
+
+Back again? Cool! 
+
+* Let your flow run
+* Go to your run history
+* Copy the output of the **Get current song** action
+* Insert a **Parse JSON** action
+* Click **Generate from sample**
+* Paste into the new field
+* Click **done**
+
+Magic 🦄 - Now we can see all the output from our custom action as Dynamic content. Next thing up is to send the tweet. We can use the twitter connector for it, but Buffer works fine as well. 
+
+* Add the **post a tweet** action
+
+provide your tweet text with Dynamic content as you wish from your Parse JSON action. Don't be afraid when the flow adds **Apply to each** loops! 
 
 
 
