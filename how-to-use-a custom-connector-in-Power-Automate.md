@@ -160,6 +160,8 @@ provide your tweet text with Dynamic content as you wish from your Parse JSON ac
 
 Open your flic app and select the new button, set the action that is triggered by the `click` event to **Microsoft Flow** (watch out, this is the old name of Power Automate, which is not refelcted in the Flic app). When you now click the button, this will trigger our flow, that listens to the **Click** event of that button, get the current song and tweet about it! 
 
+![post tweet in Power Automate](https://github.com/LuiseFreese/blog/blob/main/media/how-to-use-custom-connectors-in-powerautomate/post-tweet.png)
+
 ## Conclusion and what's next
 
 In this post I explained, how you can create a custom connector and call an API outside of Microsoft 365. You learned how to define actions and how to authorize your application so that you can retrieve the requested data. Which use cases do you have in mind? What would you like to build a custom connector for? Please share!
