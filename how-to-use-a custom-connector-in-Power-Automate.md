@@ -25,7 +25,7 @@ So lets have a look at
 
 I use a [Flic IOT button](https://flic.io/) to trigger my flow. This button works with bluetooth, which means that we will need a bluetooth enabled device to work with this button- either a smartphone or an IOT Hub. 
 
-#### Set Up your IOT button
+#### Set up your IOT button
 
 * download the app from your app store
 * install the app
@@ -48,8 +48,10 @@ Before we can build the connector, we will need to register for [Spotify's Devel
 
 * Log into your brand new Spotify for Developers account 
 * Go to your [Dashbaord](https://developer.spotify.com/dashboard/applications)
+
 * Click **Create an App**
 * Give your app a name and accept T&C
+
 ![Create a new app](https://github.com/LuiseFreese/blog/blob/main/media/how-to-use-custom-connectors-in-powerautomate/create-an-app.png)
 * Click **Create**
 * Copy the `Client ID` and the `Client Secret` 
@@ -59,7 +61,7 @@ Before we can build the connector, we will need to register for [Spotify's Devel
 * Go to [flow.microsoft.com](https://flow.microsoft.com)
 * Click **Data**
 * Click **Custom connectors**
-* Click **New Custom connector**, **Create from blank**\
+* Click **New Custom connector**, **Create from blank**
 * Add a name for your connector
 * Click **Continue**
 * If you like to, you can upload a connector icon, this step is optional
@@ -93,10 +95,11 @@ Now go back to your Custom connector
 * enter something like `GetSong` in Summary
 * enter a description
 * enter an operation ID like `getssong` - please note, that this ID shouldn't start with an upper case letter
+
 ![Custom Connector definition](https://github.com/LuiseFreese/blog/blob/main/media/how-to-use-custom-connectors-in-powerautomate/cc-definition-general.png)
 
 * Click **import from sample**
-* Select verb **Get*
+* Select verb **Get**
 * paste in `https://api.spotify.com/v1/me/player/currently-playing` as URL
 
 (For reference: https://developer.spotify.com/console/get-users-currently-playing-track/)
@@ -138,7 +141,7 @@ Now we want to get the current song from our shiny new Custom connector:
 
 Our intention now is to tweet something like "I am currently listenintg to {songname} by {artistname}, check it out {spotify URL}." But from our custom connector, we don't get the name of song and artist per se, we will need to first parse the JSON output. If you never heard of that before, don't worry, go read this article about [how to parse JSON in Power Automate](https://m365princess.com/how-to-get-started-with-http-requests-in-power-automate/), I will just wait here for you and drink a coffee. 
 
-Back again? Cool! 
+Back again? Cool! ☕
 
 * Let your flow run
 * Go to your run history
@@ -165,10 +168,3 @@ Open your flic app and select the new button, set the action that is triggered b
 ## Conclusion and what's next
 
 In this post I explained, how you can create a custom connector and call an API outside of Microsoft 365. You learned how to define actions and how to authorize your application so that you can retrieve the requested data. Which use cases do you have in mind? What would you like to build a custom connector for? Please share!
-
-
-
-
-
-
-
