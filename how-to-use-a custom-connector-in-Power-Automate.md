@@ -17,13 +17,13 @@ The result will look like this:
 To achieve this, we will need a couple of things: 
 
 1. an IOT button - I use a Flic Smart button for that- that triggers my flow
-2. a flow that connects to my Spotify and to twitter
+2. a flow that connects to our Spotify and to twitter
 
 So lets have a look at 
 
 ### IOT button
 
-I use a [Flic IOT button](https://flic.io/) to trigger my flow. This button works with bluetooth, which means that you will need a bluetooth enabled device to work with this button- either a smartphone or an IOT Hub. 
+I use a [Flic IOT button](https://flic.io/) to trigger my flow. This button works with bluetooth, which means that we will need a bluetooth enabled device to work with this button- either a smartphone or an IOT Hub. 
 
 #### Set Up your IOT button
 
@@ -47,7 +47,7 @@ Before we can build the connector, we will need to register for [Spotify's Devel
 #### Register our application on Spotify
 
 * Log into your brand new Spotify for Developers account 
-* Go to your [Dashbaord](https://developer.spotify.com/dashboard/applications)\
+* Go to your [Dashbaord](https://developer.spotify.com/dashboard/applications)
 * Click **Create an App**
 * Give your app a name and accept T&C
 ![Create a new app](https://github.com/LuiseFreese/blog/blob/main/media/how-to-use-custom-connectors-in-powerautomate/create-an-app.png)
@@ -109,7 +109,7 @@ To test our new connector, we need to select from an existing connection or crea
 
 * Click **New connection**
 
-A new pop up window will appear and promt you to **Agree** - you as a user authorize your Spotify app to retrieve data related to your user account - such as the song currently playing. 
+A new pop up window will appear and promt us to **Agree** - you as a user authorize your Spotify app to retrieve data related to your user account - such as the song currently playing. 
 
 ![custom connector authorization](https://github.com/LuiseFreese/blog/blob/main/media/how-to-use-custom-connectors-in-powerautomate/cc-authorization.png)
 
@@ -136,7 +136,7 @@ Now we want to get the current song from our shiny new Custom connector:
 * Click on **Custom**
 * Select the new custom connector for Spotify
 
-Our intention now is to tweet something like "I am currently listenintg to {songname} by {artistname}, check it out {spotify URL}. But from our custom connector, we don't get the name of song and artist per se, we will need to first parse the JSON output. If you never heard of that before, don't worry, go read this article about [how to parse JSON in Power Automate](https://m365princess.com/how-to-get-started-with-http-requests-in-power-automate/), I will just wait here for you and drink a coffee. 
+Our intention now is to tweet something like "I am currently listenintg to {songname} by {artistname}, check it out {spotify URL}." But from our custom connector, we don't get the name of song and artist per se, we will need to first parse the JSON output. If you never heard of that before, don't worry, go read this article about [how to parse JSON in Power Automate](https://m365princess.com/how-to-get-started-with-http-requests-in-power-automate/), I will just wait here for you and drink a coffee. 
 
 Back again? Cool! 
 
@@ -154,7 +154,7 @@ Magic 🦄 - Now we can see all the output from our custom action as Dynamic con
 
 provide your tweet text with Dynamic content as you wish from your Parse JSON action. Don't be afraid when the flow adds **Apply to each** loops! Unfortunatley, both artist-name and -song-name are named `name`, so you will need to figure out which is which. 
 
-save your flow and guv
+* save your flow
 
 ## Run your flow
 
