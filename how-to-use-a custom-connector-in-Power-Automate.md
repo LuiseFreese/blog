@@ -23,7 +23,7 @@ So lets have a look at
 
 ### IOT button
 
-I use an [IOT button](https://flic.io/) to trigger my flow. The button I use, works with bluetooth, which means that you will need a bluetooth enabled device to work with this button- either a smartphone or an IOT Hub. 
+I use a [Flic IOT button](https://flic.io/) to trigger my flow. This button works with bluetooth, which means that you will need a bluetooth enabled device to work with this button- either a smartphone or an IOT Hub. 
 
 #### Set Up your IOT button
 
@@ -93,7 +93,7 @@ Now go back to your Custom connector
 * enter something like `GetSong` in Summary
 * enter a description
 * enter an operation ID like `getssong` - please note, that this ID shouldn't start with an upper case letter
-![Custom Connector definition]((https://github.com/LuiseFreese/blog/blob/main/media/how-to-use-custom-connectors-in-powerautomate/cc-definition-general.png))
+![Custom Connector definition](https://github.com/LuiseFreese/blog/blob/main/media/how-to-use-custom-connectors-in-powerautomate/cc-definition-general.png)
 
 * Click **import from sample**
 * Select verb **Get*
@@ -111,7 +111,7 @@ To test our new connector, we need to select from an existing connection or crea
 
 A new pop up window will appear and promt you to **Agree** - you as a user authorize your Spotify app to retrieve data related to your user account - such as the song currently playing. 
 
-![custom connector authorization]((https://github.com/LuiseFreese/blog/blob/main/media/how-to-use-custom-connectors-in-powerautomate/cc-authorization.png))
+![custom connector authorization](https://github.com/LuiseFreese/blog/blob/main/media/how-to-use-custom-connectors-in-powerautomate/cc-authorization.png)
 
 * Click **Agree**
 * Click **Close**
@@ -124,18 +124,19 @@ Now it's time to build our flow
 
 As already said, we want the flic button to be our trigger
 
-https://github.com/LuiseFreese/blog/blob/main/media/how-to-use-custom-connectors-in-powerautomate/flic.png
+![Power Automate flow with flic as a trigger](https://github.com/LuiseFreese/blog/blob/main/media/how-to-use-custom-connectors-in-powerautomate/flic.png)
 
 You can choose, if you want this flow to be triggered by any event type or if you want to save the two other event types for other flows. 
 
 Now we want to get the current song from our shiny new Custom connector: 
 
+### Get current song
+
 * Click on **Insert a new Step**
 * Click on **Custom**
 * Select the new custom connector for Spotify
-*
 
-Our intention now is to tweet something like "I am currently listenintg to {songname} by {artistname}, check it out {spotify URL}. But from our custom connector, we don't get the name of song and artist per se, we will need to first parse the JSON output. If you never heard of that before, don't worry, go read this article about [how to parse JSON in Power Automate](), I will just wait here for you and drink a coffee. 
+Our intention now is to tweet something like "I am currently listenintg to {songname} by {artistname}, check it out {spotify URL}. But from our custom connector, we don't get the name of song and artist per se, we will need to first parse the JSON output. If you never heard of that before, don't worry, go read this article about [how to parse JSON in Power Automate](https://m365princess.com/how-to-get-started-with-http-requests-in-power-automate/), I will just wait here for you and drink a coffee. 
 
 Back again? Cool! 
 
@@ -151,7 +152,21 @@ Magic 🦄 - Now we can see all the output from our custom action as Dynamic con
 
 * Add the **post a tweet** action
 
-provide your tweet text with Dynamic content as you wish from your Parse JSON action. Don't be afraid when the flow adds **Apply to each** loops! 
+provide your tweet text with Dynamic content as you wish from your Parse JSON action. Don't be afraid when the flow adds **Apply to each** loops! Unfortunatley, both artist-name and -song-name are named `name`, so you will need to figure out which is which. 
+
+save your flow and guv
+
+## Run your flow
+
+Open your flic app and select the new button, set the action that is triggered by the `click` event to **Microsoft Flow** (watch out, this is the old name of Power Automate, which is not refelcted in the Flic app). When you now click the button, this will trigger our flow, that listens to the **Click** event of that button, get the current song and tweet about it! 
+
+## Conclusion and what's next
+
+In this post I explained, how you can create a custom connector and call an API outside of Microsoft 365. You learned how to define actions and how to authorize your application so that you can retrieve the requested data. Which use cases do you have in mind? What would you like to build a custom connector for? Please share!
+
+
+
+
 
 
 
