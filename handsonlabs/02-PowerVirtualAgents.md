@@ -15,8 +15,7 @@ Power Virtual Agents erstellt intelligente Chatbots, die auf den auf den ersten 
 
 ### Kein Code erforderlich
 
-Power Virtual Agents ist einfach und intuitiv zu bedienen und verfügt über
-eine grafische Oberfläche. Es ist einfach, einen Chatbot zu erstellen, zu testen und zu pflegen.
+Power Virtual Agents ist einfach und intuitiv zu bedienen und verfügt über eine grafische Oberfläche. Es ist einfach, einen Chatbot zu erstellen, zu testen und zu pflegen.
 
 ### Starten Sie in wenigen Minuten
 
@@ -33,3 +32,24 @@ Sie können einen Chatbot für die Interaktion mit Kunden auf Ihrer Website, Fac
 ### Verbunden mit Ihren Systemen
 Dank der Integration mit der Microsoft Power Platform können mehr als mehr als 350 vorgefertigte Konnektoren, über die Ihr Chatbot mit wenigen Klicks mit Ihren Backend-Systemen kommunizieren kann - von MailChimp und Salesforce bis hin zu GitHub und Dynamics 365. Wenn Sie
 Entwickler haben, die weiter gehen und eigenen Code oder komplexere Funktionen hinzufügen möchten, sind die Microsoft Cognitive Services und das Bot Framework nur ein paar Klicks entfernt. Sie können sogar neue Workflows erstellen oder bestehende APIs mit Microsoft Power Automate aufrufen.
+
+## Uebung 1: 
+
+FAQ in den Chatbot
+
+1. [https://powerva.microsoft.com/](https://powerva.microsoft.com/) und registrieren Sie sich mit Ihrer neuen Developer Identitaet fuer einen kostenloses Trial
+2. Klicken Sie auf  **Topics**, **Suggested**, **Get Started** 
+3. geben Sie FAQ URL einer beliebigen webseite ein
+4. Klicken Sie auf **Add**
+5. Jetzt en wenig geduldig sein, Kaffee ☕ holen ist eine gute Idee :)
+6. Ueberpruefen Sie die einzelnen FragenundAntworten und fuegen Sie dieseder Liste hinzu
+7. Schalten Sie nun alle an, die Sie brauchen
+8. Testen Sie Ihren Bot
+
+## Uebung 2: 
+
+Einen Bot von Anfang an bauen - das machen wir gemeinsam!
+
+## Uebung 3
+
+Wo kann ich den Bot veroeffentlichen und wie kann ich weitere Ablaeufe starten? 
