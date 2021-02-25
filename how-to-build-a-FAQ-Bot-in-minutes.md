@@ -30,7 +30,7 @@ I will guide you how to create an FAQ bot. To feed our bot we will need some FAQ
 
 * Click **Chatbots** - here you get an overview of ALL your chatbots
 
-![my Chatbots](https://github.com/LuiseFreese/blog/blob/main/media/how-to-build-a-faq-bot/my-chatbots.png)
+![my Chatbots](https://github.com/LuiseFreese/blog/blob/main/media/how-to-build-a-faq-bot/my-chatsbots.png)
 
 ### Add topics from any website
 
