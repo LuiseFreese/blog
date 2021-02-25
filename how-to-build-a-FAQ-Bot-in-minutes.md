@@ -1,6 +1,6 @@
 # How to build an FAQ bot for Microsoft Teams with Power Virtual Agents in minutes
 
-In this blog I want to show you, how you can build, test and publish an FAQ bot for Microsoft Teams within minutes. We will use the Power Virtual Agents for Teams, which means, that you will not need any additional license to your Microsoft 365 license, for reference see also [Power Virtual Agents for Microsoft Teams plan] (https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions#power-virtual-agents-for-microsoft-teams-plan). 
+In this blog I want to show you, how you can build, test and publish an FAQ bot for Microsoft Teams within minutes. We will use the Power Virtual Agents for Teams, which means, that you will not need any additional license to your Microsoft 365 license, for reference see also [Power Virtual Agents for Microsoft Teams plan](https://docs.microsoft.com/en-us/power-virtual-agents/requirements-licensing-subscriptions#power-virtual-agents-for-microsoft-teams-plan). 
 
 ## What is Power Virtual Agents?
 
@@ -99,3 +99,5 @@ You can now review and edit your topics until you are happy with the results.
 ![Chat](https://github.com/LuiseFreese/blog/blob/main/media/how-to-build-a-faq-bot/chat.png)
 
 ## Conclusion & what's next
+
+It took us only a few minutes to create, test and publish a chatbot, that now works inside of Microsoft Teams. Want to do some more? We could extend the capabilities of our Power Virtual Agents bot: Let's say our bot can't answer a question and needs to transfer the chat to a human agent, who will anser that question. What if we trained the bot with that answer so that our bot gets smarter over time? I will cover that in one of my next blog posts. What do you use chatbots for? Did you already try to make a 5 minute bot? Please share below :)
