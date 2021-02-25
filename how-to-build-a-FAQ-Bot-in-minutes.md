@@ -42,7 +42,7 @@ You see, that some basic topics are already created for you. You can take a look
 
 * Click **Suggested**
 
-[suggested topics](https://github.com/LuiseFreese/blog/blob/main/media/how-to-build-a-faq-bot/suggested.png)
+![suggested topics](https://github.com/LuiseFreese/blog/blob/main/media/how-to-build-a-faq-bot/suggested.png)
 
 Now we want to work on feeding our bot with the FAQ from the website that we selected. 
 
@@ -76,7 +76,7 @@ After you are done with reviewing and editing your topics, you will need to turn
 
 Time to test the bot! 
 
-![Test bot](https://github.com/LuiseFreese/blog/blob/main/media/how-to-build-a-faq-bot/end-conversation.png)
+![Test bot](https://github.com/LuiseFreese/blog/blob/main/media/how-to-build-a-faq-bot/end-connversation.png)
 
 You can now review and edit your topics until you are happy with the results. 
 
