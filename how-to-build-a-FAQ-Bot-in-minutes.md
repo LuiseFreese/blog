@@ -68,7 +68,7 @@ You can now review and edit each topic:
 
 After you are done with reviewing and editing your topics, you will need to turn on the topics
 
-* Switch the togge to on
+* Switch the toggle to **on**
 
 ![Turn on topics](https://github.com/LuiseFreese/blog/blob/main/media/how-to-build-a-faq-bot/turn-on.png)
 
