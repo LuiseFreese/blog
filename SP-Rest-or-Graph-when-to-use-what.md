@@ -40,8 +40,7 @@ To make things easier, I will use the mobile flow trigger with three text inputs
 
 Of course you can also trigger the flow from a list, a form, an app, a bot or whatever suits your use case. 
 
-#### Send an HTTP request to SharePoint
-
+#### Send an HTTP request to SharePoint - create a list
 
 Now we need to add the 'send an HTTP request to SharePoint' action: 
 
@@ -65,7 +64,8 @@ Now we need to add the 'send an HTTP request to SharePoint' action:
   }
   ```
   
-  as Body- make sure you replace the placeholder by Dynamic Content:
+ as Body- make sure you replace the placeholder by Dynamic Content:
+ 
 ![send an http request to SharePoint](https://github.com/LuiseFreese/blog/blob/main/media/sharepointrest-or-graph/sendhttprequest.png)
 
 #### Parse JSON
@@ -91,6 +91,7 @@ X-RequestDigest: "{form_digest_value}"
   "StaticName": "field name"
 }
 ```
+
 Ok, we need another 'send an HTTP request to SharePoint action, and we need the **list Guid**. To get the list Guid, we need to add a **Parse JSON** action. If you are not familiar with that - blogged about it: [How to use Parse JSON action in Power Automate](https://m365princess.com/how-to-use-parse-json-action-in-power-automate/)
 
 #### Parse JSON
@@ -104,9 +105,9 @@ Ok, we need another 'send an HTTP request to SharePoint action, and we need the 
 * paste the copied JSON code in here
 * click **Done**
 
-When we now have a look into our Dynamic Content, we will see a lot of more option, also the list Guid, which is named **Id** here. 
+When we now have a look into our Dynamic Content, we will see a lot of more options, also the list Guid, which is named **Id** here. 
 
-#### Send an HTTP request to SharePoint 2
+#### Send an HTTP request to SharePoint 2 - add a column
 
 Now we add another 'send an HTTP request to SharePoint' action which will create us a column: 
 
@@ -140,17 +141,30 @@ If you now want to run your flow, please think about changing the list name, bec
 
 If we control in our new created SharePoint list, we will see, that our new column doesn't show up in the default view, but that we need to enable the column- bummer! 
 
+#### Send an HTTP request to SharePoint 3 - add column to view
+
 To have the column in the default view (or another view), we need to add another 'send an HTTP request to SharePoint' action: 
 
 * Select the site of your choice from the dropdown menu
 * Select method **Post**
-* enter `_api/web/Lists/getByTitle('@{triggerBody()['text']}')/views/getByTitle('All Items')/ViewFields/addViewField('@{triggerBody()['text_2']}')`as URI (replace the placeholder with Dynamic content)
+* enter `_api/web/Lists/getByTitle('@{triggerBody()['text']}')/views/getByTitle('All Items')/ViewFields/addViewField('@{triggerBody()['text_2']}')`as URI 
+* (replace the placeholder with Dynamic content)
 * enter Headers as follows:
   * `Content-type` : `application/json;odata=verbose`
   * `accept`:`application/json;odata=verbose`
 * Body is empty
 
 ![send an HTTP request to SharePoint 3](https://github.com/LuiseFreese/blog/blob/main/media/sharepointrest-or-graph/senhttp3.png)
+
+### Advantages of solution
+
+* no need to register an application in Azure AD
+* send an HTTP request to SharePoint is not a premium connector, which means that you won't need a Power Automate Standalone license 
+
+### Disadvantages of this solution: 
+
+* with an 'http request to SharePoint' action you have - compared to the power of Microsoft Graph API - limited options, as you can only send requests to SharePoint, but not to other services in Microsoft 365
+* to add the new column to our default view, we need a third request - makes the flow unnessarily more complex
 
 
  
