@@ -156,15 +156,15 @@ To have the column in the default view (or another view), we need to add another
 
 ![send an HTTP request to SharePoint 3](https://github.com/LuiseFreese/blog/blob/main/media/sharepointrest-or-graph/senhttp3.png)
 
-### Advantages of solution
+#### Advantages of this solution
 
 * no need to register an application in Azure AD
 * send an HTTP request to SharePoint is not a premium connector, which means that you won't need a Power Automate Standalone license 
 
-### Disadvantages of this solution: 
+#### Disadvantages of this solution: 
 
-* with an 'http request to SharePoint' action you have - compared to the power of Microsoft Graph API - limited options, as you can only send requests to SharePoint, but not to other services in Microsoft 365
-* to add the new column to our default view, we need a third request - makes the flow unnessarily more complex
+* with an 'http request to SharePoint' action you have - compared to the power of Microsoft Graph API - limited options, as you can only send requests to SharePoint, but not to other services in Microsoft 365-
+* to add the new column to our default view, we need a third request - which makes the flow unnessarily more complex
 
-
+### Option No. 2: Microsoft Graph API
  
