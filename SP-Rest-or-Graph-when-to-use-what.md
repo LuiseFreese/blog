@@ -12,22 +12,22 @@ Let's say, we want create a new SharePoint list and add some columns to a it bas
 
 The 'send an HTTP request to SharePoint' action uses SharePoint REST API. To create a list, we can look up [working with lists and lists items](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest#working-with-lists-by-using-rest) and see, that we need to send a POST request to the `https://{site_url}/_api/web/lists` endpoint and specify in the body of our list should look like. We can define title and description of the list and also [set the Basetemplate](https://techcommunity.microsoft.com/t5/sharepoint/near-complete-list-of-sharepoint-list-types-and-templates-a-k-a/m-p/220550) (in case you want to do the same with a library etc.): 
 
-`POST https://{site_url}/_api/web/lists
-Authorization: "Bearer " + accessToken
-Accept: "application/json;odata=verbose"
-Content-Type: "application/json"
-Content-Length: {length of request body as integer}
-X-RequestDigest: "{form_digest_value}"
+    POST https://{site_url}/_api/web/lists
+    Authorization: "Bearer " + accessToken
+    Accept: "application/json;odata=verbose"
+    Content-Type: "application/json"
+    Content-Length: {length of request body as integer}
+    X-RequestDigest: "{form_digest_value}"
 
-{
-  "__metadata": {
+    {
+       "__metadata": {
     "type": "SP.List"
-  },
-  "AllowContentTypes": true,
-  "BaseTemplate": 100,
- "ContentTypesEnabled": true,
- "Description": "My list description",
- "Title": "Test"
-}` 
+      },
+      "AllowContentTypes": true,
+      "BaseTemplate": 100,
+      "ContentTypesEnabled": true,
+      "Description": "My list description",
+      "Title": "Test"
+     }
 
 Now how do we do this in Power Automate without writing nmuch code? 
