@@ -218,10 +218,12 @@ Create three different string variables with the copied values of Tenant ID, App
 Add an HTTP (not 'send an HTTP request to SharePoint action) action to your flow and fill out as follows: 
 
 * Method: Post 
-* URI: https://graph.microsoft.com/v1.0/sites/{site-id}/lists - You can obtain the site-id from a request in Graph Explorer: 
+* URI: `https://graph.microsoft.com/v1.0/sites/{site-id}/lists` - You can obtain the site-id from a request in Graph Explorer: 
 `https://graph.microsoft.com/v1.0/sites?search=keyword`
 * add **Content-Type**: **application/json** to the Headers
 * enter as Body:
+
+https://graph.microsoft.com/v1.0/sites/raeuberleiterin.sharepoint.com,f4a2b36c-d3b9-4170-9862-8efc9769d749,c50415a2-e44a-429e-af84-22bf724d017a/lists
 ```
 {
     "displayName": "@{triggerBody()['text']}",
@@ -237,6 +239,7 @@ Add an HTTP (not 'send an HTTP request to SharePoint action) action to your flow
 }
 ```
 Replace the placeholders by Dynamic Content
+If you stumble of the `genericList` please [read here for reference](https://docs.microsoft.com/en-us/previous-versions/office/sharepoint-server/ee541191(v=office.15)) about othert list templates like libraries. 
 
 * Click **Advanced Options**
 * Select **Active Directory OAuth**
@@ -248,6 +251,10 @@ Replace the placeholders by Dynamic Content
 * Enter the App Secret variable as Secret
 
 ![variables and HTTP action](https://github.com/LuiseFreese/blog/blob/main/media/sharepointrest-or-graph/varsandhttp.png)
+
+
+
+
 
 
 
