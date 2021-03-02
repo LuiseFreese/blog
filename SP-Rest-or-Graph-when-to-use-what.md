@@ -1,12 +1,12 @@
 # Should I use SharePoint REST or Microsoft Graph API in Power Automate?
 
-When working with Microsoft 365, we see a lot of overlapping tools and features and we will need (to provide) a lot of guidance around 'when to use what' for users. Wile most comparisons address users, I want to cover some more IT related scenarios in this blog post. Specifically, I want to compare two different RESTful APIs, which we can both use in Power Automate and also Azure Logic Apps to send HTTP requests. If you are not familiar with that, don't fret, just continue to read [my blog post about how to get started with http requests in Power Automate](https://m365princess.com/how-to-get-started-with-http-requests-in-power-automate/), I will grab a coffee ☕ in the meanwhile.
+When working with Microsoft 365, we see a lot of overlapping tools and features and we will need (to provide) a lot of guidance around 'when to use what' for users. Wile most comparisons address users, I want to cover some more IT related scenarios in this blog post. Specifically, I want to compare two different RESTful APIs, which we can both use in Power Automate and also Azure Logic Apps to send HTTP requests. If you are not familiar with that, don't fret, just continue to read my blog post about [how to get started with http requests in Power Automate](https://m365princess.com/how-to-get-started-with-http-requests-in-power-automate/), I will grab a coffee ☕ in the meanwhile.
 
 Back again? Cool. Let me introduce you to our 
 
 ## use case
 
-Let's say, we want create a new SharePoint list and add some columns to a it based on user's input using Power Automate or Azure Logic Apps. When we look at the different available SharePoint actions, we will see, that there is no 'create a list' and no 'add column to SharePoint list' action, but that we could try out something with ['send an HTTP request to SharePoint'](https://docs.microsoft.com/en-us/sharepoint/dev/business-apps/power-automate/guidance/working-with-send-sp-http-request)
+Let's say, we want create a new SharePoint list and add some columns to a it based on user's input using Power Automate or Azure Logic Apps. When we look at the different available SharePoint actions in Power Automate, we will see, that there is no 'create a list' and no 'add column to SharePoint list' action, but that we could try out something with ['send an HTTP request to SharePoint'](https://docs.microsoft.com/en-us/sharepoint/dev/business-apps/power-automate/guidance/working-with-send-sp-http-request)
 
 ### Option No. 1: SharePoint REST
 
@@ -92,7 +92,7 @@ X-RequestDigest: "{form_digest_value}"
 }
 ```
 
-Ok, we need another 'send an HTTP request to SharePoint action, and we need the **list Guid**. To get the list Guid, we need to add a **Parse JSON** action. If you are not familiar with that - blogged about it: [How to use Parse JSON action in Power Automate](https://m365princess.com/how-to-use-parse-json-action-in-power-automate/)
+We need another 'send an HTTP request to SharePoint action, and we need the **list Guid**. To get the list Guid, we need to add a **Parse JSON** action. If you are not familiar with that - blogged about it: [How to use Parse JSON action in Power Automate](https://m365princess.com/how-to-use-parse-json-action-in-power-automate/)
 
 #### Parse JSON
 
@@ -168,3 +168,51 @@ To have the column in the default view (or another view), we need to add another
 
 ### Option No. 2: Microsoft Graph API
  
+Let's see, how we can create a SharePoint list or library and columns in it using Microsoft Graph. Microsoft Graph is a super powerful set of APIs that gives you a consistent experience for authentication, documentation and samples. You can try it out on [Microsoft Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer). For full documentation please continue [here](https://docs.microsoft.com/en-us/graph/overview). If you are not familiar with using Microsoft Graph in Power Automate, [please continue to read here](https://m365princess.com/how-to-get-started-with-http-requests-in-power-automate/)... time for another coffee for me then :-)
+
+#### mobile flow trigger
+
+Again, to make things easy, we will use the same trigger as in Option No. 1.: 
+
+![mobile flow trigger](https://github.com/LuiseFreese/blog/blob/main/media/sharepointrest-or-graph/mobileflowtrigger.png)
+
+#### HTTP action
+
+Now that we registered our app in Azure AD, we can continue with the HTTP action in Power Automate. We will insert it and fill it as follows: 
+
+
+
+####
+To create a list, we will look up [documentation here](https://docs.microsoft.com/en-us/graph/api/list-create?view=graph-rest-1.0&tabs=http) and see, that we will need to send a POST request to 
+
+`https://graph.microsoft.com/v1.0/sites/{site-id}/lists`
+
+and that we will need to add permissions to be able to call this API. Our HTTP request needs authentication, which can be done via Azure Active Directory OAuth, but we will first need to have a representation of our app (yes, this flow that calls Microsoft Graph is an application) in Azure AD.
+
+We will follow these steps to register an app in Azure AD:
+
+* Go to portal.azure.com and log in
+* Click app registrations
+* Click New App registration
+* Give your app a nice name
+* Save tenant ID and Client(app) ID somewhere (notepad or similar)
+* Click **API PERMISSIONS** and select Microsoft Graph
+
+Now look up the permissions needed for this action: [Create a new list](https://docs.microsoft.com/en-us/graph/api/list-create?view=graph-rest-1.0&tabs=http):
+
+| Permission type | Permissions (from least to most privileged)|
+| ------- |:-----:|
+|Application|Sites.ReadWrite.All|
+
+* Select all these permissions
+* Grant Admin consent
+* Click **Certificates & secrets** 
+* Click **New client secret** 
+* Type in a description
+* Click **Add**
+* Copy the value and save it in your notepad (you will need that later) 
+
+Add an HTTP (not 'send an HTTP request to SharePoint action) action to your flow and fill out as follows: 
+
+* Method: Post
+
