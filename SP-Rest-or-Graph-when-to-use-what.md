@@ -178,11 +178,8 @@ Again, to make things easy, we will use the same trigger as in Option No. 1.:
 
 #### HTTP action
 
-Now that we registered our app in Azure AD, we can continue with the HTTP action in Power Automate. We will insert it and fill it as follows: 
+Now that we registered our app in Azure AD, we can continue with the HTTP action in Power Automate. 
 
-
-
-####
 To create a list, we will look up [documentation here](https://docs.microsoft.com/en-us/graph/api/list-create?view=graph-rest-1.0&tabs=http) and see, that we will need to send a POST request to 
 
 `https://graph.microsoft.com/v1.0/sites/{site-id}/lists`
@@ -212,7 +209,46 @@ Now look up the permissions needed for this action: [Create a new list](https://
 * Click **Add**
 * Copy the value and save it in your notepad (you will need that later) 
 
+#### Initialize variables for Tenant ID, App ID and App Secret
+
+Create three different string variables with the copied values of Tenant ID, App ID and App Secret
+
+#### HTTP action to create a list
+
 Add an HTTP (not 'send an HTTP request to SharePoint action) action to your flow and fill out as follows: 
 
-* Method: Post
+* Method: Post 
+* URI: https://graph.microsoft.com/v1.0/sites/{site-id}/lists - You can obtain the site-id from a request in Graph Explorer: 
+`https://graph.microsoft.com/v1.0/sites?search=keyword`
+* add **Content-Type**: **application/json** to the Headers
+* enter as Body:
+```
+{
+    "displayName": "@{triggerBody()['text']}",
+    "columns": [
+        {
+            "name": "@{triggerBody()['text_2']}",
+            "text": {}
+        }
+    ],
+    "list": {
+        "template": "genericList"
+    }
+}
+```
+Replace the placeholders by Dynamic Content
+
+* Click **Advanced Options**
+* Select **Active Directory OAuth**
+* Enter `https://login.microsoftonline.com` as Authority
+* Enter the Tenant ID variable as Tenant
+* Enter `https://graph.microsoft.com` as Audience
+* Enter the App ID variable as Client ID
+* Select **Secret** as Credential Type
+* Enter the App Secret variable as Secret
+
+![variables and HTTP action](https://github.com/LuiseFreese/blog/blob/main/media/sharepointrest-or-graph/varsandhttp.png)
+
+
+
 
