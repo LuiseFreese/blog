@@ -92,13 +92,13 @@ X-RequestDigest: "{form_digest_value}"
 }
 ```
 
-We need another 'send an HTTP request to SharePoint action, and we need the **list Guid**. To get the list Guid, we need to add a **Parse JSON** action. If you are not familiar with that - blogged about it: [How to use Parse JSON action in Power Automate](https://m365princess.com/how-to-use-parse-json-action-in-power-automate/)
+We need another 'send an HTTP request to SharePoint' action, and we need the **list Guid**. To get the list Guid, we need to add a **Parse JSON** action. If you are not familiar with that - I blogged about it: [How to use Parse JSON action in Power Automate](https://m365princess.com/how-to-use-parse-json-action-in-power-automate/)
 
 #### Parse JSON
 
 * Let your flow run - just the mobile trigger and the 'send an HTTP request to SharePoint' action
 * Go to your flow run history
-* Copy the Outputs from the 'send an HTTP request to SharePoint' action
+* Copy the outputs from the 'send an HTTP request to SharePoint' action
 * add a 'Parse JSON' action to your flow
 * select `body` from the 'send an HTTP request to SharePoint'action as **Content**
 * click **Generate from sample**
@@ -139,7 +139,7 @@ Should you stumble upon the FieldTypeKind, please find reference [here](https://
 
 If you want to run your flow, please think about changing the list name because you already created a list! 
 
-If we control our newly created SharePoint list, we will see that our new column doesn't show up in the default view but that we need to enable the column- bummer! 
+If we now control our newly created SharePoint list, we will see that our new column doesn't show up in the default view but that we need to enable the column- bummer! 
 
 #### Send an HTTP request to SharePoint 3 - add column to view
 
@@ -164,7 +164,7 @@ To have the column in the default view (or another view), we need to add another
 #### Disadvantages of this solution: 
 
 * with an 'http request to SharePoint' action you have - compared to the power of Microsoft Graph API - limited options, as you can only send requests to SharePoint, but not to other services in Microsoft 365-
-* to add the new column to our default view, we need a third request - which makes the flow unnecessarily more complex
+* to add the new column to our default view, we need 3 HTTP requests - which makes the flow unnecessarily more complex
 
 ### Option No. 2: Microsoft Graph API
  
@@ -297,7 +297,7 @@ If you are not familiar with it, please read my blog post first or head over to 
 
 ### Login
 
-* Run `m365 login.`
+* Run `m365 login`
 * Copy the Login Code, click on the link
 * Paste the Login Code
 * Select the user you want to log in with from the list
