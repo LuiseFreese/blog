@@ -1,4 +1,4 @@
-# Should I use SharePoint REST or Microsoft Graph API in Power Automate?
+# Should we use SharePoint REST or Microsoft Graph API in Power Automate?
 
 When working with Microsoft 365, we see many overlapping tools and features, and we will need (to provide) much guidance around 'when to use what' for users. While most comparisons address users, I want to cover some more IT-related scenarios in this blog post. Specifically, I want to compare two different RESTful APIs, which we can use in Power Automate and Azure Logic Apps to send HTTP requests. If you are not familiar with that, don't fret; continue to read my blog post about [how to get started with http requests in Power Automate](https://m365princess.com/how-to-get-started-with-http-requests-in-power-automate/), I will grab a coffee ☕ in the meanwhile.
 
