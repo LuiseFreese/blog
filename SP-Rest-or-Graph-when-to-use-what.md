@@ -10,7 +10,7 @@ We want to create a new SharePoint list and add some columns based on the user's
 
 ### Option No. 1: SharePoint REST
 
-The 'send an HTTP request to SharePoint' action uses SharePoint REST API. To create a list, we can look up [working with lists and lists items](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest#working-with-lists-by-using-rest) and see that we need to send a POST request to the `https://{site_url}/_api/web/lists` endpoint and specify in the body of our list should look like. We can define the title and description of the list and also [set the Basetemplate](https://techcommunity.microsoft.com/t5/sharepoint/near-complete-list-of-sharepoint-list-types-and-templates-a-k-a/m-p/220550) (in case you want to do the same with a library etc.): 
+The 'send an HTTP request to SharePoint' action uses SharePoint REST API. To create a list, we can look up [working with lists and lists items](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest#working-with-lists-by-using-rest) and see that we need to send a POST request to the `https://{site_url}/_api/web/lists` endpoint and specify in the body of our list how it should look like. We can define the title and description of the list and also [set the Basetemplate](https://techcommunity.microsoft.com/t5/sharepoint/near-complete-list-of-sharepoint-list-types-and-templates-a-k-a/m-p/220550) (in case you want to do the same with a library etc.): 
 
     POST https://{site_url}/_api/web/lists
     Authorization: "Bearer " + accessToken
