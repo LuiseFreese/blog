@@ -239,7 +239,33 @@ https://graph.microsoft.com/v1.0/sites/raeuberleiterin.sharepoint.com,f4a2b36c-d
 }
 ```
 Replace the placeholders by Dynamic Content
-If you stumble of the `genericList` please [read here for reference](https://docs.microsoft.com/en-us/previous-versions/office/sharepoint-server/ee541191(v=office.15)) about othert list templates like libraries. 
+If you stumble of the `genericList` please [read here for reference](https://docs.microsoft.com/en-us/previous-versions/office/sharepoint-server/ee541191(v=office.15)) about other list templates like libraries. 
+
+If you need to add more columns you can do that by 
+
+```
+{
+    "displayName": "@{triggerBody()['text']}",
+    "columns": [
+        {
+            "name": "@{triggerBody()['text_2']}",
+            "text": {}
+        },
+        {
+            "name": "@{triggerBody()['text_3']}",
+            "text": {}
+        },
+        {
+            "name": "@{triggerBody()['text_4']}",
+            "text": {}
+        }
+    ],
+    "list": {
+        "template": "genericList"
+    }
+}
+```
+and so on. Let's go ahead and 
 
 * Click **Advanced Options**
 * Select **Active Directory OAuth**
@@ -251,6 +277,44 @@ If you stumble of the `genericList` please [read here for reference](https://doc
 * Enter the App Secret variable as Secret
 
 ![variables and HTTP action](https://github.com/LuiseFreese/blog/blob/main/media/sharepointrest-or-graph/varsandhttp.png)
+
+When we now run our flow, we will see, that we the columns that we created are already visible in the default view. 
+
+Advantages of this solution: 
+
+* We only need one HTTP request to Create list, columns and have the columns in the default view
+* If our flow gets more complex over time and we provision more things in not only SharePoint, we can do this with Microsoft Graph as well and extend our permission scope in Azure AD app registration
+
+Disadvantages of this solution:
+
+* Because HTTP is a premium connector, we will need a Power Apps Standalone license
+* We also need to register an app in Azure AD
+
+## Bonus Chapter: What about CLI Microsoft 365? 
+
+If you read one of my previous blog posts about [How to get started with CLI Microsoft 365 and Adaptive Cards](https://m365princess.com/how-to-get-started-with-cli-microsoft-365-and-adaptive-cards/) you could read between the lines, that I found CLI Microsoft 365 pretty cool. Now although I wanted to compare SharePoint REST and Microsoft Graph API using Power Automate in this post, I felt it could be a cool idea to check how things would go in CLI Microsoft 365. 
+
+If you are not familiar with it, please read my blog post first or head over to the [full documentation](https://pnp.github.io/cli-microsoft365). After you installed CLI Microsoft 365, open a shell that makes you happe (I use PowerShell inside of Visual Studio Code Terminal). 
+
+### Login
+
+* Run `m365 login`
+* Copy the Login Code, klicck on the link
+* Paste the Login Code
+* Select the user you want to log in with from the list
+* Return to your shell window
+
+### Create a list
+
+* Run `m365 spo list add --title Awesome%20List --baseTemplate DocumentLibrary --webUrl https://xxx.sharepoint.com/sites/yyy` by replacing `xxx`by your tenantname and `yyy` by your sitename
+
+### Add fields and more 
+
+You can now run even more commands to add fields, make them required, add them to default view and so on, [feel free to try it out](https://pnp.github.io/cli-microsoft365/cmd/spo/field/field-add/)! 
+
+![add a list in CLI Microsoft365](https://github.com/LuiseFreese/blog/blob/main/media/sharepointrest-or-graph/cli2.png)
+
+
 
 
 
