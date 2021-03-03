@@ -1,16 +1,16 @@
 # Should I use SharePoint REST or Microsoft Graph API in Power Automate?
 
-When working with Microsoft 365, we see a lot of overlapping tools and features and we will need (to provide) a lot of guidance around 'when to use what' for users. Wile most comparisons address users, I want to cover some more IT related scenarios in this blog post. Specifically, I want to compare two different RESTful APIs, which we can both use in Power Automate and also Azure Logic Apps to send HTTP requests. If you are not familiar with that, don't fret, just continue to read my blog post about [how to get started with http requests in Power Automate](https://m365princess.com/how-to-get-started-with-http-requests-in-power-automate/), I will grab a coffee ☕ in the meanwhile.
+When working with Microsoft 365, we see many overlapping tools and features, and we will need (to provide) much guidance around 'when to use what' for users. While most comparisons address users, I want to cover some more IT-related scenarios in this blog post. Specifically, I want to compare two different RESTful APIs, which we can use in Power Automate and Azure Logic Apps to send HTTP requests. If you are not familiar with that, don't fret; continue to read my blog post about [how to get started with http requests in Power Automate](https://m365princess.com/how-to-get-started-with-http-requests-in-power-automate/), I will grab a coffee ☕ in the meanwhile.
 
 Back again? Cool. Let me introduce you to our 
 
 ## use case
 
-Let's say, we want create a new SharePoint list and add some columns to a it based on user's input using Power Automate or Azure Logic Apps. When we look at the different available SharePoint actions in Power Automate, we will see, that there is no 'create a list' and no 'add column to SharePoint list' action, but that we could try out something with ['send an HTTP request to SharePoint'](https://docs.microsoft.com/en-us/sharepoint/dev/business-apps/power-automate/guidance/working-with-send-sp-http-request)
+We want to create a new SharePoint list and add some columns based on the user's input using Power Automate or Azure Logic Apps. When we look at the different available SharePoint actions in Power Automate, we will see that there is no 'create a list' and no 'add column to SharePoint list' action, but that we could try out something with ['send an HTTP request to SharePoint'](https://docs.microsoft.com/en-us/sharepoint/dev/business-apps/power-automate/guidance/working-with-send-sp-http-request)
 
 ### Option No. 1: SharePoint REST
 
-The 'send an HTTP request to SharePoint' action uses SharePoint REST API. To create a list, we can look up [working with lists and lists items](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest#working-with-lists-by-using-rest) and see, that we need to send a POST request to the `https://{site_url}/_api/web/lists` endpoint and specify in the body of our list should look like. We can define title and description of the list and also [set the Basetemplate](https://techcommunity.microsoft.com/t5/sharepoint/near-complete-list-of-sharepoint-list-types-and-templates-a-k-a/m-p/220550) (in case you want to do the same with a library etc.): 
+The 'send an HTTP request to SharePoint' action uses SharePoint REST API. To create a list, we can look up [working with lists and lists items](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest#working-with-lists-by-using-rest) and see that we need to send a POST request to the `https://{site_url}/_api/web/lists` endpoint and specify in the body of our list should look like. We can define the title and description of the list and also [set the Basetemplate](https://techcommunity.microsoft.com/t5/sharepoint/near-complete-list-of-sharepoint-list-types-and-templates-a-k-a/m-p/220550) (in case you want to do the same with a library etc.): 
 
     POST https://{site_url}/_api/web/lists
     Authorization: "Bearer " + accessToken
@@ -38,7 +38,7 @@ To make things easier, I will use the mobile flow trigger with three text inputs
 
 ![mobile flow trigger with two text inputfields](https://github.com/LuiseFreese/blog/blob/main/media/sharepointrest-or-graph/mobileflowtrigger.png)
 
-Of course you can also trigger the flow from a list, a form, an app, a bot or whatever suits your use case. 
+You can also trigger the flow from a list, a form, an app, a bot, or whatever suits your use case. 
 
 #### Send an HTTP request to SharePoint - create a list
 
@@ -64,7 +64,7 @@ Now we need to add the 'send an HTTP request to SharePoint' action:
   }
   ```
   
- as Body- make sure you replace the placeholder by Dynamic Content:
+ as body- make sure you replace the placeholder with Dynamic Content:
  
 ![send an http request to SharePoint](https://github.com/LuiseFreese/blog/blob/main/media/sharepointrest-or-graph/sendhttprequest.png)
 
@@ -105,11 +105,11 @@ We need another 'send an HTTP request to SharePoint action, and we need the **li
 * paste the copied JSON code in here
 * click **Done**
 
-When we now have a look into our Dynamic Content, we will see a lot of more options, also the list Guid, which is named **Id** here. 
+When we now have a look into our Dynamic Content, we will see many more options, also the list Guid, which is named **Id** here. 
 
 #### Send an HTTP request to SharePoint 2 - add a column
 
-Now we add another 'send an HTTP request to SharePoint' action which will create us a column: 
+Now we add another 'send an HTTP request to SharePoint' action, which will create us a column: 
 
 * Select the site of your choice from the dropdown menu
 * Select method **Post**
@@ -137,9 +137,9 @@ enter in the Body:
 
 Should you stumble upon the FieldTypeKind, please find reference [here](https://docs.microsoft.com/en-us/previous-versions/office/sharepoint-csom/ee540543(v=office.15)) - 2 means 'single line of text'. 
 
-If you now want to run your flow, please think about changing the list name, because you already created a list! 
+If you want to run your flow, please think about changing the list name because you already created a list! 
 
-If we control in our new created SharePoint list, we will see, that our new column doesn't show up in the default view, but that we need to enable the column- bummer! 
+If we control our newly created SharePoint list, we will see that our new column doesn't show up in the default view but that we need to enable the column- bummer! 
 
 #### Send an HTTP request to SharePoint 3 - add column to view
 
@@ -164,11 +164,11 @@ To have the column in the default view (or another view), we need to add another
 #### Disadvantages of this solution: 
 
 * with an 'http request to SharePoint' action you have - compared to the power of Microsoft Graph API - limited options, as you can only send requests to SharePoint, but not to other services in Microsoft 365-
-* to add the new column to our default view, we need a third request - which makes the flow unnessarily more complex
+* to add the new column to our default view, we need a third request - which makes the flow unnecessarily more complex
 
 ### Option No. 2: Microsoft Graph API
  
-Let's see, how we can create a SharePoint list or library and columns in it using Microsoft Graph. Microsoft Graph is a super powerful set of APIs that gives you a consistent experience for authentication, documentation and samples. You can try it out on [Microsoft Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer). For full documentation please continue [here](https://docs.microsoft.com/en-us/graph/overview). If you are not familiar with using Microsoft Graph in Power Automate, [please continue to read here](https://m365princess.com/how-to-get-started-with-http-requests-in-power-automate/)... time for another coffee for me then :-)
+Let's see how we can create a SharePoint list or library and columns in it using Microsoft Graph. Microsoft Graph is a super powerful set of APIs that gives you a consistent experience for authentication, documentation, and samples. You can try it out on [Microsoft Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer). For full documentation please continue [here](https://docs.microsoft.com/en-us/graph/overview). If you are not familiar with using Microsoft Graph in Power Automate, [please continue to read here](https://m365princess.com/how-to-get-started-with-http-requests-in-power-automate/)... time for another coffee for me then :-)
 
 #### mobile flow trigger
 
@@ -180,11 +180,11 @@ Again, to make things easy, we will use the same trigger as in Option No. 1.:
 
 Now that we registered our app in Azure AD, we can continue with the HTTP action in Power Automate. 
 
-To create a list, we will look up [documentation here](https://docs.microsoft.com/en-us/graph/api/list-create?view=graph-rest-1.0&tabs=http) and see, that we will need to send a POST request to 
+To create a list, we will look up [documentation here](https://docs.microsoft.com/en-us/graph/api/list-create?view=graph-rest-1.0&tabs=http) and see that we will need to send a POST request to 
 
 `https://graph.microsoft.com/v1.0/sites/{site-id}/lists`
 
-and that we will need to add permissions to be able to call this API. Our HTTP request needs authentication, which can be done via Azure Active Directory OAuth, but we will first need to have a representation of our app (yes, this flow that calls Microsoft Graph is an application) in Azure AD.
+And that we will need to add permissions to be able to call this API. Our HTTP request requires authentication, which can be done via Azure Active Directory OAuth, but we will first need to represent our app (yes, this flow that calls Microsoft Graph is an application) in Azure AD.
 
 We will follow these steps to register an app in Azure AD:
 
@@ -211,17 +211,17 @@ Now look up the permissions needed for this action: [Create a new list](https://
 
 #### Initialize variables for Tenant ID, App ID and App Secret
 
-Create three different string variables with the copied values of Tenant ID, App ID and App Secret
+Create three different string variables with the copied values of Tenant ID, App ID, and App Secret
 
 #### HTTP action to create a list
 
-Add an HTTP (not 'send an HTTP request to SharePoint action) action to your flow and fill out as follows: 
+Add an HTTP (not 'send an HTTP request to SharePoint action) action to your flow and fill it out as follows: 
 
 * Method: Post 
 * URI: `https://graph.microsoft.com/v1.0/sites/{site-id}/lists` - You can obtain the site-id from a request in Graph Explorer: 
 `https://graph.microsoft.com/v1.0/sites?search=keyword`
 * add **Content-Type**: **application/json** to the Headers
-* enter as Body:
+* enter as body:
 
 ```
 {
@@ -238,9 +238,9 @@ Add an HTTP (not 'send an HTTP request to SharePoint action) action to your flow
 }
 ```
 Replace the placeholders by Dynamic Content
-If you stumble of the `genericList` please [read here for reference](https://docs.microsoft.com/en-us/previous-versions/office/sharepoint-server/ee541191(v=office.15)) about other list templates like libraries. 
+If you stumble off the `genericList,` please [read here for reference](https://docs.microsoft.com/en-us/previous-versions/office/sharepoint-server/ee541191(v=office.15)) about other list templates like libraries. 
 
-If you need to add more columns you can do that by 
+If you need to add more columns, you can do that by 
 
 ```
 {
@@ -277,11 +277,11 @@ and so on. Let's go ahead and
 
 ![variables and HTTP action](https://github.com/LuiseFreese/blog/blob/main/media/sharepointrest-or-graph/varsandhttp.png)
 
-When we now run our flow, we will see, that we the columns that we created are already visible in the default view. 
+When we now run our flow, we will see that the columns that we created are already visible in the default view. 
 
 ### Advantages of this solution: 
 
-* We only need one HTTP request to Create list, columns and have the columns in the default view
+* We only need one HTTP request to Create a list, columns and have the columns in the default view
 * If our flow gets more complex over time and we provision more things in not only SharePoint, we can do this with Microsoft Graph as well and extend our permission scope in Azure AD app registration
 
 ### Disadvantages of this solution:
@@ -291,14 +291,14 @@ When we now run our flow, we will see, that we the columns that we created are a
 
 ## Bonus Chapter: What about CLI Microsoft 365? 
 
-If you read one of my previous blog posts about [How to get started with CLI Microsoft 365 and Adaptive Cards](https://m365princess.com/how-to-get-started-with-cli-microsoft-365-and-adaptive-cards/) you could read between the lines, that I found CLI Microsoft 365 pretty cool. Now although I wanted to compare SharePoint REST and Microsoft Graph API using Power Automate in this post, I felt it could be a cool idea to check how things would go in CLI Microsoft 365. 
+If you read one of my previous blog posts about [How to get started with CLI Microsoft 365 and Adaptive Cards](https://m365princess.com/how-to-get-started-with-cli-microsoft-365-and-adaptive-cards/), you could read between the lines that I found CLI Microsoft 365 pretty cool. Although I wanted to compare SharePoint REST and Microsoft Graph API using Power Automate in this Post, I felt it could be a cool idea to check how things would go in CLI Microsoft 365. 
 
-If you are not familiar with it, please read my blog post first or head over to the [full documentation](https://pnp.github.io/cli-microsoft365). After you installed CLI Microsoft 365, open a shell that makes you happe (I use PowerShell inside of Visual Studio Code Terminal). 
+If you are not familiar with it, please read my blog post first or head over to the [full documentation](https://pnp.github.io/cli-microsoft365). After you installed CLI Microsoft 365, open a shell that makes you happy (I use PowerShell inside Visual Studio Code Terminal). 
 
 ### Login
 
-* Run `m365 login`
-* Copy the Login Code, klicck on the link
+* Run `m365 login.`
+* Copy the Login Code, click on the link
 * Paste the Login Code
 * Select the user you want to log in with from the list
 * Return to your shell window
@@ -309,22 +309,12 @@ If you are not familiar with it, please read my blog post first or head over to 
 
 ### Add fields and more 
 
-You can now run even more commands to add fields, make them required, add them to default view and so on, [feel free to try it out](https://pnp.github.io/cli-microsoft365/cmd/spo/field/field-add/)! 
+You can now run even more commands to add fields, make them required, add them to default view, and so on, [feel free to try it out](https://pnp.github.io/cli-microsoft365/cmd/spo/field/field-add/)! 
 
 ![add a list in CLI Microsoft365](https://github.com/LuiseFreese/blog/blob/main/media/sharepointrest-or-graph/cli2.png)
 
 ## Conclusion
 
-As always, the answer to the question "When shall I use what" will be a typical consultant 'It Depends'. Depending on your experience and skillset, the scope of your app and how you approach it you  will prefer one tool over another - purpose of this blog was to share some options to achieve the same thing - with creating a SharePoint list as an example. Please tell me - which solution would you prefer? Which are your use cases? Please reply below, I am curious! 
+As always, the answer to the question "When shall I use what" will be a typical consultant 'It Depends.' Depending on your experience and skillset, the scope of your app, and how you approach it, you will prefer one tool over another - the purpose of this blog was to share some options to achieve the same thing - with creating a SharePoint list as an example. Please tell me - which solution would you prefer? Which are your use cases? Please reply below; I am curious! 
 
 ![it depends](https://github.com/LuiseFreese/blog/blob/main/media/sharepointrest-or-graph/itdepends.png)
-
-
-
-
-
-
-
-
-
-
