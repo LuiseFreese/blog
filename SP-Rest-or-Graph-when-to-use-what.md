@@ -223,7 +223,6 @@ Add an HTTP (not 'send an HTTP request to SharePoint action) action to your flow
 * add **Content-Type**: **application/json** to the Headers
 * enter as Body:
 
-https://graph.microsoft.com/v1.0/sites/raeuberleiterin.sharepoint.com,f4a2b36c-d3b9-4170-9862-8efc9769d749,c50415a2-e44a-429e-af84-22bf724d017a/lists
 ```
 {
     "displayName": "@{triggerBody()['text']}",
@@ -280,12 +279,12 @@ and so on. Let's go ahead and
 
 When we now run our flow, we will see, that we the columns that we created are already visible in the default view. 
 
-Advantages of this solution: 
+### Advantages of this solution: 
 
 * We only need one HTTP request to Create list, columns and have the columns in the default view
 * If our flow gets more complex over time and we provision more things in not only SharePoint, we can do this with Microsoft Graph as well and extend our permission scope in Azure AD app registration
 
-Disadvantages of this solution:
+### Disadvantages of this solution:
 
 * Because HTTP is a premium connector, we will need a Power Apps Standalone license
 * We also need to register an app in Azure AD
@@ -313,6 +312,12 @@ If you are not familiar with it, please read my blog post first or head over to 
 You can now run even more commands to add fields, make them required, add them to default view and so on, [feel free to try it out](https://pnp.github.io/cli-microsoft365/cmd/spo/field/field-add/)! 
 
 ![add a list in CLI Microsoft365](https://github.com/LuiseFreese/blog/blob/main/media/sharepointrest-or-graph/cli2.png)
+
+## Conclusion
+
+As always, the answer to the question "When shall I use what" will be a typical consultant 'It Depends'. Depending on your experience and skillset, the scope of your app and how you approach it you  will prefer one tool over another - purpose of this blog was to share some options to achieve the same thing - with creating a SharePoint list as an example. Please tell me - which solution would you prefer? Which are your use cases? Please reply below, I am curious! 
+
+![it depends](https://github.com/LuiseFreese/blog/blob/main/media/sharepointrest-or-graph/itdepends.png)
 
 
 
