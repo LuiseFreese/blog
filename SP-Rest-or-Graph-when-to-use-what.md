@@ -307,11 +307,11 @@ If you are not familiar with it, please read my blog post first or head over to 
 
 * Run `m365 spo list add --title Awesome%20List --baseTemplate DocumentLibrary --webUrl https://xxx.sharepoint.com/sites/yyy` by replacing `xxx`by your tenantname and `yyy` by your sitename
 
+![add a list in CLI Microsoft365](https://github.com/LuiseFreese/blog/blob/main/media/sharepointrest-or-graph/cli2.png)
+
 ### Add fields and more 
 
 You can now run even more commands to add fields, make them required, add them to default view, and so on, [feel free to try it out](https://pnp.github.io/cli-microsoft365/cmd/spo/field/field-add/)! 
-
-![add a list in CLI Microsoft365](https://github.com/LuiseFreese/blog/blob/main/media/sharepointrest-or-graph/cli2.png)
 
 ## Conclusion
 
