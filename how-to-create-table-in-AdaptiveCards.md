@@ -1,6 +1,20 @@
 # How to create a table in Adaptive Cards with Power Automate
 
-In this blog post we want to show how we can display a table in an Adaptive Card, pull data from a SharePoint list and use Power Automate to do that in one flow. 
+In this blog post we learn how we can display a table in an Adaptive Card, pull data from a SharePoint list and use Power Automate to do that in one flow. 
+
+When I read in the [documentation](https://docs.microsoft.com/en-us/adaptive-cards/authoring-cards/text-features), that tables and headers are not supported, it was somehow a BUMMER 🙄, but then I asked the worlds laziest developer [Hugo Bernier](https://twitter.com/bernierh), if there was really now way to do it. 
+
+Our first idea was, to templatize an Adaptive Card, and then pass data into that template; but very unfortunately, this isn't supported in Power Automate. Our second idea resolved the whole problem: We would build the JSON for our Adaptive Card like different LEGO bricks and then out them together. 
+
+We would need 
+
+* 1 brick (we will use variables in Power Automate) for the upper part of the Card, where we create a columnset, 
+* 3 bricks for the headers of our faux table
+* 3 bricks for the rows over which we will loop
+* 1 brick that contains our 'Open Link' button
+* 1 brick at the end of the card to close all open `{` and `[` with `}` and `}`
+
+To make things a bit more approachable, here is our little
 
 ## use case
 
@@ -154,5 +168,5 @@ You may choose if you want to send the Post as the Flow bot or as a user or if y
  
 ## Conclusion and what's next
  
-Although not natively supported, we can actually display a table in Adaptive Cards and bind this to a datasource. What's next? Find the limit how many rows we can display and what else we could do with Cards :') What would you like to figure out? I am curious, please reply below! 
+Although not natively supported, we can actually display a (faux) table in Adaptive Cards and bind this to a datasource. Potentially issues could occure here, as our columns are independent from each other. The Adaptive Cards renders columns, bnit not rows, which means that if we have different heights, it could be problematic to make them look good and even. What's next? Find the limit how many rows we can display and what else we could do with Cards :') What would you like to figure out? I am curious, please reply below! 
  
