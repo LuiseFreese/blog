@@ -140,7 +140,6 @@ You may choose if you want to send the Post as the Flow bot or as a user or if y
 ![Part 4](https://github.com/LuiseFreese/blog/blob/main/media/how-to-create-table-in-adaptive-cards/Part4.png)
  
  
- ![Part 4](https://github.com/LuiseFreese/blog/blob/main/media/how-to-create-table-in-adaptive-cards/complete.png)
  
  
  
