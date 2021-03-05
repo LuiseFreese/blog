@@ -12,7 +12,7 @@ We would need
 * 3 bricks for the headers of our faux table
 * 3 bricks for the rows over which we will loop
 * 1 brick that contains our 'Open Link' button
-* 1 brick at the end of the card to close all open `{` and `[` with `}` and `}`
+* 1 brick at the end of the card to close all open `{` and `[` with `}` and `]`
 
 To make things a bit more approachable, here is our little
 
