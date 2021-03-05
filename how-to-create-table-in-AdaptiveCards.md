@@ -12,7 +12,7 @@ Purpose is to notify the Team each Monday about all Unicorns with a unicornibili
 
 ### recurrence Trigger
 
-We start with a **Recurrence ** trigger, set the **interval** to `1` and the **Frequency** to `Week`. 
+We start with a **Recurrence** trigger, set the **interval** to `1` and the **Frequency** to `Week`. 
 
 ![recurrence trigger](https://github.com/LuiseFreese/blog/blob/main/media/how-to-create-table-in-adaptive-cards/recurrence.png)
  
