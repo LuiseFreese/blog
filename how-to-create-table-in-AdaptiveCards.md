@@ -116,7 +116,7 @@ Let’s break this into pieces:
 2. We initialize variables for the 3 Headers “Name”, “Unicornibility” and “Party Readiness Index”
 3. We create an **Apply to Each** and loop over the values of our SharePoint list for each column by appending our variables.
 4. We append the upper part of our card by the 3 columns (consisting of the headers and rows)
-5. We append the Card now again by the missing pieces – in case you wonder why we needed to somehow unclean cut the JSON – this is a bug in Power Automate. Although we defined our variables as string, Power Automate asked us to provide valid JSON, when we needed cut the JSON into pieces. We needed therefore to find a way to make Power Automate believe, that we are not storing JSON in a string variable, and apparently a `{` at the beginning was a trigger for Power Automate to check if JSON was valid (which was not, but on purpose!).
+5. We append the Card now again by the missing pieces – in case you wonder why we needed to somehow unclean cut the JSON – this is a bug in Power Automate. Although we defined our variables as string, Power Automate asked us to provide valid JSON. We could not provide valid JSON though, because we needed to cut the JSON into pieces. We needed therefore to find a way to make Power Automate believe, that we are not storing JSON in a string variable, and apparently a `{` at the beginning was a trigger for Power Automate to check if JSON was valid (which was not, but on purpose!).
 
 Our Code would look color coded like this: 
  
