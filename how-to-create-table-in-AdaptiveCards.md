@@ -4,7 +4,7 @@ In this blog post we learn how we can display a table in an Adaptive Card, pull 
 
 When I read in the [documentation](https://docs.microsoft.com/en-us/adaptive-cards/authoring-cards/text-features), that tables and headers are not supported, it was somehow a BUMMER 🙄, but then I asked the worlds laziest developer [Hugo Bernier](https://twitter.com/bernierh), if there was really now way to do it. 
 
-Our first idea was, to templatize an Adaptive Card, and then pass data into that template; but very unfortunately, this isn't supported in Power Automate. Our second idea resolved the whole problem: We would build the JSON for our Adaptive Card like different LEGO bricks and then out them together. 
+Our first idea was, to templatize an Adaptive Card, and then pass data into that template; but very unfortunately, this isn't supported in Power Automate. Our second idea resolved the whole problem: We would build the JSON for our Adaptive Card like different LEGO bricks and then put them together. 
 
 We would need 
 
