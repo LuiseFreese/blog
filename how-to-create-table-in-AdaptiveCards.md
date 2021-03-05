@@ -134,12 +134,14 @@ You may choose if you want to send the Post as the Flow bot or as a user or if y
  
 ## Flow in full beauty
 
-![Part 1](https://github.com/LuiseFreese/blog/blob/main/media/how-to-create-table-in-adaptive-cards/Part1.png)
-![Part 2](https://github.com/LuiseFreese/blog/blob/main/media/how-to-create-table-in-adaptive-cards/Part2.png)
-![Part 3](https://github.com/LuiseFreese/blog/blob/main/media/how-to-create-table-in-adaptive-cards/Part3.png)
-![Part 4](https://github.com/LuiseFreese/blog/blob/main/media/how-to-create-table-in-adaptive-cards/Part4.png)
+* ![Part 1](https://github.com/LuiseFreese/blog/blob/main/media/how-to-create-table-in-adaptive-cards/Part1.png)
+* ![Part 2](https://github.com/LuiseFreese/blog/blob/main/media/how-to-create-table-in-adaptive-cards/Part2.png)
+* ![Part 3](https://github.com/LuiseFreese/blog/blob/main/media/how-to-create-table-in-adaptive-cards/Part3.png)
+* ![Part 4](https://github.com/LuiseFreese/blog/blob/main/media/how-to-create-table-in-adaptive-cards/Part4.png)
  
+ ## Conclusion and what's next
  
+ Although not natively supported, we can actually display a table in Adaptive Cards and bind this to a datasource. What's next? Find the limit how many rows we can display and what else we could do with Cards :') What would you like to figure out? I am curious, please reply below! 
  
  
  
