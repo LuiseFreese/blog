@@ -1,5 +1,7 @@
 # How to create a table in Adaptive Cards with Power Automate
 
+In this blog post we want to show how we can display a table in an Adaptive Card, pull data from a SharePoint list and use Power Automate to do that in one flow. 
+
 ## use case
 
 We want to display items of a SharePoint list in an Adaptive Card as a table. The result should look like this: 
