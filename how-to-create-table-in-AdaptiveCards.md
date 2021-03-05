@@ -154,6 +154,3 @@ You may choose if you want to send the Post as the Flow bot or as a user or if y
  
 Although not natively supported, we can actually display a table in Adaptive Cards and bind this to a datasource. What's next? Find the limit how many rows we can display and what else we could do with Cards :') What would you like to figure out? I am curious, please reply below! 
  
- 
- 
-
