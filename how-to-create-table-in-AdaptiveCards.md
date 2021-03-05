@@ -138,11 +138,11 @@ In case you wonder why we needed to somehow unclean cut the JSON – this is a b
 
 Our Code would look color coded like this: 
  
-![color-coded](https://github.com/LuiseFreese/blog/blob/main/media/how-to-create-table-in-adaptive-cards/V2color-coded.png)
+* ![color-coded](https://github.com/LuiseFreese/blog/blob/main/media/how-to-create-table-in-adaptive-cards/V2color-coded.png)
 
 And if we now lay the color-code blocks over the Adaptive Card: 
 
-![Adaptive Card color-coded](https://github.com/LuiseFreese/blog/blob/main/media/how-to-create-table-in-adaptive-cards/V2AdaptiveCard-result-color.png)
+* ![Adaptive Card color-coded](https://github.com/LuiseFreese/blog/blob/main/media/how-to-create-table-in-adaptive-cards/V2AdaptiveCard-result-color.png)
  
 ### Send Adaptive Card
 
@@ -150,8 +150,7 @@ You may choose if you want to send the Post as the Flow bot or as a user or if y
 
 ![Adaptive Card](https://github.com/LuiseFreese/blog/blob/main/media/how-to-create-table-in-adaptive-cards/card.png)
  
-
- ## Conclusion and what's next
+## Conclusion and what's next
  
 Although not natively supported, we can actually display a table in Adaptive Cards and bind this to a datasource. What's next? Find the limit how many rows we can display and what else we could do with Cards :') What would you like to figure out? I am curious, please reply below! 
  
