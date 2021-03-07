@@ -46,7 +46,7 @@ You see, that some basic topics are already created for you. You can take a look
 
 Now we want to work on feeding our bot with the FAQ from the website that we selected. 
 
-* Copy the URL auf the FAQ website
+* Copy the URL of the FAQ website
 * Paste the URL into the **Link to online content** field
 
 ![Get Faq](https://github.com/LuiseFreese/blog/blob/main/media/how-to-build-a-faq-bot/getfaq.png)
