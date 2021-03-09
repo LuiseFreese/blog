@@ -1,5 +1,8 @@
 # 10 things you should think about before you go to make.powerapps.com
 
+Power Platform is a 
+
+
 * mock up your app
 * decribe value / calculate costs / licensing
 * which problem does the app solve
