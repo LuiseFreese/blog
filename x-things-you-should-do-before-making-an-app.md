@@ -20,7 +20,7 @@ Take some time segment your market and understand who (even if you build for you
 
 ### psychological strain vs. energy of change
 
-We've heard it probably before: To make users love an app, you will need to not only solve their pains or adress their needs, but also make it not too hard for them to change their behavior. If the energy they will need to change their behavior is higher than the psychological strain they face right now, they will not adapt your app, it's unfortunately as simple as that. 
+To make users love an app, you will need to not only solve their pains or adress their needs, but also make it not too hard for them to change their behavior. If the energy they will need to change their behavior is higher than the psychological strain they face right now, they will not adapt your app, it's unfortunately as simple as that. 
 
 ## calculate value
 
