@@ -2,7 +2,13 @@
 
 With Power Apps, we can rapidly build custom business applications that connect to our business data in a low code manner. This means, that not only professional developers can build applications, but that a lot more people will be able to make apps that fit their use specific use cases. 
 
-But as development is not only writing code, there are certainly some things we should do before we actually hit [make.powerapps.com](https://make.powerapps.com). This post will list 10 things, that we should think about before we start building our app. 
+But as development is not only writing code, there are certainly some things we should do before we actually hit [make.powerapps.com](https://make.powerapps.com). A lot of developers will agree, that development is 20% writing code and 80% communications (meetings, gathering requirements, adjusting things). 
+
+> If we now introduce 'low code development', we work on those 20%, not on the 80%. 
+
+The issue with that is, that the narrative of 'everyone should make app' doesn't reflect, that there is a lot of content out there to teach business users how to use controls, components, connectors and ask community when in doubt which function they should use. But there is about near to zero guidance around how to make sure that apps, delieverd by power users do have a lifecycle as well, need to be documented properly and that someone needs to offer support for that. These are things that pro-developers are very aware of, as DevOps is what most of them live and breathe every single day. 
+
+This post will list 10 things, that we should think about before we start building our app
 
 ## which problem does the app solve? 
 
@@ -32,11 +38,13 @@ and to which results this leads
 * cause additional costs
 * severe risks in terms of data security, governance, compliance etc. 
 
-tl;dr: more costs, less value. 
+> tl;dr: it costs time & money
 
 But take the effort to actually calculate the higher costs in terms of money and time and make an estimation for 12 or 24 months.
 
-If the app you have in mind doesn't create value: take this as a learning opportunity. Of course, you can build apps 'for fun' or because you want to learn, or 'just because you can', but you should carefully distinguish those apps from apps that you want to internally pitch and 'sell'. 
+If the app you have in mind doesn't create value: take this as a learning opportunity to become better at meeting the needs of your (internal) customer. 
+
+> The goal is tyo provide more value, not to deliver a poorly designed app which costs a little less. Of course, you can build apps 'for fun' or because you want to learn, or 'just because you can', but you should carefully distinguish those apps from apps that you want to internally pitch and 'sell'. 
 
 ## scope
 
@@ -56,7 +64,7 @@ The data sources we choose have not only impact on the licensing model, but also
 
 ### developer and user experience
 
-We can also see an impact on the experience you as a developer will have while building the app, depending on the datasource. If you ever 'loved' to deal with for example lookup columns from a SharePoint list, you will agree, that you didn't choose the easiest way to build an app. If you need to find workarounds as a developer, this will impact your user as well, which means, that their experience won't be as good as it could be. 
+We can also see an impact on the experience you as a developer will have while building the app, depending on the datasource. If you ever 'loved' to deal with for example lookup columns from a SharePoint list, you will agree, that you didn't choose the easiest way to build an app. If you need to find work arounds as a developer, this will impact your user as well, which means, that their experience won't be as good as it could be. 
 
 ## lifecycle and delivery
 
@@ -64,9 +72,17 @@ Let's say, you are about to hit [make.powerapps.com](https://make.powerapps.com)
 
 Delivery of a software should not only contain code (and yes, this applies to Power Apps as well), but also proper documentation, so that your organization does not rely on you for their mission critical process that you build in an app. Share knowledge about your app (what did you use, inputs, outputs, dependencies, licensing, data model, accessibility, feautures etc.) very early and best practice: Write it down to enable those, who need to maintain and support your solution. 
 
+## what is your minimal l❤vable product?
+
+Yes, I mean it! Define your minimal lovable product. If you only heard about a minimal viable product so far, please read this article [How to Build a Minimum Loveable Produc](https://medium.com/the-happy-startup-school/beyond-mvp-10-steps-to-make-your-product-minimum-loveable-51800164ae0c). In essence? Which features will you need to make users fall in love with your app? Build this. Don't fall into the rabbit hole of delivering the whole software in one piece, but focus on the crucial parts.
+
+## mock up your app
+
+Finally- let's talk frontend - how shall your app look like? It's super tempting to actually start building screens an buttons and decide on colors etc., but you will get a better impression on the big picture of your app, if you first do a mock up. You may choose if you want to use a professional app for that or if you will draw something (I do this in OneNote). Defining which screens and buttons and forms and galleries you will need, will make the next steps easier. 
+
+## accessiblity
+
+Accessibility is nothing, that comes on top of a ready-to-publish app, but should be one of your core concepts straight from the beginning. The accessibility checker in Power Apps is a good start, but its always worth it to explore even more concepts. We can find lots of guidance how to ensure, that more people can benefit from our apps, if you need some inspiration, please read here [Microsoft Inclusive Design](https://www.microsoft.com/design/inclusive/).
 
 
-* mock up your app
-
-* what is your mvp?
 
