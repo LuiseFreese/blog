@@ -14,7 +14,7 @@ This post will list 10 things, that we should think about before we start buildi
 
 This sounds obvious, that one would first do a proper analysis of value proposition and if the app they have in mind is actually a must-have solution to a specific business case or if its more or less 'yet another thing to use', although there are working alternatives in place. 
 
-### understand your market 
+## understand your market 
 
 Take some time segment your market and understand who (even if you build for your colleagues) needs your app. There will be roles, that will rely on your app, so it will become mission critical to them. Others will have already found applications that do similar things or the app doesn't solve a problem that is relevant to them. You can try to specifically look at underserved groups, such as blue collar workers and see if you can address their needs. Becoming obsessed with solving specific needs without assumptions is key here. This means, that you will need to validate the need that you have in mind. Even if you consider yourself a business user/power user /citizen developer, doesn't necessarily mean that you are your user. 
 
@@ -52,7 +52,7 @@ The mother of all questions: Does it scale? Will you app be something for your p
 
 ## data model
 
-let's talk about your data model. Which datasource will you need to get data, in which services will you write data into? Which dependencies do you have, which other apps, flows, bots will be part of solution? Of course, the consultant answer on when to use what, will always be an 'it depends', but there are probably more reasons to look into different data sources as you are aware of
+let's talk about your data model. Which datasource will you need to get data, in which services will you write data into? Which dependencies do you have, which other apps, flows, bots will be part of solution? Of course, the consultant answer on when to use what, will always be an 'it depends', but there are probably more reasons to look into different data sources as you are aware of.
 
 ### licensing
 
