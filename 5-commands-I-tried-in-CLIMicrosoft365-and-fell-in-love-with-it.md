@@ -1,4 +1,4 @@
-# 5 commands I tried in CLI for Microsoft 365 and fell in love with it
+# 5 commands to try in CLI for Microsoft 365 to fall in love with it
 
 After I blogged about [How to send Adaptive Cards with CLI for Microsoft 365](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/how-to-send-adaptive-cards-with-cli-microsoft-365/ba-p/2143466) and also used [CLI to compare different ways to create SharePoint lists](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/should-we-use-sharepoint-rest-or-microsoft-graph-api-in-power/ba-p/2182284), I found some more commands, that made me fall in love with it.
 
@@ -16,7 +16,7 @@ Run `m365 pa app list`
 
 which will get you exactly that list - with internal names and displaynames
 
-![m365 pa app list]()
+![m365 pa app list](https://github.com/LuiseFreese/blog/blob/main/media/5-commands-in-CLIMicrosoft365-to-fall-in-love-with/list-pa.png)
 
 ## Get an overview about custom connectors in an environment
 
@@ -25,6 +25,8 @@ If we allowed makers to build their own custom connectors to fulfill their very 
 Run `m365 pa environment get --name Default-<name of your default environment>`
 
 Now where do we get this `<name of your default environment>`from? This is your tenant ID, which you can obtain from the URL of any Power App running in this environment or you can copy it from [portal.azure.com](https://portal.azure.com), where you will find it in Azure Active Directory as **Tenant ID**. 
+
+![obtain environment name in PA URL](https://github.com/LuiseFreese/blog/blob/main/media/5-commands-in-CLIMicrosoft365-to-fall-in-love-with/url-powerapps.png)
 
 * Copy this Tenant ID
 * Replace `<name of your default environment>`with the Tenant ID
@@ -38,14 +40,15 @@ Run `m365 spo user list --webUrl "https://m365princess.sharepoint.com/sites/m365
 
 The response will be something like this: 
 
-![list spo users]()
+![list spo users](https://github.com/LuiseFreese/blog/blob/main/media/5-commands-in-CLIMicrosoft365-to-fall-in-love-with/list-spo-users.png)
 
 ## Get a list of external users
 
 Another cool starting point is to get a list of external users. As internal users tend to invite a lot of guests, it could be helpful to have an overview on external users and see when these external users were created. You can also obtain the ID of of users. 
 
 `m365 spo externaluser list`,
- which leads us straight to the next command, that I found really helpful: 
+
+![get external users](https://github.com/LuiseFreese/blog/blob/main/media/5-commands-in-CLIMicrosoft365-to-fall-in-love-with/list-external.png)
  
 ## remove users 
 
