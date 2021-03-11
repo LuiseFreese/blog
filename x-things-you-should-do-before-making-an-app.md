@@ -97,5 +97,14 @@ Accessibility is nothing that comes on top of a ready-to-publish app but should 
 
 ## 10- build in Microsoft Teams
 
+As we are more and more working in Microsoft Teams, we should not only build applications for teams, but for (Microsoft) Teams! Considering the context of apps gives you even more ways to satisfy user needs. Coming back to the scope of our app, we need to carefully think if this app is just for our team, or if we want to make it available for the whole organization. Staying in Teams also has an impact on licensing, as you can for instance use [Dataverse for Teams](https://docs.microsoft.com/en-us/power-platform/admin/about-teams-environment), which is then seeded in you Microsoft 365 license. 
+
+
+## Conclusion
+
+As we could see, there are quite some things to do and think about before we hit [make.powerapps.com](https://make.powerapps.com) and I put these together as an approach for good practices. What do you do before you actually start developing? What would you like to add to my list? Please comment below! 
+
+
+
 
 
