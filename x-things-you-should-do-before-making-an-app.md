@@ -6,7 +6,9 @@ But as sdevelopment is not only writing code, there are certainly some things we
 
 > If we now introduce 'low code development', we work on these 20%, not on those 80%. 
 
-The issue with that is, that the narrative of 'everyone should make apps' doesn't reflect, that there is a lot of content out there to teach business users how to use controls, components, connectors and ask community when in doubt which function they should use. But there is about near to zero guidance around how to make sure that apps, delieverd by power users do have a lifecycle as well, need to be documented properly and that someone needs to offer support for that. These are things that pro-developers are very aware of, as DevOps is what most of them live and breathe every single day. 
+The issue with that is, that the narrative of 'everyone should make apps' doesn't reflect, that there is a lot of content out there to teach business users how to use controls, components, connectors and ask community when in doubt which function they should use. But there is about near to zero guidance around how to make better decisions about apps to build, and that apps, deliverd by power users, need to be documented properly, and that someone needs to offer support for that. 
+
+These are things that pro-developers are very aware of, as DevOps is what most of them live and breathe every single day. But apart from IT departments, who will need to care about governance, application lifecycle management, etc., there are some things on business user side, that we should consider. 
 
 This post will list 10 things, that we should think about before we start building our apps
 
@@ -58,7 +60,7 @@ Let's talk about our data model. Which datasource will you need to get data, in 
 
 As this is a pretty emotionally driven subject, we should handle this some more cool-headed. The idea of first understanding which needs your app solves, who would benefit from it and how much money and time all users would save together by using it, is the counterpart of the licensing discussion. Of course, organizations tend to not want to pay for additional licenses, but the idea, that one could deliver great business value without any costs is somehow romanticized. Incorporate licensing costs for premium connectors (as you need them) in your calculation and if the app still delivers more value than it costs, we will probably get approval/green lights for it. 
 
-> If the app isn't worth more than ~10 bucks per month and user, we should probably not be building it. 
+> If the app isn't worth more than ~10$ per month and user, we should probably not be building it. 
 
 ### performance
 
