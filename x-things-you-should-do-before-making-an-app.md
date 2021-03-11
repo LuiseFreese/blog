@@ -95,5 +95,7 @@ You can watch [April Dunnam's video about componetizing Power Apps](https://www.
 
 Accessibility is nothing that comes on top of a ready-to-publish app but should be one of your core concepts straight from the beginning. The accessibility checker in Power Apps is a good start, but it's always worth exploring even more ideas. We can find lots of guidance on ensuring that more people can benefit from our apps,  [Microsoft Inclusive Design](https://www.microsoft.com/design/inclusive/) is an excellent go-to resource. 
 
+## 10- build in Microsoft Teams
+
 
 
