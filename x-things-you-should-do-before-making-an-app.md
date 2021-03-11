@@ -68,7 +68,7 @@ The data sources we choose have not only impact on the licensing model, but also
 
 We can also see an impact on the experience you as a developer will have while building the app, depending on the datasource. If you ever 'loved' to deal with for example lookup columns from a SharePoint list, you will agree, that you didn't choose the easiest way to build an app. If you need to find work arounds as a developer, this will impact your user as well, which means, that their experience won't be as good as it could be. 
 
-## 5- lifecycle and delivery
+## 5- delivery
 
 Let's say, we are about to hit [make.powerapps.com](https://make.powerapps.com) and we have a fair idea what to do there to make an app. We will publish our app, share it, and mentally move on to something different. Now who cares for that app? Who will maintain our app? Things can easily change when we create apps on top of cloud services. This can easily become a not to be underestimated workload and probably we as a business user won't have capacity to cover that. And even if we are not talking about adjusting to things that changed: Who will support our app? Who will answer questions? Who will implement new feautures?
 
