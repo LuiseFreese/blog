@@ -88,7 +88,9 @@ Finally- let's talk frontend - how shall our app look like? It's super tempting 
 
 ## 8- componetize your app
 
-Reinventing the wheel is always painful, and to avoid this, we can should think about components in our apps, so that we reuse what we (or even other in this environment in the component library) build before. While controls are a good way to start learning and understanding how everything works, components are the way to not only accelerate our process of making apps, but making sure, that we easily adjust them and don't need to start over again for the next app we are making. If you are not familiar with components you can watch [April Dunnams video about componetizing Power Apps](https://www.youtube.com/watch?v=RO6RMYauAlY) to get up to speed. 
+Reinventing the wheel is always painful, and to avoid this, we can should think about components in our apps, so that we reuse what we (or even other in this environment in the component library) build before. While controls are a good way to start learning and understanding how everything works, components are the way to not only accelerate our process of making apps, but making sure, that we easily adjust them and don't need to start over again for the next app we are making. It is also the low-code equivalent to the principle of ['Don't repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)'. Thinking upfront which controls we would repeatedly use and planning to componetize these will make sure that we don't need to start all over again. 
+
+If you are not familiar with components you can watch [April Dunnams video about componetizing Power Apps](https://www.youtube.com/watch?v=RO6RMYauAlY) to get up to speed. Using component
 
 ## 9- accessiblity
 
