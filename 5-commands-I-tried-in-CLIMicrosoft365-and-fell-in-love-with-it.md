@@ -64,5 +64,7 @@ With
 
 we can remove a users. 
 
-Hope that you now got an idea how you can get started with CLI for Microsoft 365 :-) Still I am curious, what you would use it for? Which are the commands that you use every single day? Please comment below! 
+## Feedback & What's next? 
+
+Hope that you now got an idea how you can get started with CLI for Microsoft 365 :-) Shall I blog more about it and show even more commands? Still I am curious, what you would use it for? Which are the commands that you use every single day? Please comment below! 
 
