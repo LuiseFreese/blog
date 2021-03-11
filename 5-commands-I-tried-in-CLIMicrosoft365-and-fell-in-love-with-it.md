@@ -2,9 +2,11 @@
 
 After I blogged about [How to send Adaptive Cards with CLI for Microsoft 365](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/how-to-send-adaptive-cards-with-cli-microsoft-365/ba-p/2143466) and also used [CLI to compare different ways to create SharePoint lists](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/should-we-use-sharepoint-rest-or-microsoft-graph-api-in-power/ba-p/2182284), I found some more commands, that made me fall in love with it. CLI for Microsoft 365 has three main benefits from my point of view: 
 
-💻 it's platform-agnostic and even works on [Azure Cloud Shell](https://azure.microsoft.com/en-us/features/cloud-shell/?&ef_id=Cj0KCQiAnKeCBhDPARIsAFDTLTIDlnMADqglDP6WLiQ_Yq23PQL7px3W9ElP7bBanGB6762ENh6DzScaAsTxEALw_wcB:G:s&OCID=AID2100049_SEM_Cj0KCQiAnKeCBhDPARIsAFDTLTIDlnMADqglDP6WLiQ_Yq23PQL7px3W9ElP7bBanGB6762ENh6DzScaAsTxEALw_wcB:G:s) so that every browser can be my admin machine 
-💡 the syntax is easy and almost intuitive to use for me, although I only start to not use the UI for everything I want to manage in my Microsoft 365 tenant
-🚀 documentation is clear and concise with amazing code samples. 
+* 💻 it's platform-agnostic and even works on [Azure Cloud Shell](https://azure.microsoft.com/en-us/features/cloud-shell/?&ef_id=Cj0KCQiAnKeCBhDPARIsAFDTLTIDlnMADqglDP6WLiQ_Yq23PQL7px3W9ElP7bBanGB6762ENh6DzScaAsTxEALw_wcB:G:s&OCID=AID2100049_SEM_Cj0KCQiAnKeCBhDPARIsAFDTLTIDlnMADqglDP6WLiQ_Yq23PQL7px3W9ElP7bBanGB6762ENh6DzScaAsTxEALw_wcB:G:s) so that every browser can be my admin machine 
+* 💡 the syntax is easy and almost intuitive to use for me, although I only start to not use the UI for everything I want to manage in my Microsoft 365 tenant
+* 🚀 documentation is clear and concise with amazing code samples. 
+
+Bonus: 💖 Caring maintainers and awesome contributors 
 
 In case you never used CLI for Microsoft 365 before, please first read [how to get started with CLI Microsoft 365](https://m365princess.com/how-to-get-started-with-cli-microsoft-365-and-adaptive-cards/#how-to-use-cli-microsoft-365) were I explain how to install the CLI. 
 
