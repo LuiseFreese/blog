@@ -25,6 +25,7 @@ Unsere App ist nun auch auf ihren mobilen Endgeraeten verfuegbar. Laden Sie dazu
 
 ## Hallo Welt 2.0 
 
-Jetzt wollen wir ein wenig mit Datenquellen herumspielen :')
+Jetzt wollen wir ein wenig mit Datenquellen herumspielen :') - eine datei mit Dummy-Daten finden Sie hier: [sample.xlsx](https://github.com/LuiseFreese/blog/blob/main/handsonlabs/media/sample.xlsx) - bitte laden Sie diese Datei herunter. 
+
 
 
