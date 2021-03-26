@@ -2,18 +2,9 @@
 
 Don't know what is the Microsoft Graph Explorer? Or have you already heard about it, but were not sure, how to get started and how this would help you as a developer and maker? In this post, I will show you, what Graph Explorer is, what are the benefits and how to use it. 
 
-## What is Microsoft Graph
+## What is Microsoft Graph Explorer
 
-To understand what is the Graph Explorer, it is necessary to understad what is Microsoft Graph itself. To quote the Docs: 
-
-> Microsoft Graph is the gateway to data and intelligence in Microsoft 365. It provides a unified programmability model that you can use to access the tremendous amount of data 
-> in Microsoft 365, Windows 10, and Enterprise Mobility + Security. Use the wealth of data in Microsoft Graph to build apps for organizations and consumers that interact with 
-> millions of users. - [Read more here](https://docs.microsoft.com/en-us/graph/overview)
-> 
-
-## What is Graph Explorer
-
-Graph offers us a single endpoint https://graph.microsoft.com to access data in Microsoft 365, Windows 10 and Enterprise Mobility and Security and can be used by makers and developers. To get started to use the Graph API, Graph Team offers us a very cool tool called **Graph Explorer**. 
+Microsoft Graph offers us a single endpoint https://graph.microsoft.com to access data in Microsoft 365, Windows 10 and Enterprise Mobility and Security and can be used by makers and developers. To get started to use the Graph API, the Graph Team offers us a very cool tool called **Graph Explorer**. 
 
 What does it do? Well, it lets us explore Graph! It's a learning playground in which we can try out requests, get responses, learn about permission scopes and more. To access Graph Explorer, visit [aka.ms/ge](https://aka.ms/ge) and make yourself familiar with it: 
 
@@ -53,11 +44,10 @@ And for some GET requests we even get Adaptive Cards:
 
 ![Adaptive Card JSON](https://github.com/LuiseFreese/blog/blob/main/media/GraphExplorer/adaptivecards-json.png)
 
-We can also try out Microsoft Graph Toolkit components right here, although I would personally recommend to do this in the dedicated [Microsoft Graph Toolkit Playground](https://mgt.dev)
+We can also try out Microsoft Graph Toolkit components right here, although I would personally recommend to do this in the dedicated [Microsoft Graph Toolkit Playground](https://mgt.dev). If you are unfamiliar with Microsoft Grapg Toolkit, you can read how I started to use it - in my [blog series about MGT](https://m365princess.com/exploring-microsoft-graph-toolkit-lap-as-non-developer/) - I also recommend to have a look on the beautiful [Microsoft Graph component](https://developer.microsoft.com/en-us/graph/components ) browser. 
 
 Last but not least: Documentation to each and every sample is nicely tied in - click on the pop-out icon next to the sample queries: 
 ![pop-out that links to docs](https://github.com/LuiseFreese/blog/blob/main/media/GraphExplorer/pop-out-docs.png)
-
 
 ## How does Graph Explorer help building apps? 
 
@@ -76,10 +66,10 @@ To get from the rough idea to a working up, I follow this process:
 
 You see, Graph Explorer is an amazing tool to learn and try out - it gets you a step closer to a working solution, but you do not need to worry upfront about app registration, permissions etc. It's a cool way to do a proof of concept - trying out if you can get, post, patch, update or delete the resources you like to, before you actually start building your app. 
 
+## Feedback and what's next? 
 
+I am curious - which other tools help you developing with Microsoft Graph? Recently, [Elio Struyf published a VSCode extension](https://marketplace.visualstudio.com/items?itemName=eliostruyf.vscode-msgraph-autocomplete), that auto-completes Graph URLs for you, read more about it [here](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/new-vscode-extension-for-autocompleting-your-microsoft-graph/ba-p/2231013). Also, please share below what you build with Microsoft Graph? And how you use Graph Explorer. Looking forward for your feedback! 
 
-
-
-
+❤ Sharing is Caring
 
 
