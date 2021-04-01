@@ -23,7 +23,8 @@ In super short: Microsoft Graph is a set of APIs that lets you access data in Mi
 * you can try out Graph in [Graph Explorer](https://aka.ms/ge) - if you like to read more about that, read my blog post on [how to get started with Graph Explorer](https://m365princess.com/how-to-get-started-with-graph-explorer/)
 * Microsoft Graph Toolkit (you will learn more about it later) makes authentication (my personal kryptonite) easy
 
-### intro - what is Graph?
+### Intro
+
 For this module you will need to be global admin in a Microsoft 365 tenant. easiest way to have this is to [join the Microsoft 365 developer program](https://developer.microsoft.com/en-us/microsoft-365/dev-program) and get a free E5 subscription. If you are not familiar with this, go read [Julie Turner's article about it ](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/what-is-a-dev-tenant-and-why-would-you-want-one/ba-p/2036610), at least some basic JavaScript understanding and you should know what Azure Active Directory does. You will also need to have Node.js installed. 
 
 The learning module introduces you to a business scenario so that it is easier for you to imagine which kind of applications we are talking about. In this scenario we want to bring together messages from chat and email, attended meetings, notes, key contact and relevant files. 
