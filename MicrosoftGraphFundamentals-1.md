@@ -25,7 +25,7 @@ In super short: Microsoft Graph is a set of APIs that lets you access data in Mi
 
 ### Intro
 
-For this module, you will need to be a global admin in a Microsoft 365 tenant. The easiest way to have this is to [join the Microsoft 365 developer program](https://developer.microsoft.com/en-us/microsoft-365/dev-program) and get a free E5 subscription. If you are not familiar with this, read [Julie Turner's article about it ](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/what-is-a-dev-tenant-and-why-would-you-want-one/ba-p/2036610), at least some basic JavaScript understanding, and you should know what Azure Active Directory does. You will also need to have Node.js installed. 
+For this module, you will need to be a global admin in a Microsoft 365 tenant. The easiest way to have this is to [join the Microsoft 365 developer program](https://developer.microsoft.com/en-us/microsoft-365/dev-program) and get a free E5 subscription. If you are not familiar with this, read [Julie Turner's article about it ](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/what-is-a-dev-tenant-and-why-would-you-want-one/ba-p/2036610), at least some basic JavaScript understanding, and you should know what Azure Active Directory does. You will also need to have [Node.js](https://nodejs.org/en/) installed. 
 
 The learning module introduces you to a business scenario so that it is easier for you to imagine which kind of applications we are talking about. In this scenario, we want to bring together messages from chat and email, attended meetings, notes, key contact, and relevant files. 
 
