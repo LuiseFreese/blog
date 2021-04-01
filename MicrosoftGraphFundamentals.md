@@ -58,5 +58,10 @@ Let us 1'up this cool experience. Besides using this beautiful UI Graph Explorer
 
 You see, this is the 'absolutely carefree package' provided by Microsoft Graph team. 
 
+### conclusion
+
+Not only is Microsoft Graph THE door opener to access all kinds of information and data across Microsoft 365 for developers and makers, the team also provides us with this amazing learning playground aka Graph explorer in which we can try out, learn, explore and get snippets for all kinds of development scenarios. After introducing you to some basic concepts on Microsoft Graph, you learn on a real world example how to use Microsoft Graph before we will continue to access data via Graph in a JavaScript application.
+
+![Microsoft Graph Fundamentals - You did it](https://github.com/LuiseFreese/blog/blob/main/media/GraphFun/GraphFun-youdidit1.png)
 
 
