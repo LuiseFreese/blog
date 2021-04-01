@@ -1,5 +1,6 @@
 # Doing Microsoft Graph Fundamentals learning path on MS Learn
 
+![Microsoft Graph Fundamentals LearningPath](https://github.com/LuiseFreese/blog/blob/main/media/GraphFun/GraphFun.png)
 
 This blog post will summarize how I did the brand new [Microsoft Graph Fundamentals Learning path](https://docs.microsoft.com/en-us/learn/paths/m365-msgraph-fundamentals/) . Microsoft Graph Fundamentals consists of 3 modules
 
