@@ -21,7 +21,7 @@ In super short: Microsoft Graph is a set of APIs that lets you access data in Mi
 * across all Microsoft services, you can use one endpoint https://graph.microsoft.com - which makes development straightforward as you don't need to learn all the different APIs for mail and calendar and files and so on
 * documentation is fantastic, and there is a ton of learning material - like this learning path or the upcoming [Learn Together- Building apps with Microsoft Graph event ](https://learntogether-graph.splashthat.com/)
 * you can try out Graph in [Graph Explorer](https://aka.ms/ge) - if you like to read more about that, read my blog post on [how to get started with Graph Explorer](https://m365princess.com/how-to-get-started-with-graph-explorer/)
-* Microsoft Graph Toolkit (you will learn more about it later) makes authentication (my personal kryptonite) easy
+* Microsoft Graph Toolkit (you will learn more about it later) makes authentication (my personal kryptonite) easy. It also provides you with ready-to-use components and reduces the time you need to develop. 
 
 ### Intro
 
@@ -59,7 +59,7 @@ Let us 1'up this cool experience. Besides using this beautiful UI, Graph Explore
 
 You see, this is the 'absolutely carefree package' provided by the Microsoft Graph team. 
 
-### Conclusion on Module 1: 
+## Conclusion on Module 1: 
 
 Not only is Microsoft Graph THE door opener to access all kinds of information and data across Microsoft 365 for developers and makers, but the team also provides us with this fantastic learning playground aka Graph explorer in which we can try out, learn, explore and get snippets for all kinds of development scenarios. After introducing you to some basic concepts on Microsoft Graph, you learn on a real-world example how to use Microsoft Graph before continuing to access data via Graph in a JavaScript application. This learning module is fantastic! If you never heard about Graph, you'll get everything you need to start right away with it! 
 
