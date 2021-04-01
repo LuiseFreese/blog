@@ -1,4 +1,4 @@
-# Doing Microsoft Graph Fundamentals learning path on MS Learn
+# Doing Microsoft Graph Fundamentals learning path on MS Learn - Part 1
 
 ![Microsoft Graph Fundamentals LearningPath](https://github.com/LuiseFreese/blog/blob/main/media/GraphFun/GraphFun.png)
 
