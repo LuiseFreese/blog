@@ -42,7 +42,7 @@ Now to the even more interesting part: Apart from making direct API calls, Micro
 
 This chapter introduces you to Graph Explorer -easily access it at [aka.ms/ge](https://aka.ms/ge), try out some sample queries! My blog post on [how to get started with Graph Explorer](https://m365princess.com/how-to-get-started-with-graph-explorer/) explains that in detail. 
 
-#### Exercise - Access user information from Microsoft Graph using Graph Explorer
+### Exercise - Access user information from Microsoft Graph using Graph Explorer
 
 Time to access your own data! I strongly recommend to not play in your production tenant- especially if you do not only want to read data with **GET** requests but also want to write, update or delete data with **POST, PATCH, UPDATE, or DELETE** requests. Get yourself a Microsoft 365 developer tenant and use this. 
 
@@ -58,9 +58,9 @@ Let us 1'up this cool experience. Besides using this beautiful UI Graph Explorer
 
 You see, this is the 'absolutely carefree package' provided by Microsoft Graph team. 
 
-### conclusion
+### Conclusion on Module 1: 
 
-Not only is Microsoft Graph THE door opener to access all kinds of information and data across Microsoft 365 for developers and makers, the team also provides us with this amazing learning playground aka Graph explorer in which we can try out, learn, explore and get snippets for all kinds of development scenarios. After introducing you to some basic concepts on Microsoft Graph, you learn on a real world example how to use Microsoft Graph before we will continue to access data via Graph in a JavaScript application.
+Not only is Microsoft Graph THE door opener to access all kinds of information and data across Microsoft 365 for developers and makers, the team also provides us with this amazing learning playground aka Graph explorer in which we can try out, learn, explore and get snippets for all kinds of development scenarios. After introducing you to some basic concepts on Microsoft Graph, you learn on a real world example how to use Microsoft Graph before we will continue to access data via Graph in a JavaScript application. This learning module is awesome! If you never heard about Graph, you'll get everything you need to start right away with it! 
 
 ![Microsoft Graph Fundamentals - You did it](https://github.com/LuiseFreese/blog/blob/main/media/GraphFun/GraphFun-youdidit1.png)
 
