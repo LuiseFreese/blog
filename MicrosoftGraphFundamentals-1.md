@@ -12,7 +12,7 @@ This blog post will summarize how I did the brand new [Microsoft Graph Fundament
 
 The whole learning path is estimated to be completed in ~75 minutes. Let's see how it goes :-) 
 
-To be very honest: I worked with Graph before - see my blog posts here: [Microsoft Graph – M365 Princess](https://m365princess.com/category/microsoft-graph/) - but it's the first time I do this guided learning on Microsoft Learn. 
+To be very honest: I worked with Graph before - see my blog posts here: [Microsoft Graph – M365 Princess](https://m365princess.com/category/microsoft-graph/) - but it's the first time I do this guided learning on Microsoft Learn. I will cover module 1 in this post and continue with module 2 and 3 in the following posts. 
 
 ## What is Microsoft Graph
 
