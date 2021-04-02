@@ -12,17 +12,13 @@ Wait, what? Don't worry, if you did not completely understand this. We will do t
 
 ## Understand the role of Azure Actiove Directory with Microsoft Graph
 
-OK, we already understood that Microsoft Graph is THE API to access data in Microsoft 365 - but of course this data needs to be secured because we don't want everyone to access them, right? This is what we need Microsoft Identity platform for. Microsoft identity ensures that only authorized users (delegated permissions) and apps (application permisions) access data stored in Microsoft 365. The challenge now is to link Microsoft Identity (of which we will use Azure Active Directory) to our Microsoft Graph powered app. The module explains in detail how you 
-
-* register your app in Azure AD and retrieve your application ID
-* add this ID into the MSAL (Microsoft Authentication Library)'s code of your app to link to your Azure Active directory
-* give user a button to be able to sign in
+OK, we already understood that Microsoft Graph is THE API to access data in Microsoft 365 - but of course this data needs to be secured because we don't want everyone to access them, right? This is what we need Microsoft Identity platform for. Microsoft identity ensures that only authorized users (delegated permissions) and apps (application permisions) access data stored in Microsoft 365. The challenge now is to link Microsoft Identity (of which we will use Azure Active Directory) to our Microsoft Graph powered app. The module explains in detail how you register your app in Azure AD and retrieve your application ID. Later on, you will add this ID into the MSAL (Microsoft Authentication Library)'s code of your app to link to your Azure Active directory. 
 
 But before we actually do this in an exercise, we will learn some theoretical stuff that we need later on. 
 
 ## Understand Microsoft Graph permissions and consent
 
-Super important to understand that a user or admin needs to consent before the app requests permission to access Microsoft 365 data via Graph, which is why we need to know a little bit more about:
+Crucial to understand that a user or admin needs to consent before the app requests permission to access Microsoft 365 data via Graph, which is why we need to know a little bit more about:
 
 ### Scopes
 
@@ -72,7 +68,7 @@ The unit walks you through some crucial parts of your app and lets you map this 
 
 ![your Graph App 🚀](https://github.com/LuiseFreese/blog/blob/main/media/GraphFun/GraphApp.png)
 
-Congratz! 
+Congratz! - you made it!
 
 ![Graph Fundamentals - You did it](https://github.com/LuiseFreese/blog/blob/main/media/GraphFun/GraphFun-didit2.png)
 
