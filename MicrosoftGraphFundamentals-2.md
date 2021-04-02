@@ -12,3 +12,26 @@ Wait, what? Don't worry, if you did not completely understand this. We will do t
 
 ## Understand the role of Azure Actiove Directory with Microsoft Graph
 
+OK, we already understood that Microsoft Graph is THE API to access data in Microsoft 365 - but of course this data needs to be secured because we don't want everyone to access them, right? This is what we need Microsoft Identity platform for. Microsoft identity ensures that only authorized users (delegated permissions) and apps (application permisions) access data stored in Microsoft 365. The challenge now is to link Microsoft Identity (of which we will use Azure Active Directory) to our Microsoft Graph powered app. The module explains in detail how you 
+
+* register your app in Azure AD and retrieve your application ID
+* add this ID into the MSAL (Microsoft Authentication Library)'s code of your app to link to your Azure Active directory
+* give user a button to be able to sign in
+
+## Understand Microsoft Graph permissions and consent
+
+Super important to understand that a user or admin needs to consent before the app requests permission to access Microsoft 365 data via Graph, which is why we need to know a little bit more about
+
+### Scopes
+
+All resources have specificic scopes, like *User.Read* (lets you read the profile of the signed in user) or *User.Read.All* lets you read the profiles of all users present in this directory. Of course you will want to only allow scopes that are necessary for the application. 
+
+### Permission types
+
+We can perform requests on behalf of a user (delegated permission) and we can run background processes like creating, reading, updadting or deleting events of all calendars without the requirement of a signed-in user. This means, that an admin will need to pre-consent to these permissions. 
+
+### Access tokens 
+
+The module describes how the magic with an access token works - and uses an awesome comparison for that! An access token is like a movie ticket - but your application gives it to Graph to show it has permission to access the requested data in Microsoft 365. LOVE this explanation so much! 
+
+![Graph Access Token](https://github.com/LuiseFreese/blog/blob/main/media/GraphFun/GraphAccessTokenTicket.png)
