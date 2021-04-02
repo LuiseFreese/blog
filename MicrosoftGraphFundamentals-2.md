@@ -42,3 +42,9 @@ We use this movie ticket/access token in the Authorization header of our HTTP re
 
 ## Register an application with Azure Active Directory
 
+in this unit you learn which account type you can select when registering an app in AD and that web and single -page appls will require a redirect URI so that identity platform redirects ans sends security tokens after authentication. 
+
+In case you wondered: There is a big difference between authentication and authorization. 
+
+![Authentication and Authoruization](https://github.com/LuiseFreese/blog/blob/main/media/GraphFun/GraphFunAuth.png)
+
