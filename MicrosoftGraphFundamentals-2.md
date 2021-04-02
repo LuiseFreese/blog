@@ -6,7 +6,7 @@ This module is called **Configure a JavaScript application to retrieve Microsoft
 
 ## intro
 
-We are still sticking to the business scenario from module 1: We want to create an app that can access email, chats, files, meetings. To authenticate users, Microsoft 365 uses Microsoft Identity, and we will need to use Microsoft Identity and Microsoft Graph to get the data we want to display in our app by using Microsoft Authentication Library (MSAL).
+We are still sticking to the business scenario from module 1: We want to create an app that can access email, chats, files, meetings. To authenticate users, Microsoft 365 uses Microsoft Identity, and we will need to use Microsoft Identity and Microsoft Graph to get the data we want to display in our app by using [Microsoft Authentication Library(MSAL)](https://docs.microsoft.com/en-us/azure/active-directory/develop/msal-overview). 
 
 Wait, what? Don't worry if you did not completely understand this. We will do this step-by-step.
 
