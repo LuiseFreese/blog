@@ -48,3 +48,19 @@ In case you wondered: There is a big difference between authentication and autho
 
 ![Authentication and Authoruization](https://github.com/LuiseFreese/blog/blob/main/media/GraphFun/GraphFunAuth.png)
 
+## Exercise - Register an application with Azure Active Directory
+
+This exercise walks us step by step throufgh registering an app in Azure AD- highly recommend to follow this unit if you never registered an application before:
+
+![app registration](https://github.com/LuiseFreese/blog/blob/main/media/GraphFun/appreg.png)
+
+Let's now 
+
+## Retrieve an access token using MSAL
+
+MSAL will make Token interaction easier for you because with it we can acquire tokens from the identity platform to authenticate users and to access Microsoft Graph. 
+
+![authentication flow](https://github.com/LuiseFreese/blog/blob/main/media/GraphFun/auth.gif)
+
+
+
