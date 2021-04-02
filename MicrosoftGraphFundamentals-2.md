@@ -62,5 +62,18 @@ MSAL will make Token interaction easier for you because with it we can acquire t
 
 ![authentication flow](https://github.com/LuiseFreese/blog/blob/main/media/GraphFun/auth.gif)
 
+Now that we understood the authentication flow, it's time to get our hands dirty with
+
+## Exercise - Retrieve an access token using MSAL
+
+To geth this straight - you will clone a repository either using git or by downloading a zip file. After opening this in Visual Studio Code (or any other editor) you will need to replace two placeholder with tenant ID and app ID from your Azure app registration. 
+
+The unit walks you through some crucial parts of your app and lets you map this code to the authentication flow. 
+
+
+![Graph Fundamentals - Your app 🚀](https://github.com/LuiseFreese/blog/blob/main/media/GraphFun/app.png)
+
+![Graph Fundamentals - You did it](https://github.com/LuiseFreese/blog/blob/main/media/GraphFun/GraphFun-didit2.png)
+
 
 
