@@ -30,7 +30,7 @@ We can perform requests on behalf of a user (delegated permission), and we can r
 
 ### Access tokens 
 
-The module also describes how the magic with an access token works - and uses a great comparison for that! An access token is like a movie ticket - but your application gives it to Graph to show it has permission to access the requested data in Microsoft 365. LOVE this explanation so much! 
+The unit also describes how the magic with an access token works - and uses a great comparison for that! An access token is like a movie ticket - but your application gives it to Graph to show it has permission to access the requested data in Microsoft 365. LOVE this explanation so much! 
 
 ![Graph Access Token](https://github.com/LuiseFreese/blog/blob/main/media/GraphFun/GraphAccessTokenTicket.png)
 
