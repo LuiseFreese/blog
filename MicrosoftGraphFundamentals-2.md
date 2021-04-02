@@ -72,5 +72,9 @@ Congratz! - you made it!
 
 ![Graph Fundamentals - You did it](https://github.com/LuiseFreese/blog/blob/main/media/GraphFun/GraphFun-didit2.png)
 
+## Conclusion
+
+Loved this module - even if I already knew how to register applications and what Microsoft Graph does - it clarified the authentication flow once again and walked me nicely through the some crucial parts of the code that I cloned from the MSLearn repository. Some basic understanding of JavaScript was absolutely helpful to not only let the app run but also know WHY and HOW it runs. 
+
 
 
