@@ -71,8 +71,6 @@ To geth this straight - you will clone a repository either using git or by downl
 The unit walks you through some crucial parts of your app and lets you map this code to the authentication flow. 
 
 
-![Graph Fundamentals - Your app 🚀](https://github.com/LuiseFreese/blog/blob/main/media/GraphFun/app.png)
-
 ![Graph Fundamentals - You did it](https://github.com/LuiseFreese/blog/blob/main/media/GraphFun/GraphFun-didit2.png)
 
 
