@@ -114,5 +114,9 @@ Now work on the .X property of all lavels, buttons, images etc. Set it to
 
 Our result should look something like this: 
 
-![expand menu]{https://github.com/LuiseFreese/blog/blob/main/media/beautify/expand.gif)
+![expand menu](https://github.com/LuiseFreese/blog/blob/main/media/beautify/expand.gif)
+
+## Feedback and what's next? 
+
+What are your little tricks to make apps look more beautiful? I am curious to learn from you! Please comment below! 
 
