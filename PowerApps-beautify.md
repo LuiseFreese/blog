@@ -52,4 +52,16 @@ Group these controls, its easier to work with them then.
 this way, we set the **isShowPopUp** variable to `true`, if user clicks the label, which will make the PopUp visble. As soon as the user clicks the cancel icon, the **isShowPopUp** variable is set to `false`, which means that the group will not be shown anymore! 
 
 ![](https://github.com/LuiseFreese/blog/blob/main/media/beautify/Popup.gif)
+
+
+## Create an expand- and collapse able menu
+
+As we need to carefully deal with all screen estate, it is a cool idea, to have an menue, that can expand and collapse. To create this, we need 
+
+* a collection which holds the screens that we want our users allow to navigate to
+* a gallery, which displays the items of our collection
+* a Hamburger Menu icon, which sets a variable to control the width of the gallery
+
+
+
 ## 
