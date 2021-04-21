@@ -31,7 +31,11 @@ However, if you only want to use a few specific icons for an app or would like t
 
 Screens in Power Apps are perfect to display information that should always be shown. But what if we only want to occasionally show some additional content? Pop up to the rescue! 
 
+![](https://github.com/LuiseFreese/blog/blob/main/media/beautify/PopUp.png)
+
 To create a pop up effect, create: 
+
+![](https://github.com/LuiseFreese/blog/blob/main/media/beautify/controls.png)
 
 * a rectangle, that overlays the content that our user now should not focus on - good idea to have it filled grey and semi-transparent
 * a rectange, smaller than the GreyOutRectangle, filled in in brighter backgroundcolor
@@ -47,4 +51,5 @@ Group these controls, its easier to work with them then.
 
 this way, we set the **isShowPopUp** variable to `true`, if user clicks the label, which will make the PopUp visble. As soon as the user clicks the cancel icon, the **isShowPopUp** variable is set to `false`, which means that the group will not be shown anymore! 
 
+![](https://github.com/LuiseFreese/blog/blob/main/media/beautify/Popup.gif)
 ## 
