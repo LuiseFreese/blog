@@ -6,6 +6,10 @@ Power Apps offers you a broad variety of icons - and recently, there some were n
 
 > Fluent UI is a collection of UX frameworks for creating beautiful, cross-platform apps that share code, design, and interaction behavior
 
+One part of Fluent UI is the iconography
+![](https://github.com/LuiseFreese/blog/blob/main/media/beautify/fluentUI.gif)
+
+You can browse through the icons in the [Fluent UI icons tool](https://uifabricicons.azurewebsites.net/), but there is right-click, download. 
 
 
 
