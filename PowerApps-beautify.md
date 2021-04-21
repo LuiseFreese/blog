@@ -1,5 +1,7 @@
 # 3 Tipps to beautify your Power Apps
 
+Your Canvas apps can look beautiful! I shared some tipps in another blogpost before, this time I want to show you three 5 minute tricks to make your Power Apps prettier. 
+
 ## Fluent UI icons
 
 Power Apps offers you a broad variety of icons - and recently, there some were nice additions announced and rolled out. But if we want to create even more visually appealing apps, it makes sense to extend our pretty little icon library. Microsoft provides us with [Fluent UI](https://developer.microsoft.com/en-us/fluentui#/).
@@ -30,11 +32,11 @@ However, if you only want to use a few specific icons for an app or would like t
 
 Screens in Power Apps are perfect to display information that should always be shown. But what if we only want to occasionally show some additional content? Pop up to the rescue! 
 
-![](https://github.com/LuiseFreese/blog/blob/main/media/beautify/PopUp.png)
+![Show a pop up](https://github.com/LuiseFreese/blog/blob/main/media/beautify/PopUpLightBox.png)
 
 To create a pop up effect, create: 
 
-![](https://github.com/LuiseFreese/blog/blob/main/media/beautify/controls.png)
+![controls we need](https://github.com/LuiseFreese/blog/blob/main/media/beautify/controls.png)
 
 * a rectangle, that overlays the content that our user now should not focus on - good idea to have it filled grey and semi-transparent
 * a rectange, smaller than the GreyOutRectangle, filled in in brighter backgroundcolor
@@ -65,31 +67,31 @@ As we need to carefully deal with all screen estate, it is a cool idea, to have 
 
 To have icons (which shall show while the menu is collapsed) and text (that shall show up right next to our icons when the menu is expanded) we will first upload a few svgs (see above) and then refer to them in our collection: 
 
-`ClearCollect(
-        NavigationMenu,
-        {
-            Row: 1,
-            Title: "About",
-            Image: ic_fluent_lightbulb_24_regular
-        },
-        {
-            Row: 2,
-            Title: "Flights",
-            Image: ic_fluent_airplane_take_off_24_regular
-        },
-        {
-            Row: 3,
-            Title: "Hotels",
-            Image: ic_fluent_bed_24_regular
-        },
-        {
-            Row: 4,
-            Title: "People",
-            Image: ic_fluent_people_32_regular
-        }
-        )
-);`
-\
+        ClearCollect(
+            NavigationMenu,
+             {
+                Row: 1,
+                Title: "About",
+                Image: ic_fluent_lightbulb_24_regular
+            },
+            {
+                Row: 2,
+                Title: "Flights",
+                Image: ic_fluent_airplane_take_off_24_regular
+            },
+           {
+                Row: 3,
+                Title: "Hotels",
+                Image: ic_fluent_bed_24_regular
+           },
+            {
+                Row: 4,
+                Title: "People",
+                Image: ic_fluent_people_32_regular
+            }
+            )
+    )
+
 
 2. Gallery
 
@@ -112,5 +114,5 @@ Now work on the .X property of all lavels, buttons, images etc. Set it to
 
 Our result should look something like this: 
 
-[expand menu]{https://github.com/LuiseFreese/blog/blob/main/media/beautify/expand.gif)
+![expand menu]{https://github.com/LuiseFreese/blog/blob/main/media/beautify/expand.gif)
 
