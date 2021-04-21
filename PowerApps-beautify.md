@@ -30,7 +30,7 @@ However, if you only want to use a few specific icons for an app or would like t
 
 * .svg are transparent, which means you have no extra work to remove any background
 
-* .svg are lossless scalable, which means that you blow them up as you like it 💥
+* .svg are lossless scalable, which means that you blow them up as you like it 
 
 * .svg have are usually smaller than .jpg files of the same quality - this will have an excellent effect on the performance of your app
 
@@ -38,7 +38,7 @@ However, if you only want to use a few specific icons for an app or would like t
 
 Screens in Power Apps are perfect for displaying information that should always be shown. But what if we only want to show some more content occasionally? Pop up to the rescue! 
 
-![Show a pop up](https://github.com/LuiseFreese/blog/blob/main/media/beautify/PopUpLightBox.png)
+![Lightbox Popup](https://github.com/LuiseFreese/blog/blob/main/media/beautify/showpopup.gif)
 
 To create a pop up effect, create: 
 
@@ -63,8 +63,6 @@ Group these controls; it's easier to work with them then.
 * Set the .visible property of the whole PopUp Group tp `isShowPopUp`
 
 This way, we set the **isShowPopUp** variable to `true`, if the user clicks the label, which will make the PopUp visible. As soon as the user clicks the cancel icon, the **isShowPopUp** variable is set to `false`, which means that the group will not be shown anymore! 
-
-![Lightbox Popup](https://github.com/LuiseFreese/blog/blob/main/media/beautify/showpopup.gif)
 
 ## Create an expand- and collapse able menu
 
