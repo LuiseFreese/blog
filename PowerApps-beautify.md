@@ -78,53 +78,52 @@ As we need to deal with all screen estate carefully, it is a fantastic idea to h
 
 To have icons (which will show while the menu is collapsed) and text (that will show up right next to our icons when the menu is expanded), we will first upload a few svgs (see above) and then refer to them in our collection: 
 
-ClearCollect(
+    ClearCollect(
 
-NavigationMenu,
+    NavigationMenu,
 
-{
+    {
 
-Row: 1,
+    Row: 1,
 
-Title: "About",
+    Title: "About",
 
-Image: ic_fluent_lightbulb_24_regular
+    Image: ic_fluent_lightbulb_24_regular
 
-},
+    },
 
-{
+    {
 
-Row: 2,
+    Row: 2,
 
-Title: "Flights",
+    Title: "Flights",
 
-Image: ic_fluent_airplane_take_off_24_regular
+    Image: ic_fluent_airplane_take_off_24_regular
 
-},
+    },
 
-{
+    {
 
-Row: 3,
+    Row: 3,
 
-Title: "Hotels",
+    Title: "Hotels",
 
-Image: ic_fluent_bed_24_regular
+    Image: ic_fluent_bed_24_regular
 
-},
+    },
 
-{
+     {
+    Row: 4,
 
-Row: 4,
+    Title: "People",
 
-Title: "People",
+    Image: ic_fluent_people_32_regular
 
-Image: ic_fluent_people_32_regular
+    }
 
-}
+    )
 
-)
-
-)
+    )
 
 2. Gallery
 
