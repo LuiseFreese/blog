@@ -26,6 +26,8 @@ there are several tools available to get Fluent UI icons into Power Apps; find t
 
 * [2000 free Power Apps icons](https://matthewdevaney.com/2000-free-power-apps-icons/)
 
+* [Fluent UI menu builder](https://github.com/P3N-101/fluentui-menu-builder)
+
 However, if you only want to use a few specific icons for an app or would like to try them out, you can head over to the [Fluent UI repository on GitHub](https://github.com/microsoft/fluentui-system-icons/blob/master/icons.md) and right-click-download the icons. After that, you upload them to your Power App and can use them like any other image. Super cool: You get all icons as .svg files, which have three significant advantages: 
 
 * .svg are transparent, which means you have no extra work to remove any background
