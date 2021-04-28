@@ -56,7 +56,6 @@ Now that we have the .msapp file of the app:
 * type in Command Prompt `pasopa -unpack <your msappfile path> <new folder path>`
 
 Please note that you will now find all source code files in that new folder. You can open the folder in a code Editor of your choice, for example Visual Studio Code. 
-(## open folder in VS Code)
 
 ## submit as a sample
 
@@ -68,4 +67,6 @@ Well done! Now you can submit these source code files as a sample. Please
 
 Please do not forget to provide as well a Readme.md file which explains what your sample is about. 
 
-If this all sounds confusing to you and you are new on GitHub - you are more than welcome to attend the [Sharing Is Caring](https://pnp.github.io/sharing-is-caring/) sessions, where we guide you through using GitHub and making your first PR.  
+If this all sounds confusing to you and you are new on GitHub - you are more than welcome to attend the [Sharing Is Caring](https://pnp.github.io/sharing-is-caring/) sessions, where we guide you through using GitHub and making your first PR. 
+
+Sharing Is Caring 💖
