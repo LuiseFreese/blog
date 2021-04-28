@@ -29,7 +29,7 @@ To be able to use the Power Apps Language Toolkit, you will need to
 Please note, that command Prompt will open, show a few lines and then close automatically again. 
 Please also not, that you can now find a **bin** folder in the local folder you extracted the PowerApps Language Toolkit to. In this **bin** folder, you will find a **Debug** folder and inside of the **debug** folder you will find a **PASopa** folder. 
 
-![folder structure](https://github.com/LuiseFreese/blog/blob/main/media/sourcecode/PASopa-folder.png)
+![folder structure](/media/sourcecode/PASopa-folder.png)
 
 ## Download the .msapp file
 
