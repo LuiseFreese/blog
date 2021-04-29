@@ -59,7 +59,7 @@ Please note that you will now find all source code files in that new folder. You
 
 ## submit as a sample
 
-Well done! Now you can submit these source code files as a sample. Please 
+Well done! Now you can submit these source code files as a sample. Please follow these steps: 
 
 * fork the [PnP PowerApps repository](https://github.com/pnp/powerapps-samples)
 * commit your files
